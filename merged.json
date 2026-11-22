@@ -8389,46 +8389,6 @@
             "ext": "https://easy888.dpdns.org/lib/B站.js"
         },
         {
-            "key": "easytv_dodotv22",
-            "name": "도도티비 | 朝鲜族",
-            "type": 3,
-            "api": "csp_AppDODO",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_showtv20",
-            "name": "쇼티비 | 朝鲜族",
-            "type": 3,
-            "api": "csp_AppSHOWTV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_meetgo17",
-            "name": "미트고 | 朝鲜族",
-            "type": 3,
-            "api": "csp_AppMEETGO",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_tvzzang5",
-            "name": "티비짱 | 朝鲜族",
-            "type": 3,
-            "api": "csp_AppTVZZANG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
             "key": "easytv_八戒影视",
             "name": "八戒 | 影视",
             "type": 3,
