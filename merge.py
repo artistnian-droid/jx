@@ -125,6 +125,8 @@ def exclude_reason(site, cid=''):
         return '用户点名'
     if '卡卡' in name and '4K' in name:
         return '用户点名'
+    if '族' in name:
+        return '用户点名'
     if '免费分享' in name:
         return '用户点名'
     if full_key == 'aowu_push_agent':
