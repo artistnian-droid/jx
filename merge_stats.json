@@ -2,12 +2,12 @@
   "stats": {
     "inputs": 116,
     "sites_in": 7848,
-    "sites_out": 3448,
-    "sites_deduped": 2536,
+    "sites_out": 3445,
+    "sites_deduped": 2501,
     "dup_configs": 15,
     "api_resolved": 570,
-    "jar_kept": 365,
-    "jar_added": 1801,
+    "jar_kept": 366,
+    "jar_added": 1797,
     "ext_resolved": 885,
     "cred_stripped": 2,
     "per_source": {
@@ -38,7 +38,7 @@
       "xiaosa_mirror": {
         "label": "潇洒（镜像）",
         "sites_in": 116,
-        "sites_kept": 65,
+        "sites_kept": 57,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar"
       },
       "pg": {
@@ -98,7 +98,7 @@
       "easytv": {
         "label": "EasyTV",
         "sites_in": 135,
-        "sites_kept": 38,
+        "sites_kept": 43,
         "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;"
       },
       "yi": {
@@ -200,7 +200,7 @@
       "sub002": {
         "label": "sub002",
         "sites_in": 123,
-        "sites_kept": 24,
+        "sites_kept": 23,
         "spider": "http://150.158.52.248/tgyg/spider.jar"
       },
       "sub007": {
@@ -302,7 +302,7 @@
       "sub045": {
         "label": "sub045",
         "sites_in": 43,
-        "sites_kept": 15,
+        "sites_kept": 16,
         "spider": "https://11405.kstore.space/xiaye/nm/nm.jar"
       },
       "sub046": {
@@ -637,15 +637,15 @@
     ],
     "unique_configs": 101,
     "excluded": {
-      "网盘": 826,
-      "用户点名": 66,
+      "网盘": 790,
+      "用户点名": 140,
       "体育": 211,
       "音乐": 203,
       "听书": 266,
       "课堂": 239,
       "博彩": 7
     },
-    "key_renamed": 9,
+    "key_renamed": 8,
     "cred_stripped_keys": [
       "xiaoma:秒看:token",
       "sub130:秒看:token"
@@ -655,7 +655,7 @@
     "parses": 216,
     "rules": 112,
     "flags": 96,
-    "output_bytes": 1823807,
+    "output_bytes": 1822034,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
