@@ -13,6 +13,11 @@ on:
 permissions:
   contents: write
 
+# 串行执行：同一时间只跑一个刷新，避免两个任务同时提交导致推送冲突
+concurrency:
+  group: tvbox-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
