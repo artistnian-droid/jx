@@ -57,11 +57,32 @@ JX_LOGO = "https://meow.668yun.top/c/1jcTL3IwhXKy/JX.png"
 # 注意：名字含“盘”即判网盘，但“光盘”（CD/DVD）除外；api 过滤只针对类名（csp_xxx），
 # URL 型 api 不过滤（避免 IP 地址 115.x.x.x、hash 里的 115 等误伤）。
 EXCLUDE_NAME = {
-    '课堂': re.compile(r'课堂|课程|教学|学习|教育|讲座|培训|网课|公开课|学校|考试|考研|考证|外语|英语'),
+    '课堂': re.compile(r'课堂|课程|教学|学习|教育|讲座|培训|网课|公开课|学校|考试|考研|考证|外语|英语|启蒙'),
     '听书': re.compile(r'听书|有声|评书|播客|电台|FM|相声|戏曲|说书|音频'),
     '音乐': re.compile(r'音乐|MV|歌曲|演唱会|KTV|DJ|戏曲|儿歌'),
     '网盘': re.compile(r'盘|夸克|阿里盘|115|189|百度盘|UC盘|迅雷盘|PikPak|天翼|移动盘|123盘'),
 }
+
+# 博彩广告站（2026-11-22）：站名开头是博彩品牌/赌博术语的站点。
+# 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
+# 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
+GAMBLE_START = re.compile(
+    r'博天堂|环亚|乐鱼|万博|球速|开云|亚博|开元|米乐|欧宝|华体会|'
+    r'澳门|葡京|威尼斯|太阳城|永利|金沙|皇冠|'
+    r'棋牌|彩票|博彩|赌场|赌博|百家乐|六合彩|时时彩|龙虎|炸金花')
+# 已确认死亡的 jar（2026-11-22 实测 HTTP 404，HEAD + GET 双确认）。
+# 用这些 jar 的站点整个不可用，直接去掉。沙箱无法判定的（302/403/超时等）
+# 不列入——手机上可能还能用。
+DEAD_JARS = {
+    'http://home.jundie.top:81/jar/top98_1.jar',  # sub011，21 站
+    'http://vip.bhh.indevs.in/pmdvox.jar',  # sub084，1 站
+    'https://nos.netease.com/ysf/7cf170254bd20a7e7c2f4f2f6471d4db.png',  # sub048，6 站
+    'https://nos.netease.com/ysf/ef68d86a5e19c5b88c6ef09527e7ace2.txt',  # sub054，1 站
+    'https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260515/OR4S/0X0/05152129.png',  # sub046，1 站
+    'https://raw.gitcode.com/suixin00/0/blobs/3a29db1c6f77e278b0caf774b654eb644e339474/XM.png',  # sub053，1 站
+    'https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png',  # 肥猫快照，15 站
+}
+
 # 网盘类 spider 类名特征（不含 Panda——那是短剧站；不含 Market——那是应用商店）
 EXCLUDE_API_NETDISK = re.compile(
     r'wogg|wobg|mogg|panhj|panwebshare|panwebqu|fishcloud|fishps|'
@@ -70,8 +91,13 @@ EXCLUDE_API_NETDISK = re.compile(
 
 
 def exclude_reason(site):
-    """返回站点应被去掉的类别（课堂/听书/音乐/网盘），保留则返回 None。"""
+    """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩），保留则返回 None。"""
     name = str(site.get('name', ''))
+    # 博彩：去掉开头的 emoji/符号和分类前缀后，以博彩品牌/术语开头
+    core = re.sub(r'^[^\w\u4e00-\u9fff]+', '', name)
+    core = re.sub(r'^(?:影视|动漫|体育|综艺|纪录|少儿|戏曲|直播|电影|电视剧|短剧|音乐|新闻|资讯|成人)\s*[|｜┃]\s*', '', core)
+    if GAMBLE_START.match(core):
+        return '博彩'
     check_name = name.replace('光盘', '')  # 光盘不是网盘
     if EXCLUDE_NAME['网盘'].search(check_name):
         return '网盘'
@@ -280,6 +306,14 @@ def sanitize_site(site, prefix, base_url, spider_url, stats):
             s['jar'] = spider_url
             stats['jar_added'] += 1
 
+    # 死 jar 过滤：type 3 + csp_ 类名 api 的站点依赖 jar，jar 已死则整个站不可用
+    if s.get('type') == 3 and isinstance(s.get('api'), str) and s['api'].startswith('csp_'):
+        jar_url = str(s.get('jar', '')).split(';md5;')[0].strip()
+        if jar_url and jar_url in DEAD_JARS:
+            stats.setdefault('dead_jar_dropped', 0)
+            stats['dead_jar_dropped'] += 1
+            return None
+
     # ext 处理
     ext = s.get('ext')
     if isinstance(ext, str) and ext.strip():
@@ -373,10 +407,12 @@ def merge_configs(configs):
             if dk in seen_site:
                 stats['sites_deduped'] += 1
                 continue
-            seen_site.add(dk)
             new_site = sanitize_site(site, cid, base, spider_url, stats)
             if new_site is None:
                 continue
+            # 去重 key 在 sanitize 通过后才记入，避免被过滤的站占住 key、
+            # 导致另一接口同站（jar 活着）也被误判为重复
+            seen_site.add(dk)
             # key 唯一化：同一接口内也可能有重名 key（如两个“豆瓣”），加 _2/_3 后缀
             base_key = new_site['key']
             final_key = base_key
@@ -649,6 +685,8 @@ def main():
     if stats.get('excluded'):
         ex = '、'.join(f"{k}{v}" for k, v in stats['excluded'].items())
         print(f"分类过滤去掉: {ex}，共 {sum(stats['excluded'].values())} 个")
+    if stats.get('dead_jar_dropped'):
+        print(f"死 jar 去掉: {stats['dead_jar_dropped']} 个站")
     print(f"lives: {stats['lives']}，parses: {stats['parses']}，"
           f"rules: {stats['rules']}，flags: {stats['flags']}")
     print(f"jar: 保留站点自有 {stats['jar_kept']}，补接口 spider {stats['jar_added']}；"
