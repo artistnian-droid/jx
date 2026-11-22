@@ -1,0 +1,618 @@
+#!/usr/bin/env python3
+"""TVBox 多接口聚合配置生成器。
+
+把 sources.json 里的多个 TVBox 影视接口（嗷呜、摸鱼、潇洒、王二小、PG、饭太硬……
+以及多仓订阅展开的子接口）合并成一个 merged.json，供 OK影视加载。
+靠冗余取胜：个别接口挂了，其他接口的站还能用。
+
+用法：
+    python3 merge.py            # 完整刷新：重新拉取 + 解码 + 合并
+    python3 merge.py --offline  # 只用 decoded/ 缓存合并（不拉取）
+
+合并规则：
+  - 相同内容的配置（不同 URL 抓到同一份）只留一个代表
+  - 站点 key 加接口前缀防冲突：<接口id>_<原key>
+  - 站点去重：(type, api, ext 归一化) 相同只留一个；优先嗷呜/王二小（sources.json 的 priority）
+  - type 3 且 api 为类名（csp_xxx / py_xxx）的站点写入 jar 字段：
+    站点自有 jar 优先，否则用该接口的 spider；相对路径解析为绝对 URL
+  - 相对路径的 api / jar / playUrl / ext（字符串或文件引用）按接口配置 URL 解析为绝对 URL
+  - 凭证类 ext 值（cookie/token 等随机字符串会话凭证）清空；URL、文件引用、占位符保留
+  - lives / parses 按 URL 去重；rules 按 name 去重；flags / ads / hosts / proxy 去重；
+    ijk 按 group 去重；doh 按 url 去重；headers 按 host 去重
+  - 顶层 spider 固定为嗷呜新版 loader
+  - 输出 4 空格缩进、每字段一行的 JSON
+
+依赖：requests（拉取）、decode.py（解码）。离线模式不需要网络。
+"""
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urljoin, urlparse
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from decode import decode_bytes  # noqa: E402
+
+WORKDIR = os.path.dirname(os.path.abspath(__file__))
+RAW_DIR = os.path.join(WORKDIR, 'raw')
+DEC_DIR = os.path.join(WORKDIR, 'decoded')
+SOURCES_JSON = os.path.join(WORKDIR, 'sources.json')
+URLMAP_JSON = os.path.join(WORKDIR, 'urlmap.json')
+OUT_JSON = os.path.join(WORKDIR, 'merged.json')
+STATS_JSON = os.path.join(WORKDIR, 'merge_stats.json')
+
+# 顶层 spider：嗷呜新版 loader（2026-11-19 发布，md5 e76d6f01…）
+AOWU_SPIDER = ("https://nos.netease.com/vcloud-statistic/nrtc/"
+               "06f4e557-b688-4920-86c3-6f1475e9a7c2.png"
+               ";md5;e76d6f0107817970b9f57d7d29129efe")
+
+UA_OK = 'okhttp/3.12.0'
+UA_PC = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+         '(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36')
+
+CRED_KEY = re.compile(r'cookie|token|password|passwd|pwd|auth|satoken', re.I)
+PLACEHOLDER = re.compile(r'请|填|示例|xxx|example|你的|留空|自行|暂无|扫码|登录', re.I)
+# 文件引用形的值：./lib/token.json、tvbox/token.txt（不是凭证，是路径）
+PATH_LIKE = re.compile(r'^(?:\./|\.\./|[\w\-]+/)+[\w\-.%]+$')
+
+# GitHub 代理前缀：代理被禁时可直连内层 raw URL
+GH_PROXIES = ['gh-proxy.com/', 'gh-proxy.org/', 'gh.jasonzeng.dev/',
+              'ghfast.top/', 'ghproxy.cn/', 'github.moeyy.xyz/',
+              'g.3344550.xyz/']
+
+
+# ---------------------------------------------------------------- 工具函数
+def norm_url(u):
+    """归一化 URL，用于去重比较。"""
+    try:
+        p = urlparse(u)
+        host = p.netloc.encode('idna').decode('ascii').lower() if p.netloc else ''
+        path = p.path.rstrip('/') or '/'
+        return f"{p.scheme.lower()}://{host}{path}" + (f"?{p.query}" if p.query else '')
+    except Exception:
+        return u
+
+
+def split_md5(s):
+    """把 'url;md5;hash' 拆成 (url, ';md5;hash')；没有后缀则返回 (s, '')。"""
+    if ';md5;' in s:
+        url, h = s.split(';md5;', 1)
+        return url, ';md5;' + h
+    return s, ''
+
+
+def resolve_url(base, ref):
+    """相对引用按 base 解析为绝对 URL；保留 ;md5; 后缀；绝对引用原样返回。"""
+    if not ref or not isinstance(ref, str):
+        return ref
+    url, md5 = split_md5(ref)
+    if url.startswith(('http://', 'https://', 'assets://')):
+        return ref
+    if not base:
+        return ref
+    return urljoin(base, url) + md5
+
+
+def is_relative_ref(s):
+    return isinstance(s, str) and (s.startswith('./') or s.startswith('../')
+                                   or (s.startswith('/') and not s.startswith('//')))
+
+
+def extract_inner_github(url):
+    """从 GitHub 代理 URL 里提取内层 raw.githubusercontent.com URL。"""
+    for p in GH_PROXIES:
+        if p in url:
+            inner = url.split(p, 1)[1]
+            if not inner.startswith('http'):
+                inner = 'https://' + inner
+            if 'githubusercontent.com' in inner or 'github.com' in inner:
+                return inner
+    return None
+
+
+def ext_dedup_key(ext):
+    """ext 归一化为去重 key：dict 按 key 排序 dump；字符串原样；其他转 str。"""
+    if ext is None:
+        return ''
+    if isinstance(ext, dict):
+        try:
+            return json.dumps(ext, ensure_ascii=False, sort_keys=True)
+        except (TypeError, ValueError):
+            return str(sorted(ext.items()))
+    return str(ext)
+
+
+# ---------------------------------------------------------------- 拉取
+def fetch_url(url, timeout=25):
+    """拉取 URL，okhttp UA 优先，失败换桌面 UA；返回 (bytes|None, 状态说明)。"""
+    import requests
+    for ua in (UA_OK, UA_PC):
+        try:
+            r = requests.get(url, headers={'User-Agent': ua},
+                             timeout=timeout, allow_redirects=True)
+            if r.status_code == 200 and r.content:
+                return r.content, f'HTTP 200, {len(r.content)} bytes'
+            last = f'HTTP {r.status_code}'
+        except requests.exceptions.Timeout:
+            last = 'timeout'
+        except requests.exceptions.ProxyError:
+            last = 'proxy error'
+        except requests.exceptions.ConnectionError:
+            last = 'connection error'
+        except Exception as e:
+            last = f'{type(e).__name__}'
+    # GitHub 代理被禁时直连内层 URL 再试一次
+    inner = extract_inner_github(url)
+    if inner:
+        try:
+            r = requests.get(inner, headers={'User-Agent': UA_OK},
+                             timeout=timeout, allow_redirects=True)
+            if r.status_code == 200 and r.content:
+                return r.content, f'HTTP 200 via direct {len(r.content)} bytes'
+        except Exception:
+            pass
+    return None, last
+
+
+def fetch_and_decode(name, url):
+    """拉取并解码一个接口；返回 (obj|None, 状态说明, 是否用了缓存)。"""
+    data, status = fetch_url(url)
+    if data is not None:
+        os.makedirs(RAW_DIR, exist_ok=True)
+        with open(os.path.join(RAW_DIR, name + '.bin'), 'wb') as f:
+            f.write(data)
+        obj, fmt = decode_bytes(data)
+        if obj is not None:
+            os.makedirs(DEC_DIR, exist_ok=True)
+            with open(os.path.join(DEC_DIR, name + '.json'), 'w', encoding='utf-8') as f:
+                json.dump(obj, f, ensure_ascii=False, indent=2)
+            kind = 'multi' if obj.get('urls') and not obj.get('sites') else 'single'
+            return obj, f'{status} / 解码 {fmt}/{kind}', False
+        # 拉到了但解不开（源临时返回错误页等）：同样回退缓存
+        cache = os.path.join(DEC_DIR, name + '.json')
+        if os.path.exists(cache):
+            try:
+                with open(cache, encoding='utf-8') as f:
+                    return json.load(f), f'{status} / 解码失败，用缓存', True
+            except (json.JSONDecodeError, OSError):
+                pass
+        return None, f'{status} / 解码失败', False
+    # 拉取失败：回退到缓存
+    cache = os.path.join(DEC_DIR, name + '.json')
+    if os.path.exists(cache):
+        try:
+            with open(cache, encoding='utf-8') as f:
+                return json.load(f), f'拉取失败({status})，用缓存', True
+        except (json.JSONDecodeError, OSError):
+            pass
+    return None, f'拉取失败({status})，无缓存', False
+
+
+# ---------------------------------------------------------------- 站点处理
+def sanitize_ext_value(key, value, base_url):
+    """处理 ext 里凭证类字段的值：
+    - URL（本地代理地址）→ 保留
+    - 文件引用（./lib/token.json、tvbox/token.txt）→ 解析为绝对 URL
+    - 占位符/短值 → 保留
+    - 随机字符串会话凭证 → 清空
+    返回 (新值, 是否被清空)。"""
+    if not isinstance(value, str) or not value.strip():
+        return value, False
+    v = value.strip()
+    if v.startswith(('http://', 'https://', 'assets://')):
+        return value, False
+    if v.startswith('./') or v.startswith('../') or PATH_LIKE.match(v):
+        return resolve_url(base_url, v), False
+    if PLACEHOLDER.search(v) or len(v) < 8:
+        return value, False
+    return '', True
+
+
+def sanitize_site(site, prefix, base_url, spider_url, stats):
+    """处理单个站点：key 加前缀、解析相对路径、清空真实凭证、补 jar。返回新站点或 None。"""
+    if not isinstance(site, dict):
+        return None
+    s = dict(site)
+    key = str(s.get('key', ''))
+    s['key'] = f'{prefix}_{key}' if key else prefix
+
+    # type 归一化：字符串数字转 int
+    t = s.get('type')
+    if isinstance(t, str) and t.isdigit():
+        s['type'] = int(t)
+
+    # api 相对路径解析
+    api = s.get('api')
+    if isinstance(api, str) and is_relative_ref(api):
+        s['api'] = resolve_url(base_url, api)
+        stats['api_resolved'] += 1
+
+    # playUrl 相对路径解析
+    pu = s.get('playUrl')
+    if isinstance(pu, str) and is_relative_ref(pu):
+        s['playUrl'] = resolve_url(base_url, pu)
+
+    # jar：站点自有 jar 优先（解析相对路径），否则 type 3 类名 api 用接口 spider
+    jar = s.get('jar')
+    if isinstance(jar, str) and jar:
+        s['jar'] = resolve_url(base_url, jar)
+        stats['jar_kept'] += 1
+    elif s.get('type') == 3 and isinstance(api, str) and api.startswith(('csp_', 'py_')):
+        if spider_url:
+            s['jar'] = spider_url
+            stats['jar_added'] += 1
+
+    # ext 处理
+    ext = s.get('ext')
+    if isinstance(ext, str) and ext.strip():
+        if is_relative_ref(ext.strip()):
+            s['ext'] = resolve_url(base_url, ext.strip())
+            stats['ext_resolved'] += 1
+    elif isinstance(ext, dict):
+        new_ext = {}
+        for k, v in ext.items():
+            if CRED_KEY.search(k):
+                nv, stripped = sanitize_ext_value(k, v, base_url)
+                if stripped:
+                    stats['cred_stripped'] += 1
+                    stats.setdefault('cred_stripped_keys', []).append(
+                        f"{prefix}:{key}:{k}")
+                new_ext[k] = nv
+            elif isinstance(v, str) and is_relative_ref(v):
+                new_ext[k] = resolve_url(base_url, v)
+            else:
+                new_ext[k] = v
+        s['ext'] = new_ext
+    return s
+
+
+# ---------------------------------------------------------------- 合并
+def config_fingerprint(obj):
+    """配置内容指纹（去重相同配置用）。"""
+    canon = json.dumps(obj, ensure_ascii=False, sort_keys=True)
+    return hashlib.md5(canon.encode('utf-8')).hexdigest()
+
+
+def merge_configs(configs):
+    """configs: [(id, label, priority, base_url, obj)] 已按 priority 排序。
+    返回 (merged_dict, stats)。"""
+    stats = {'inputs': len(configs), 'sites_in': 0, 'sites_out': 0,
+             'sites_deduped': 0, 'dup_configs': 0, 'api_resolved': 0,
+             'jar_kept': 0, 'jar_added': 0, 'ext_resolved': 0,
+             'cred_stripped': 0, 'per_source': {}, 'dup_config_names': []}
+
+    # 1. 相同内容配置去重（保留 priority 最高的代表）
+    seen_fp = {}
+    unique = []
+    for cid, label, prio, base, obj in configs:
+        fp = config_fingerprint(obj)
+        if fp in seen_fp:
+            stats['dup_configs'] += 1
+            stats['dup_config_names'].append(
+                f"{cid} 与 {seen_fp[fp]} 内容相同")
+            continue
+        seen_fp[fp] = cid
+        unique.append((cid, label, prio, base, obj))
+    stats['unique_configs'] = len(unique)
+
+    merged_sites = []
+    seen_site = set()
+    used_keys = set()
+    lives, seen_live = [], set()
+    parses, seen_parse = [], set()
+    rules, seen_rule = [], set()
+    flags, seen_flag = [], set()
+    ads, seen_ad = [], set()
+    hosts, seen_host = [], set()
+    proxy, seen_proxy = [], set()
+    ijk, seen_ijk = [], set()
+    doh, seen_doh = [], set()
+    headers, seen_header = [], set()
+    top_single = {}  # 只取一个的顶层字段：wallpaper/logo/danmaku/warningText/notice
+
+    for cid, label, prio, base, obj in unique:
+        sites = obj.get('sites') or []
+        if not isinstance(sites, list):
+            sites = []
+        spider = obj.get('spider') or ''
+        spider_url = resolve_url(base, spider) if spider else ''
+        n_in = n_out = 0
+        for site in sites:
+            if not isinstance(site, dict):
+                continue
+            n_in += 1
+            stats['sites_in'] += 1
+            # 去重 key：(type, api, ext)——api 相同但 ext 不同是不同站
+            dk = (site.get('type'),
+                  str(site.get('api', '')),
+                  ext_dedup_key(site.get('ext')))
+            if dk in seen_site:
+                stats['sites_deduped'] += 1
+                continue
+            seen_site.add(dk)
+            new_site = sanitize_site(site, cid, base, spider_url, stats)
+            if new_site is None:
+                continue
+            # key 唯一化：同一接口内也可能有重名 key（如两个“豆瓣”），加 _2/_3 后缀
+            base_key = new_site['key']
+            final_key = base_key
+            n = 2
+            while final_key in used_keys:
+                final_key = f'{base_key}_{n}'
+                n += 1
+            if final_key != base_key:
+                stats.setdefault('key_renamed', 0)
+                stats['key_renamed'] += 1
+                new_site['key'] = final_key
+            used_keys.add(final_key)
+            merged_sites.append(new_site)
+            n_out += 1
+        stats['per_source'][cid] = {'label': label, 'sites_in': n_in,
+                                    'sites_kept': n_out,
+                                    'spider': spider_url[:80]}
+
+        # lives / parses 按 url 去重
+        for live in obj.get('lives') or []:
+            if isinstance(live, dict):
+                u = str(live.get('url', ''))
+                if u and u not in seen_live:
+                    seen_live.add(u)
+                    nl = dict(live)
+                    if is_relative_ref(u):
+                        nl['url'] = resolve_url(base, u)
+                    lives.append(nl)
+        for ps in obj.get('parses') or []:
+            if isinstance(ps, dict):
+                u = str(ps.get('url', ''))
+                if u and u not in seen_parse:
+                    seen_parse.add(u)
+                    np = dict(ps)
+                    if is_relative_ref(u):
+                        np['url'] = resolve_url(base, u)
+                    parses.append(np)
+        # rules 按 name 去重
+        for r in obj.get('rules') or []:
+            if isinstance(r, dict):
+                n = str(r.get('name', ''))
+                if n and n not in seen_rule:
+                    seen_rule.add(n)
+                    rules.append(r)
+        # flags / ads / hosts / proxy 字符串去重
+        for lst, seen, out in ((obj.get('flags'), seen_flag, flags),
+                               (obj.get('ads'), seen_ad, ads),
+                               (obj.get('hosts'), seen_host, hosts),
+                               (obj.get('proxy'), seen_proxy, proxy)):
+            if isinstance(lst, list):
+                for v in lst:
+                    if isinstance(v, str) and v not in seen:
+                        seen.add(v)
+                        out.append(v)
+        # ijk 按 group 去重
+        for it in obj.get('ijk') or []:
+            if isinstance(it, dict):
+                g = str(it.get('group', ''))
+                if g and g not in seen_ijk:
+                    seen_ijk.add(g)
+                    ijk.append(it)
+        # doh 按 url 去重
+        for d in obj.get('doh') or []:
+            if isinstance(d, dict):
+                u = str(d.get('url', ''))
+                if u and u not in seen_doh:
+                    seen_doh.add(u)
+                    doh.append(d)
+        # headers 按 host 去重
+        for h in obj.get('headers') or []:
+            if isinstance(h, dict):
+                hh = str(h.get('host', ''))
+                if hh and hh not in seen_header:
+                    seen_header.add(hh)
+                    headers.append(h)
+        # 单值顶层字段：取第一个非空的（priority 顺序即 aowu 优先）
+        for k in ('wallpaper', 'logo', 'danmaku', 'warningText', 'notice'):
+            if k not in top_single and obj.get(k):
+                top_single[k] = obj[k]
+
+    stats['sites_out'] = len(merged_sites)
+
+    merged = {'spider': AOWU_SPIDER}
+    if top_single.get('logo'):
+        merged['logo'] = top_single['logo']
+    if top_single.get('danmaku'):
+        merged['danmaku'] = top_single['danmaku']
+    if top_single.get('wallpaper'):
+        merged['wallpaper'] = top_single['wallpaper']
+    merged['sites'] = merged_sites
+    if lives:
+        merged['lives'] = lives
+    if parses:
+        merged['parses'] = parses
+    if rules:
+        merged['rules'] = rules
+    if flags:
+        merged['flags'] = flags
+    if ijk:
+        merged['ijk'] = ijk
+    if ads:
+        merged['ads'] = ads
+    if doh:
+        merged['doh'] = doh
+    if hosts:
+        merged['hosts'] = hosts
+    if headers:
+        merged['headers'] = headers
+    if proxy:
+        merged['proxy'] = proxy
+    if top_single.get('warningText'):
+        merged['warningText'] = top_single['warningText']
+    if top_single.get('notice'):
+        merged['notice'] = top_single['notice']
+
+    stats['lives'] = len(lives)
+    stats['parses'] = len(parses)
+    stats['rules'] = len(rules)
+    stats['flags'] = len(flags)
+    return merged, stats
+
+
+# ---------------------------------------------------------------- 主流程
+def load_sources():
+    with open(SOURCES_JSON, encoding='utf-8') as f:
+        return json.load(f)['sources']
+
+
+def collect_online():
+    """在线模式：拉取全部源 + 展开多仓。返回 configs 列表与拉取报告。"""
+    # 清掉上次运行时展开的子接口缓存（编号按 URL 排序，源变化时编号会变，
+    # 不清会留下脏文件污染后续离线合并；主源文件由拉取覆盖或缓存回退处理）
+    for d in (RAW_DIR, DEC_DIR):
+        if os.path.isdir(d):
+            for fn in os.listdir(d):
+                if fn.startswith('sub') and (fn.endswith('.bin') or fn.endswith('.json')):
+                    try:
+                        os.remove(os.path.join(d, fn))
+                    except OSError:
+                        pass
+    sources = load_sources()
+    report = {}
+    urlmap = {}
+    configs = []
+
+    def one(src):
+        obj, status, cached = fetch_and_decode(src['id'], src['url'])
+        return src, obj, status, cached
+
+    with ThreadPoolExecutor(max_workers=20) as ex:
+        futs = {ex.submit(one, s): s for s in sources}
+        for fut in as_completed(futs):
+            src, obj, status, cached = fut.result()
+            report[src['id']] = {'label': src.get('label', ''),
+                                 'url': src['url'], 'status': status,
+                                 'cached': cached}
+            urlmap[src['id']] = src['url']
+            if obj is not None:
+                configs.append((src['id'], src.get('label', ''),
+                                src.get('priority', 50), src['url'], obj))
+
+    # 展开多仓订阅（一层）
+    fetched_urls = {norm_url(u) for u in urlmap.values()}
+    sub_todo = {}
+    for cid, label, prio, base, obj in configs:
+        for e in obj.get('urls') or []:
+            if not isinstance(e, dict):
+                continue
+            u = (e.get('url') or '').strip()
+            if not u or u.startswith('assets://') or '.m3u' in u:
+                continue
+            full = urljoin(base, u)
+            if norm_url(full) in fetched_urls:
+                continue
+            fetched_urls.add(norm_url(full))
+            sub_todo[full] = e.get('name', '')
+
+    # 子接口按 URL 排序编号，保证前后两次运行前缀稳定
+    sub_items = sorted(sub_todo.items())
+    sub_results = {}
+    with ThreadPoolExecutor(max_workers=20) as ex:
+        fut_map = {}
+        for i, (url, name) in enumerate(sub_items, 1):
+            sid = f'sub{i:03d}'
+            fut_map[ex.submit(fetch_and_decode, sid, url)] = (sid, url, name)
+        for fut in as_completed(fut_map):
+            sid, url, name = fut_map[fut]
+            obj, status, cached = fut.result()
+            report[sid] = {'label': name, 'url': url, 'status': status,
+                           'cached': cached, 'via_multi': True}
+            urlmap[sid] = url
+            if obj is not None:
+                # 子接口若本身又是多仓，不再递归展开
+                if obj.get('urls') and not obj.get('sites'):
+                    continue
+                sub_results[sid] = (sid, name, 100, url, obj)
+    configs.extend(sub_results.values())
+
+    with open(URLMAP_JSON, 'w', encoding='utf-8') as f:
+        json.dump(urlmap, f, ensure_ascii=False, indent=1)
+    return configs, report
+
+
+def collect_offline():
+    """离线模式：用 decoded/ 缓存合并。返回 configs 列表与说明。"""
+    sources = {s['id']: s for s in load_sources()}
+    urlmap = {}
+    if os.path.exists(URLMAP_JSON):
+        with open(URLMAP_JSON, encoding='utf-8') as f:
+            urlmap = json.load(f)
+    configs = []
+    report = {}
+    for fn in sorted(os.listdir(DEC_DIR)):
+        if not fn.endswith('.json') or fn.startswith('_'):
+            continue
+        cid = fn[:-5]
+        path = os.path.join(DEC_DIR, fn)
+        try:
+            with open(path, encoding='utf-8') as f:
+                obj = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            report[cid] = {'status': f'缓存损坏: {e}'}
+            continue
+        if not isinstance(obj, dict):
+            report[cid] = {'status': '缓存非 dict，已跳过'}
+            continue
+        if obj.get('urls') and not obj.get('sites'):
+            report[cid] = {'status': '多仓订阅（离线模式不展开）'}
+            continue
+        # 0 站点且无 lives/parses 的错误响应直接跳过
+        if not obj.get('sites') and not obj.get('lives') and not obj.get('parses'):
+            report[cid] = {'status': '0 站点/0 直播/0 解析，已跳过'}
+            continue
+        src = sources.get(cid, {})
+        prio = src.get('priority', 100 if cid.startswith('sub') else 50)
+        base = urlmap.get(cid, src.get('url', ''))
+        configs.append((cid, src.get('label', cid), prio, base, obj))
+        report[cid] = {'status': '缓存', 'label': src.get('label', cid),
+                       'url': base}
+    return configs, report
+
+
+def main():
+    ap = argparse.ArgumentParser(description='TVBox 多接口聚合配置生成器')
+    ap.add_argument('--offline', action='store_true', help='只用 decoded/ 缓存合并')
+    args = ap.parse_args()
+
+    if args.offline:
+        configs, report = collect_offline()
+    else:
+        configs, report = collect_online()
+
+    # 按 priority 排序（去重时优先保留排前的）
+    configs.sort(key=lambda c: (c[2], c[0]))
+    merged, stats = merge_configs(configs)
+
+    with open(OUT_JSON, 'w', encoding='utf-8') as f:
+        json.dump(merged, f, ensure_ascii=False, indent=4)
+
+    size = os.path.getsize(OUT_JSON)
+    stats['output_bytes'] = size
+    stats['output_file'] = OUT_JSON
+    with open(STATS_JSON, 'w', encoding='utf-8') as f:
+        json.dump({'stats': stats, 'fetch_report': report},
+                  f, ensure_ascii=False, indent=2)
+
+    print(f"输入配置: {stats['inputs']} 个，去重后唯一配置: {stats['unique_configs']} 个"
+          f"（{stats['dup_configs']} 个重复内容）")
+    print(f"站点: {stats['sites_in']} → {stats['sites_out']} "
+          f"（去重 {stats['sites_deduped']}）")
+    print(f"lives: {stats['lives']}，parses: {stats['parses']}，"
+          f"rules: {stats['rules']}，flags: {stats['flags']}")
+    print(f"jar: 保留站点自有 {stats['jar_kept']}，补接口 spider {stats['jar_added']}；"
+          f"相对 api 解析 {stats['api_resolved']}，相对 ext 解析 {stats['ext_resolved']}")
+    print(f"清空真实凭证值: {stats['cred_stripped']} 处")
+    print(f"输出: {OUT_JSON}（{size:,} 字节，约 {size / 1048576:.2f} MB）")
+
+
+if __name__ == '__main__':
+    main()

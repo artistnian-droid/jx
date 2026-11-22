@@ -1,0 +1,1564 @@
+{
+  "aowu": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 83,
+    "lives": 7,
+    "parses": 13,
+    "urls": 0,
+    "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+  },
+  "aowu_mirror": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 83,
+    "lives": 7,
+    "parses": 13,
+    "urls": 0,
+    "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+  },
+  "ayrjk": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 187,
+    "lives": 32,
+    "parses": 21,
+    "urls": 0,
+    "spider": "https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/jar/all/anyi_all.jpg;md5;b829a1ea50de0af8c493a11f667b7a67"
+  },
+  "bls": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "duoxian": {
+    "ok": true,
+    "format": "json",
+    "kind": "multi",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 110,
+    "spider": ""
+  },
+  "easytv": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 135,
+    "lives": 2,
+    "parses": 10,
+    "urls": 0,
+    "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
+  },
+  "eggp": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 31,
+    "lives": 3,
+    "parses": 10,
+    "urls": 0,
+    "spider": "http://118.89.172.248:8025/jar/tan2.php"
+  },
+  "feimao": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "feimao_snap": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 40,
+    "lives": 1,
+    "parses": 4,
+    "urls": 0,
+    "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+  },
+  "fm_gif": {
+    "ok": true,
+    "format": "image-embedded-b64",
+    "kind": "single",
+    "sites": 40,
+    "lives": 2,
+    "parses": 4,
+    "urls": 0,
+    "spider": "https://img2.gelonghui.com/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.png;md5;46da6b6a6a111d7924717db2ae790de3"
+  },
+  "fty1": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 50,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
+  },
+  "fty2": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 50,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
+  },
+  "fty_com": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "fty_qist": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 49,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/fan.txt;md5;6ef2e95b434509eed5b943aa44bb3fdf"
+  },
+  "fty_snap": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "jike": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 56,
+    "lives": 16,
+    "parses": 17,
+    "urls": 0,
+    "spider": "https://img2.gelonghui.com/library/e2693-9aa941a0-f96a-40c2-ac23-e6af358d19a7.png;md5;e2693c58ebc58abecc7282b721db79ca"
+  },
+  "laoliubei": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 234,
+    "lives": 3,
+    "parses": 27,
+    "urls": 0,
+    "spider": "./fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
+  },
+  "moyu": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 111,
+    "lives": 1,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
+  },
+  "ouge": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 12,
+    "lives": 1,
+    "parses": 23,
+    "urls": 0,
+    "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cbfb.jpg;md5;b890224af2b999d3447fa1691569e643"
+  },
+  "ouge_iptv": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 106,
+    "lives": 1,
+    "parses": 13,
+    "urls": 0,
+    "spider": "./spider.jar"
+  },
+  "ouge_snap": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 12,
+    "lives": 2,
+    "parses": 11,
+    "urls": 0,
+    "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0820/00/fabb11d153077bd3f42e017a99d88e9e.jpg;md5;445f75929716e42ffc40a31cec0f9fe0"
+  },
+  "pg": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 74,
+    "lives": 29,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./pg.jar"
+  },
+  "qist0707": {
+    "ok": true,
+    "format": "json",
+    "kind": "multi",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 1,
+    "spider": ""
+  },
+  "qist0821": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 86,
+    "lives": 16,
+    "parses": 11,
+    "urls": 0,
+    "spider": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+  },
+  "qist0825": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 135,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+  },
+  "qist0826": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 54,
+    "lives": 4,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+  },
+  "qist0827": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 33,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+  },
+  "qistfty": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 49,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/fan.txt;md5;6ef2e95b434509eed5b943aa44bb3fdf"
+  },
+  "qistjs": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 298,
+    "lives": 2,
+    "parses": 16,
+    "urls": 0,
+    "spider": "./jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+  },
+  "qistjsm": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 162,
+    "lives": 3,
+    "parses": 29,
+    "urls": 0,
+    "spider": "./jar/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
+  },
+  "qistxyq": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 49,
+    "lives": 2,
+    "parses": 9,
+    "urls": 0,
+    "spider": "./jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
+  },
+  "shiguang": {
+    "ok": true,
+    "format": "json",
+    "kind": "multi",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 54,
+    "spider": ""
+  },
+  "sub001": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub002": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 123,
+    "lives": 1,
+    "parses": 9,
+    "urls": 0,
+    "spider": "./spider.jar"
+  },
+  "sub003": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub004": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub005": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub006": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub007": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub008": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 51,
+    "lives": 7,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
+  },
+  "sub009": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub010": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub011": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 136,
+    "lives": 1,
+    "parses": 7,
+    "urls": 0,
+    "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
+  },
+  "sub012": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 24,
+    "lives": 2,
+    "parses": 15,
+    "urls": 0,
+    "spider": "./jar/top98_1.jar"
+  },
+  "sub013": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub014": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 83,
+    "lives": 7,
+    "parses": 13,
+    "urls": 0,
+    "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+  },
+  "sub015": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub016": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub017": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub018": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub019": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub020": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub021": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 16,
+    "lives": 1,
+    "parses": 4,
+    "urls": 0,
+    "spider": "http://mzrjk.top/唱戏/bhxq.jar"
+  },
+  "sub022": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 62,
+    "lives": 10,
+    "parses": 40,
+    "urls": 0,
+    "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+  },
+  "sub023": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 58,
+    "lives": 1,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://dl.kstore.dev/download/4718/%E6%8E%A5%E5%8F%A3/spider.jar"
+  },
+  "sub024": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub025": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub026": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub027": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 12,
+    "lives": 1,
+    "parses": 23,
+    "urls": 0,
+    "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cbfb.jpg;md5;b890224af2b999d3447fa1691569e643"
+  },
+  "sub028": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub029": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 52,
+    "lives": 4,
+    "parses": 13,
+    "urls": 0,
+    "spider": "https://tv.菜妮丝.top/jar/fty1016.jar;md5;aa8d37525617af470b3b8dfc91db8669"
+  },
+  "sub030": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 51,
+    "lives": 1,
+    "parses": 16,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub031": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub032": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub033": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 50,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
+  },
+  "sub034": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 50,
+    "lives": 5,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
+  },
+  "sub035": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 94,
+    "lives": 1,
+    "parses": 9,
+    "urls": 0,
+    "spider": "./sx.jar;md5;0840fd78292d4a87dfa48dbebd3e6466"
+  },
+  "sub036": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 77,
+    "lives": 5,
+    "parses": 14,
+    "urls": 0,
+    "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/BH1116.jar"
+  },
+  "sub037": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub038": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub039": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 51,
+    "lives": 6,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./lib/spider.jar;md5;9bf5c1f491cc633ff14e1fee5c91daa9"
+  },
+  "sub040": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 19,
+    "lives": 3,
+    "parses": 5,
+    "urls": 0,
+    "spider": "./pro.jar?md5=007dddc1aedbbe022544d0fa13d11c92"
+  },
+  "sub041": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 31,
+    "lives": 3,
+    "parses": 10,
+    "urls": 0,
+    "spider": "http://118.89.172.248:8025/jar/tan.php"
+  },
+  "sub042": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub043": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 109,
+    "lives": 1,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
+  },
+  "sub044": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub045": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 198,
+    "lives": 3,
+    "parses": 5,
+    "urls": 0,
+    "spider": "http://xn--oev29b.top/files/18.jar"
+  },
+  "sub046": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 40,
+    "lives": 1,
+    "parses": 4,
+    "urls": 0,
+    "spider": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.png;md5;73c42d5c2f86efd6ddc6c85fd286069c"
+  },
+  "sub047": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub048": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub049": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 43,
+    "lives": 1,
+    "parses": 2,
+    "urls": 0,
+    "spider": "./nm/nm.jar"
+  },
+  "sub050": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 100,
+    "lives": 37,
+    "parses": 14,
+    "urls": 0,
+    "spider": "https://15487.kstore.space/spider.jar"
+  },
+  "sub051": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 76,
+    "lives": 6,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/app.jar"
+  },
+  "sub052": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 175,
+    "lives": 6,
+    "parses": 7,
+    "urls": 0,
+    "spider": "./jar/18.jar"
+  },
+  "sub053": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 7,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/redscarful/xpg/refs/heads/main/spider.jar;md5;bfb998eda0e8130053dff264dbcea38f"
+  },
+  "sub054": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub055": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 68,
+    "lives": 1,
+    "parses": 1,
+    "urls": 0,
+    "spider": "https://backup.fukit.cn/autoupload/f/pog6q/20260731/mZ8Z/aidaox-20260731-141929.jar;md5;27fc726f23bc0aeed9a868e83cee5a78"
+  },
+  "sub056": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 66,
+    "lives": 1,
+    "parses": 5,
+    "urls": 0,
+    "spider": "https://backup.fukit.cn/autoupload/f/y48j5/20260728/KHz2/aidaox-20260727-225016.jar;md5;10d3e7ad6f98d2ece654277e14261a34"
+  },
+  "sub057": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 28,
+    "lives": 2,
+    "parses": 9,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub058": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 36,
+    "lives": 6,
+    "parses": 3,
+    "urls": 0,
+    "spider": "https://15487.kstore.space/spider.jar"
+  },
+  "sub059": {
+    "ok": true,
+    "format": "whole-b64",
+    "kind": "single",
+    "sites": 93,
+    "lives": 12,
+    "parses": 9,
+    "urls": 0,
+    "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
+  },
+  "sub060": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 161,
+    "lives": 11,
+    "parses": 7,
+    "urls": 0,
+    "spider": "https://meow.668yun.top/c/PuOcCVgXWA7p/柒豪.jar"
+  },
+  "sub061": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub062": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub063": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 31,
+    "lives": 3,
+    "parses": 10,
+    "urls": 0,
+    "spider": "http://118.89.172.248:8025/jar/tan2.php"
+  },
+  "sub064": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 66,
+    "lives": 6,
+    "parses": 4,
+    "urls": 0,
+    "spider": "./kjtw.jar"
+  },
+  "sub065": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 86,
+    "lives": 11,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
+  },
+  "sub066": {
+    "ok": true,
+    "format": "whole-b64",
+    "kind": "single",
+    "sites": 95,
+    "lives": 2,
+    "parses": 2,
+    "urls": 0,
+    "spider": "https://raw.gitcode.com/2501_90909032/oooo/blobs/e724ea7f0931723a79d17e0f0d23b401ae8f38c8/261121.jar;md5;5670e3727a069c25f59c2ee616c50daa"
+  },
+  "sub067": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 116,
+    "lives": 1,
+    "parses": 9,
+    "urls": 0,
+    "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261121/6n97/0X0/11212343.png;md5;efdb2c1d9a2e8c26e5a74ba5f53dfc56"
+  },
+  "sub068": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 10,
+    "lives": 1,
+    "parses": 11,
+    "urls": 0,
+    "spider": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
+  },
+  "sub069": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub070": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 47,
+    "lives": 9,
+    "parses": 11,
+    "urls": 0,
+    "spider": "https://cccimg.com/down.php/6bcb3de5f0d7c9b3d4f19cfe9a314ab2.jar"
+  },
+  "sub071": {
+    "ok": true,
+    "format": "whole-b64",
+    "kind": "single",
+    "sites": 93,
+    "lives": 12,
+    "parses": 9,
+    "urls": 0,
+    "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
+  },
+  "sub072": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub073": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 101,
+    "lives": 17,
+    "parses": 21,
+    "urls": 0,
+    "spider": "./jar/xs.jar"
+  },
+  "sub074": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 131,
+    "lives": 20,
+    "parses": 14,
+    "urls": 0,
+    "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/Mrish9527/tv/refs/heads/main/fm1225.png"
+  },
+  "sub075": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub076": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub077": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 164,
+    "lives": 15,
+    "parses": 9,
+    "urls": 0,
+    "spider": "https://ym.wya6.cn/tz/wyxs.php;md5;803ee0bcfa247f0cb839b914e8aea5dd"
+  },
+  "sub078": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub079": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub080": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 48,
+    "lives": 4,
+    "parses": 0,
+    "urls": 0,
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06"
+  },
+  "sub081": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub082": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub083": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 46,
+    "lives": 1,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./spider2.jar"
+  },
+  "sub084": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub085": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub086": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 298,
+    "lives": 2,
+    "parses": 11,
+    "urls": 0,
+    "spider": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+  },
+  "sub087": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 77,
+    "lives": 1,
+    "parses": 3,
+    "urls": 0,
+    "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
+  },
+  "sub088": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 77,
+    "lives": 1,
+    "parses": 3,
+    "urls": 0,
+    "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
+  },
+  "sub089": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub090": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 33,
+    "lives": 1,
+    "parses": 9,
+    "urls": 0,
+    "spider": "./tvbox.jar"
+  },
+  "sub091": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 246,
+    "lives": 20,
+    "parses": 26,
+    "urls": 0,
+    "spider": "./svip.jar"
+  },
+  "sub092": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 93,
+    "lives": 1,
+    "parses": 7,
+    "urls": 0,
+    "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f68dec7863a0b31a2b85d4"
+  },
+  "sub093": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 27,
+    "lives": 4,
+    "parses": 4,
+    "urls": 0,
+    "spider": "./jar/wuao.txt;md5;e76d6f0107817970b9f57d7d29129efe"
+  },
+  "sub094": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub095": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub096": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub097": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 151,
+    "lives": 1,
+    "parses": 24,
+    "urls": 0,
+    "spider": "./HeChengChaXiu.jar"
+  },
+  "sub098": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 27,
+    "lives": 12,
+    "parses": 0,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub099": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub100": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 43,
+    "lives": 1,
+    "parses": 4,
+    "urls": 0,
+    "spider": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NTA3NDEyNV83ZDVkNWQyMC04Y2I3LTQ5NzgtYTAzNS1kOTk4NDYzYWJmYjA%3D;md5;ebe3af9c9f2cdcd4756cbb9036a57823"
+  },
+  "sub101": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub102": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 246,
+    "lives": 20,
+    "parses": 26,
+    "urls": 0,
+    "spider": "./svip.jar"
+  },
+  "sub103": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 43,
+    "lives": 1,
+    "parses": 16,
+    "urls": 0,
+    "spider": "./lib/spider.jar"
+  },
+  "sub104": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub105": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub106": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub107": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub108": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub109": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub110": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 60,
+    "lives": 0,
+    "parses": 3,
+    "urls": 0,
+    "spider": "https://gitee.com/lu3589/776/raw/main/X4/lib/spider.jar"
+  },
+  "sub111": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub112": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub113": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 234,
+    "lives": 3,
+    "parses": 27,
+    "urls": 0,
+    "spider": "./fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
+  },
+  "sub114": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 93,
+    "lives": 1,
+    "parses": 7,
+    "urls": 0,
+    "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f68dec7863a0b31a2b85d4"
+  },
+  "sub115": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub116": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 105,
+    "lives": 1,
+    "parses": 18,
+    "urls": 0,
+    "spider": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/qrh/mew/spider__1_.jar;md5;d1fa24b46f218f455bc3f4b948fd457e"
+  },
+  "sub117": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 64,
+    "lives": 1,
+    "parses": 24,
+    "urls": 0,
+    "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69"
+  },
+  "sub118": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub119": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub120": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub121": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 246,
+    "lives": 20,
+    "parses": 26,
+    "urls": 0,
+    "spider": "./svip.jar"
+  },
+  "sub122": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 28,
+    "lives": 1,
+    "parses": 5,
+    "urls": 0,
+    "spider": "./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9"
+  },
+  "sub123": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 63,
+    "lives": 1,
+    "parses": 5,
+    "urls": 0,
+    "spider": "./PandaQ240225.jar;md5;16f19e614cdf7c9f9b16771d571f1894"
+  },
+  "sub124": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub125": {
+    "ok": true,
+    "format": "image-tail-b64",
+    "kind": "single",
+    "sites": 30,
+    "lives": 1,
+    "parses": 38,
+    "urls": 0,
+    "spider": "https://jihulab.com/ymz1231/jar/-/raw/main/Bili.jar"
+  },
+  "sub126": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 61,
+    "lives": 1,
+    "parses": 16,
+    "urls": 0,
+    "spider": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/spider.jar;md5;06925c578c423744fb4acd1c1806d4d6"
+  },
+  "sub127": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 98,
+    "lives": 2,
+    "parses": 4,
+    "urls": 0,
+    "spider": "http://oss4liview.moji.com/thd_file/2026/10/31/272e922132480799981a031067b6d722.jpg;md5;8605fb93b9d2ba66e702fdbfcc496159"
+  },
+  "sub128": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 47,
+    "lives": 1,
+    "parses": 12,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub129": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 55,
+    "lives": 3,
+    "parses": 10,
+    "urls": 0,
+    "spider": "./spider.jar"
+  },
+  "sub130": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 37,
+    "lives": 2,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./spider.jar"
+  },
+  "sub131": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub132": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 20,
+    "lives": 0,
+    "parses": 1,
+    "urls": 0,
+    "spider": "./spider.jar"
+  },
+  "sub133": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 64,
+    "lives": 4,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./jar/pg23a94bb_upgraded.jar;md5;7c8f662c4d1ed4351e02691c15ed24a2"
+  },
+  "sub134": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 164,
+    "lives": 3,
+    "parses": 29,
+    "urls": 0,
+    "spider": "./jar/spider.jar;md5;8599a715437d21e6660ad75f36967e70"
+  },
+  "sub135": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub136": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": ""
+  },
+  "sub137": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 43,
+    "lives": 0,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
+  },
+  "sub138": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub139": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 27,
+    "lives": 0,
+    "parses": 20,
+    "urls": 0,
+    "spider": "https://jihulab.com/clear1/yingmi/-/raw/main/jar/fan.jar"
+  },
+  "sub140": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub141": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub142": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub143": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub144": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub145": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub146": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub147": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "sub148": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 46,
+    "lives": 10,
+    "parses": 0,
+    "urls": 0,
+    "spider": "./ztha.jar;md5;097bfd1388b83204958633f23eb6e4cb"
+  },
+  "sub149": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub150": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub151": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub152": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub153": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub154": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub155": {
+    "ok": false,
+    "error": "空文件（拉取失败）"
+  },
+  "sub156": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 22,
+    "lives": 0,
+    "parses": 4,
+    "urls": 0,
+    "spider": "https://cnb.cool/fish2018/duanju/-/git/raw/main/jar/短剧.jar"
+  },
+  "sub157": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 29,
+    "lives": 5,
+    "parses": 8,
+    "urls": 0,
+    "spider": "https://lz.qaiu.top/parser?url=https://souluoshou.lanzouc.com/ijHi64f1682h;md5;afdc4c6a9d641217e6f832abed9fbc3f"
+  },
+  "sub158": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "tinghao": {
+    "ok": true,
+    "format": "json",
+    "kind": "multi",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 32,
+    "spider": ""
+  },
+  "tv999": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 100,
+    "lives": 2,
+    "parses": 4,
+    "urls": 0,
+    "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
+  },
+  "tv9swa": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "tvyhqu": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 37,
+    "lives": 0,
+    "parses": 4,
+    "urls": 0,
+    "spider": "https://tv.菜妮丝.top/jar/fty1016.jar;md5;aa8d37525617af470b3b8dfc91db8669"
+  },
+  "wex": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 100,
+    "lives": 2,
+    "parses": 4,
+    "urls": 0,
+    "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
+  },
+  "wex_alt": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 100,
+    "lives": 2,
+    "parses": 4,
+    "urls": 0,
+    "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
+  },
+  "wex_top": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 100,
+    "lives": 2,
+    "parses": 4,
+    "urls": 0,
+    "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
+  },
+  "wykj": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "wyxs": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "xhz": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 53,
+    "lives": 2,
+    "parses": 17,
+    "urls": 0,
+    "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1707044072121/fan.txt;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2"
+  },
+  "xhz_dc": {
+    "ok": true,
+    "format": "json",
+    "kind": "multi",
+    "sites": 0,
+    "lives": 0,
+    "parses": 0,
+    "urls": 18,
+    "spider": ""
+  },
+  "xhz_xhz": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 54,
+    "lives": 1,
+    "parses": 6,
+    "urls": 0,
+    "spider": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+  },
+  "xiaoma": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 62,
+    "lives": 10,
+    "parses": 40,
+    "urls": 0,
+    "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
+  },
+  "xiaosa": {
+    "ok": false,
+    "error": "未知格式（非 JSON/图片/base64/hex 加密）"
+  },
+  "xiaosa_mirror": {
+    "ok": true,
+    "format": "json",
+    "kind": "single",
+    "sites": 116,
+    "lives": 1,
+    "parses": 9,
+    "urls": 0,
+    "spider": "./spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
+  },
+  "yi": {
+    "ok": true,
+    "format": "tvbox-hex",
+    "kind": "single",
+    "sites": 137,
+    "lives": 4,
+    "parses": 7,
+    "urls": 0,
+    "spider": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
+  }
+}
