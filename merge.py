@@ -63,7 +63,13 @@ EXCLUDE_NAME = {
     '网盘': re.compile(r'盘|夸克|阿里盘|115|189|百度盘|UC盘|迅雷盘|PikPak|天翼|移动盘|123盘'),
 }
 
-# 博彩广告站（2026-11-22）：站名开头是博彩品牌/赌博术语的站点。
+# 体育/音乐白名单（2026-11-22 用户要求）：体育只留 3 个快的（嗷呜原生代理加速），
+# 音乐留 3 个 + MV 留 2 个；其余同类站点全部去掉。key 为合并后的完整 key（接口前缀_原 key）。
+SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
+# 注意：音悦台在 pg/qist0825/qistjs/sub082 四个接口里都有，去重后只留 pg 的
+# （priority 最高），所以白名单写 pg_Yinyuetai；写 qistjs_Yinyuetai 不生效。
+MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy',
+              'pg_Yinyuetai', 'fty1_MTV'}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -90,9 +96,17 @@ EXCLUDE_API_NETDISK = re.compile(
     r'pancms|panconfig|mypan|myquark|mybaidu|aliyunpan', re.I)
 
 
-def exclude_reason(site):
-    """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩），保留则返回 None。"""
+def exclude_reason(site, cid=''):
+    """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩/体育），保留则返回 None。
+    cid 为接口 id，用于白名单匹配（完整 key = 接口前缀_原 key）。"""
+    # 白名单站点不受任何分类过滤影响
+    full_key = f"{cid}_{site.get('key', '')}" if cid else str(site.get('key', ''))
+    if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP:
+        return None
     name = str(site.get('name', ''))
+    # 体育：除白名单 3 个外全部去掉
+    if '体育' in name:
+        return '体育'
     # 博彩：去掉开头的 emoji/符号和分类前缀后，以博彩品牌/术语开头
     core = re.sub(r'^[^\w\u4e00-\u9fff]+', '', name)
     core = re.sub(r'^(?:影视|动漫|体育|综艺|纪录|少儿|戏曲|直播|电影|电视剧|短剧|音乐|新闻|资讯|成人)\s*[|｜┃]\s*', '', core)
@@ -394,8 +408,8 @@ def merge_configs(configs):
                 continue
             n_in += 1
             stats['sites_in'] += 1
-            # 分类过滤：去掉课堂/听书/音乐/网盘类站点
-            exc = exclude_reason(site)
+            # 分类过滤：去掉课堂/听书/音乐/网盘/博彩/体育类站点（白名单除外）
+            exc = exclude_reason(site, cid)
             if exc:
                 stats.setdefault('excluded', {}).setdefault(exc, 0)
                 stats['excluded'][exc] += 1
