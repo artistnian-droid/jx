@@ -2448,122 +2448,6 @@
             "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
         },
         {
-            "key": "xiaosa_mirror_种子",
-            "name": "种子 • 4K",
-            "type": 3,
-            "api": "csp_SeedHub",
-            "searchable": 1,
-            "quickSearch": 0,
-            "ext": {
-                "site": [
-                    "https://seedog.cc",
-                    "https://seeduck.cc",
-                    "https://hubdog.cc"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_搬运",
-            "name": "搬运 • 4K",
-            "type": 3,
-            "api": "csp_BanYunDao",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_指南",
-            "name": "指南 • 4K",
-            "type": 3,
-            "api": "csp_4KZhinan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": [
-                    "https://4kzn.cc"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_小丑",
-            "name": "小丑 • 4K",
-            "type": 3,
-            "api": "csp_4KZhinan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": [
-                    "https://4kxc.com"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_茉莉",
-            "name": "茉莉 • 4K",
-            "type": 3,
-            "api": "csp_HDmoli",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": [
-                    "https://www.hdmoli.me",
-                    "https://www.hdmoli.org"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_爱盼",
-            "name": "爱盼 • 4K",
-            "type": 3,
-            "api": "csp_AiPan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_即刻",
-            "name": "即刻 • 4K",
-            "type": 3,
-            "api": "csp_Jike",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_卡卡",
-            "name": "卡卡 • 4K",
-            "type": 3,
-            "api": "csp_KKPan",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
             "key": "xiaosa_mirror_红果短剧",
             "name": "红果 • 短剧",
             "type": 3,
@@ -8256,6 +8140,49 @@
             "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
         },
         {
+            "key": "easytv_搬运",
+            "name": "搬运 | 4K",
+            "type": 3,
+            "api": "csp_BanYunDao",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
+        },
+        {
+            "key": "easytv_指南",
+            "name": "指南 | 4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": [
+                    "https://4kzn.cc"
+                ]
+            },
+            "timeout": 60,
+            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
+        },
+        {
+            "key": "easytv_小丑",
+            "name": "小丑 | 4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": [
+                    "https://4kxc.com"
+                ]
+            },
+            "timeout": 60,
+            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
+        },
+        {
             "key": "easytv_茉莉",
             "name": "茉莉 | 4K",
             "type": 3,
@@ -8269,6 +8196,28 @@
                     "https://www.hdmoli.pro"
                 ]
             },
+            "timeout": 60,
+            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
+        },
+        {
+            "key": "easytv_爱盼",
+            "name": "爱盼 | 4K",
+            "type": 3,
+            "api": "csp_AiPan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
+        },
+        {
+            "key": "easytv_即刻",
+            "name": "即刻 | 4K",
+            "type": 3,
+            "api": "csp_Jike",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60,
             "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
         },
@@ -16803,17 +16752,6 @@
             "jar": "http://150.158.52.248/tgyg/spider.jar"
         },
         {
-            "key": "sub002_指南_2",
-            "name": "指南 • 4K",
-            "type": 3,
-            "api": "csp_4KZhinan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "jar": "http://150.158.52.248/tgyg/spider.jar"
-        },
-        {
             "key": "sub002_永乐影视",
             "name": "永乐 • 影视",
             "type": 3,
@@ -22928,6 +22866,17 @@
                 "json": "https://11405.kstore.space/xiaye/json/哔哩合集.json"
             },
             "timeout": 10
+        },
+        {
+            "key": "sub045_指南",
+            "name": "指南｜4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "jar": "https://gitee.com/xiayede/tvbox/raw/master/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
         },
         {
             "key": "sub045_人人电影网",
