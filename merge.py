@@ -63,7 +63,10 @@ EXCLUDE_NAME = {
     '网盘': re.compile(r'盘|夸克|阿里盘|115|189|百度盘|UC盘|迅雷盘|PikPak|天翼|移动盘|123盘'),
 }
 
-# 体育/音乐白名单（2026-11-22 用户要求）：体育只留 3 个快的（嗷呜原生代理加速），
+# 直播频道（2026-11-23 用户要求）：全部去掉，不合并任何 lives。
+# 另：282 个直播频道可能是电视 OK 3.6.9 崩溃的触发源（播放器初始化时调
+# getActiveNetwork，在 Android 5.1 上不存在），先去掉再看崩溃是否消失。
+DROP_LIVES = True
 # 音乐留 3 个 + MV 留 2 个；其余同类站点全部去掉。key 为合并后的完整 key（接口前缀_原 key）。
 SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
 # 注意：音悦台在 pg/qist0825/qistjs/sub082 四个接口里都有，去重后只留 pg 的
@@ -464,8 +467,8 @@ def merge_configs(configs):
                                     'sites_kept': n_out,
                                     'spider': spider_url[:80]}
 
-        # lives / parses 按 url 去重
-        for live in obj.get('lives') or []:
+        # lives / parses 按 url 去重（DROP_LIVES 时不收集 lives）
+        for live in [] if DROP_LIVES else (obj.get('lives') or []):
             if isinstance(live, dict):
                 u = str(live.get('url', ''))
                 if u and u not in seen_live:
