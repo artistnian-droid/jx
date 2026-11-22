@@ -2,13 +2,13 @@
   "stats": {
     "inputs": 116,
     "sites_in": 7848,
-    "sites_out": 3603,
-    "sites_deduped": 2704,
+    "sites_out": 3555,
+    "sites_deduped": 2682,
     "dup_configs": 15,
-    "api_resolved": 603,
-    "jar_kept": 372,
-    "jar_added": 1847,
-    "ext_resolved": 920,
+    "api_resolved": 596,
+    "jar_kept": 373,
+    "jar_added": 1860,
+    "ext_resolved": 912,
     "cred_stripped": 2,
     "per_source": {
       "aowu": {
@@ -50,13 +50,13 @@
       "fty1": {
         "label": "饭太硬",
         "sites_in": 50,
-        "sites_kept": 34,
+        "sites_kept": 33,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       },
       "fty_qist": {
         "label": "饭太硬（qist）",
         "sites_in": 49,
-        "sites_kept": 4,
+        "sites_kept": 3,
         "spider": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;6ef2e95b434509eed5b943aa44bb3fdf"
       },
       "xhz": {
@@ -86,13 +86,13 @@
       "laoliubei": {
         "label": "老刘备",
         "sites_in": 234,
-        "sites_kept": 183,
+        "sites_kept": 182,
         "spider": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
       },
       "xiaoma": {
         "label": "小马",
         "sites_in": 62,
-        "sites_kept": 33,
+        "sites_kept": 32,
         "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
       },
       "easytv": {
@@ -134,13 +134,13 @@
       "feimao_snap": {
         "label": "肥猫（Lightconer 快照，域名已停售）",
         "sites_in": 40,
-        "sites_kept": 16,
+        "sites_kept": 0,
         "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a3"
       },
       "fm_gif": {
         "label": "肥猫（备线）",
         "sites_in": 40,
-        "sites_kept": 13,
+        "sites_kept": 18,
         "spider": "https://img2.gelonghui.com/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.pn"
       },
       "qist0821": {
@@ -158,7 +158,7 @@
       "qist0826": {
         "label": "qist 0826（饭太硬）",
         "sites_in": 54,
-        "sites_kept": 2,
+        "sites_kept": 1,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d"
       },
       "qist0827": {
@@ -170,7 +170,7 @@
       "qistjs": {
         "label": "qist js（PG+drpy）",
         "sites_in": 298,
-        "sites_kept": 172,
+        "sites_kept": 171,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c"
       },
       "qistxyq": {
@@ -194,7 +194,7 @@
       "jiang18": {
         "label": "江江18",
         "sites_in": 43,
-        "sites_kept": 43,
+        "sites_kept": 41,
         "spider": "https://gh-proxy.com/https://github.com/bizhangjie/CatVodSpider/blob/main/jar/cu"
       },
       "sub002": {
@@ -206,7 +206,7 @@
       "sub007": {
         "label": "sub007",
         "sites_in": 51,
-        "sites_kept": 13,
+        "sites_kept": 12,
         "spider": "http://cnmb.cc.cd/jk/fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
       },
       "sub010": {
@@ -218,7 +218,7 @@
       "sub011": {
         "label": "sub011",
         "sites_in": 24,
-        "sites_kept": 23,
+        "sites_kept": 2,
         "spider": "http://home.jundie.top:81/jar/top98_1.jar"
       },
       "sub020": {
@@ -260,13 +260,13 @@
       "sub032": {
         "label": "sub032",
         "sites_in": 77,
-        "sites_kept": 29,
+        "sites_kept": 30,
         "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/BH1116.jar"
       },
       "sub035": {
         "label": "sub035",
         "sites_in": 51,
-        "sites_kept": 15,
+        "sites_kept": 14,
         "spider": "http://yydsok.com/api/bendi/yydsapi/ff/lib/spider.jar;md5;9bf5c1f491cc633ff14e1f"
       },
       "sub036": {
@@ -290,13 +290,13 @@
       "sub041": {
         "label": "sub041",
         "sites_in": 198,
-        "sites_kept": 186,
+        "sites_kept": 185,
         "spider": "http://xn--oev29b.top/files/18.jar"
       },
       "sub042": {
         "label": "sub042",
         "sites_in": 40,
-        "sites_kept": 1,
+        "sites_kept": 10,
         "spider": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.pn"
       },
       "sub045": {
@@ -308,7 +308,7 @@
       "sub046": {
         "label": "sub046",
         "sites_in": 100,
-        "sites_kept": 53,
+        "sites_kept": 52,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub047": {
@@ -320,7 +320,7 @@
       "sub048": {
         "label": "sub048",
         "sites_in": 175,
-        "sites_kept": 101,
+        "sites_kept": 95,
         "spider": "https://15487.kstore.space/jar/18.jar"
       },
       "sub049": {
@@ -350,13 +350,13 @@
       "sub053": {
         "label": "sub053",
         "sites_in": 28,
-        "sites_kept": 10,
+        "sites_kept": 9,
         "spider": ""
       },
       "sub054": {
         "label": "sub054",
         "sites_in": 36,
-        "sites_kept": 10,
+        "sites_kept": 9,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub055": {
@@ -398,7 +398,7 @@
       "sub064": {
         "label": "sub064",
         "sites_in": 10,
-        "sites_kept": 6,
+        "sites_kept": 7,
         "spider": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
       },
       "sub066": {
@@ -428,7 +428,7 @@
       "sub076": {
         "label": "sub076",
         "sites_in": 48,
-        "sites_kept": 12,
+        "sites_kept": 11,
         "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d49226"
       },
       "sub079": {
@@ -452,7 +452,7 @@
       "sub084": {
         "label": "sub084",
         "sites_in": 77,
-        "sites_kept": 1,
+        "sites_kept": 0,
         "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
       },
       "sub086": {
@@ -470,7 +470,7 @@
       "sub088": {
         "label": "sub088",
         "sites_in": 93,
-        "sites_kept": 27,
+        "sites_kept": 28,
         "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f"
       },
       "sub089": {
@@ -482,7 +482,7 @@
       "sub093": {
         "label": "sub093",
         "sites_in": 151,
-        "sites_kept": 134,
+        "sites_kept": 133,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/HeChengChaXiu."
       },
       "sub094": {
@@ -512,7 +512,7 @@
       "sub112": {
         "label": "sub112",
         "sites_in": 105,
-        "sites_kept": 68,
+        "sites_kept": 66,
         "spider": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/qrh/mew/spider__1_.jar;md5"
       },
       "sub113": {
@@ -530,13 +530,13 @@
       "sub119": {
         "label": "sub119",
         "sites_in": 63,
-        "sites_kept": 29,
+        "sites_kept": 28,
         "spider": "https://jihulab.com/jyqhkd1/kai/-/raw/main/PandaQ240225.jar;md5;16f19e614cdf7c9f"
       },
       "sub121": {
         "label": "sub121",
         "sites_in": 30,
-        "sites_kept": 26,
+        "sites_kept": 25,
         "spider": "https://jihulab.com/ymz1231/jar/-/raw/main/Bili.jar"
       },
       "sub122": {
@@ -602,7 +602,7 @@
       "sub144": {
         "label": "sub144",
         "sites_in": 46,
-        "sites_kept": 1,
+        "sites_kept": 0,
         "spider": "https://ztha.top/TVBox/ztha.jar;md5;097bfd1388b83204958633f23eb6e4cb"
       },
       "sub151": {
@@ -640,18 +640,20 @@
       "网盘": 846,
       "音乐": 207,
       "听书": 266,
-      "课堂": 222
+      "课堂": 239,
+      "博彩": 7
     },
     "key_renamed": 9,
     "cred_stripped_keys": [
       "xiaoma:秒看:token",
       "sub130:秒看:token"
     ],
+    "dead_jar_dropped": 46,
     "lives": 282,
     "parses": 216,
     "rules": 112,
     "flags": 96,
-    "output_bytes": 1894193,
+    "output_bytes": 1868981,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
