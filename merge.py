@@ -49,6 +49,41 @@ AOWU_SPIDER = ("https://nos.netease.com/vcloud-statistic/nrtc/"
                "06f4e557-b688-4920-86c3-6f1475e9a7c2.png"
                ";md5;e76d6f0107817970b9f57d7d29129efe")
 
+# 顶层 logo：用户指定的 JX 图标（2026-11-22），覆盖各接口自带的 logo
+JX_LOGO = "https://meow.668yun.top/c/1jcTL3IwhXKy/JX.png"
+
+# 用户要求去掉的四类站点（2026-11-22）：课堂 / 听书 / 音乐 / 网盘
+# 按站点名过滤；网盘类额外按 spider 类名过滤（玩偶/木偶/花卷等名字里不带网盘字样）。
+# 注意：名字含“盘”即判网盘，但“光盘”（CD/DVD）除外；api 过滤只针对类名（csp_xxx），
+# URL 型 api 不过滤（避免 IP 地址 115.x.x.x、hash 里的 115 等误伤）。
+EXCLUDE_NAME = {
+    '课堂': re.compile(r'课堂|课程|教学|学习|教育|讲座|培训|网课|公开课|学校|考试|考研|考证|外语|英语'),
+    '听书': re.compile(r'听书|有声|评书|播客|电台|FM|相声|戏曲|说书|音频'),
+    '音乐': re.compile(r'音乐|MV|歌曲|演唱会|KTV|DJ|戏曲|儿歌'),
+    '网盘': re.compile(r'盘|夸克|阿里盘|115|189|百度盘|UC盘|迅雷盘|PikPak|天翼|移动盘|123盘'),
+}
+# 网盘类 spider 类名特征（不含 Panda——那是短剧站；不含 Market——那是应用商店）
+EXCLUDE_API_NETDISK = re.compile(
+    r'wogg|wobg|mogg|panhj|panwebshare|panwebqu|fishcloud|fishps|'
+    r'pansou|pansearch|panali|panbaidu|panquark|panuc|panta|panyq|'
+    r'pancms|panconfig|mypan|myquark|mybaidu|aliyunpan', re.I)
+
+
+def exclude_reason(site):
+    """返回站点应被去掉的类别（课堂/听书/音乐/网盘），保留则返回 None。"""
+    name = str(site.get('name', ''))
+    check_name = name.replace('光盘', '')  # 光盘不是网盘
+    if EXCLUDE_NAME['网盘'].search(check_name):
+        return '网盘'
+    for cat in ('课堂', '听书', '音乐'):
+        if EXCLUDE_NAME[cat].search(name):
+            return cat
+    api = str(site.get('api', ''))
+    if api and '://' not in api and not api.startswith('http'):
+        if EXCLUDE_API_NETDISK.search(api):
+            return '网盘'
+    return None
+
 UA_OK = 'okhttp/3.12.0'
 UA_PC = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
          '(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36')
@@ -325,6 +360,12 @@ def merge_configs(configs):
                 continue
             n_in += 1
             stats['sites_in'] += 1
+            # 分类过滤：去掉课堂/听书/音乐/网盘类站点
+            exc = exclude_reason(site)
+            if exc:
+                stats.setdefault('excluded', {}).setdefault(exc, 0)
+                stats['excluded'][exc] += 1
+                continue
             # 去重 key：(type, api, ext)——api 相同但 ext 不同是不同站
             dk = (site.get('type'),
                   str(site.get('api', '')),
@@ -419,8 +460,7 @@ def merge_configs(configs):
     stats['sites_out'] = len(merged_sites)
 
     merged = {'spider': AOWU_SPIDER}
-    if top_single.get('logo'):
-        merged['logo'] = top_single['logo']
+    merged['logo'] = JX_LOGO  # 固定使用用户指定的 JX 图标
     if top_single.get('danmaku'):
         merged['danmaku'] = top_single['danmaku']
     if top_single.get('wallpaper'):
@@ -606,6 +646,9 @@ def main():
           f"（{stats['dup_configs']} 个重复内容）")
     print(f"站点: {stats['sites_in']} → {stats['sites_out']} "
           f"（去重 {stats['sites_deduped']}）")
+    if stats.get('excluded'):
+        ex = '、'.join(f"{k}{v}" for k, v in stats['excluded'].items())
+        print(f"分类过滤去掉: {ex}，共 {sum(stats['excluded'].values())} 个")
     print(f"lives: {stats['lives']}，parses: {stats['parses']}，"
           f"rules: {stats['rules']}，flags: {stats['flags']}")
     print(f"jar: 保留站点自有 {stats['jar_kept']}，补接口 spider {stats['jar_added']}；"
