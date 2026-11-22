@@ -2,12 +2,12 @@
   "stats": {
     "inputs": 116,
     "sites_in": 7848,
-    "sites_out": 3445,
+    "sites_out": 3441,
     "sites_deduped": 2501,
     "dup_configs": 15,
     "api_resolved": 570,
     "jar_kept": 366,
-    "jar_added": 1797,
+    "jar_added": 1793,
     "ext_resolved": 885,
     "cred_stripped": 2,
     "per_source": {
@@ -98,7 +98,7 @@
       "easytv": {
         "label": "EasyTV",
         "sites_in": 135,
-        "sites_kept": 43,
+        "sites_kept": 39,
         "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;"
       },
       "yi": {
@@ -638,7 +638,7 @@
     "unique_configs": 101,
     "excluded": {
       "网盘": 790,
-      "用户点名": 140,
+      "用户点名": 144,
       "体育": 211,
       "音乐": 203,
       "听书": 266,
@@ -655,7 +655,7 @@
     "parses": 216,
     "rules": 112,
     "flags": 96,
-    "output_bytes": 1749790,
+    "output_bytes": 1748248,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
