@@ -104,9 +104,24 @@ def exclude_reason(site, cid=''):
     if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP:
         return None
     name = str(site.get('name', ''))
-    # 体育：除白名单 3 个外全部去掉
-    if '体育' in name:
+    raw_key = str(site.get('key', ''))
+    # 体育：除白名单 3 个外全部去掉。只判“体育”会漏网：看球/310直播/球迷/
+    # 企鹅体育等名字里没有“体育”二字，key 里才有（2026-11-22 实测漏了 35 个）；
+    # 还有名字干净但 key 含体育词的（如三一直播，key=js_310直播），key 也要判。
+    if '体育' in name or '体育' in raw_key:
         return '体育'
+    if re.search(r'球赛|看球|球迷|310|360吧|球类|球星|说球|Jrs|926|Jrkan', name + ' ' + raw_key, re.IGNORECASE):
+        return '体育'
+    # 用户截图点名去掉的站（2026-11-23）：💓4K 系列（王二小，全部拉不到数据）、
+    # 💎4K 系列（嗷呜）、推送┃播放、【免费分享】
+    if '💓' in name and '4K' in name:
+        return '用户点名'
+    if re.search(r'💎.*4\s?K', name):
+        return '用户点名'
+    if '免费分享' in name:
+        return '用户点名'
+    if full_key == 'aowu_push_agent':
+        return '用户点名'
     # 博彩：去掉开头的 emoji/符号和分类前缀后，以博彩品牌/术语开头
     core = re.sub(r'^[^\w\u4e00-\u9fff]+', '', name)
     core = re.sub(r'^(?:影视|动漫|体育|综艺|纪录|少儿|戏曲|直播|电影|电视剧|短剧|音乐|新闻|资讯|成人)\s*[|｜┃]\s*', '', core)
