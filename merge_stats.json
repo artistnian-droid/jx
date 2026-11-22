@@ -2,31 +2,31 @@
   "stats": {
     "inputs": 116,
     "sites_in": 7848,
-    "sites_out": 3507,
-    "sites_deduped": 2600,
+    "sites_out": 3448,
+    "sites_deduped": 2536,
     "dup_configs": 15,
-    "api_resolved": 587,
-    "jar_kept": 366,
-    "jar_added": 1834,
-    "ext_resolved": 901,
+    "api_resolved": 570,
+    "jar_kept": 365,
+    "jar_added": 1801,
+    "ext_resolved": 885,
     "cred_stripped": 2,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
         "sites_in": 83,
-        "sites_kept": 62,
+        "sites_kept": 55,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "aowu_mirror": {
         "label": "嗷呜（镜像）",
         "sites_in": 83,
-        "sites_kept": 0,
+        "sites_kept": 1,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "wex": {
         "label": "王二小",
         "sites_in": 100,
-        "sites_kept": 63,
+        "sites_kept": 48,
         "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a."
       },
       "moyu": {
@@ -38,7 +38,7 @@
       "xiaosa_mirror": {
         "label": "潇洒（镜像）",
         "sites_in": 116,
-        "sites_kept": 66,
+        "sites_kept": 65,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar"
       },
       "pg": {
@@ -50,7 +50,7 @@
       "fty1": {
         "label": "饭太硬",
         "sites_in": 50,
-        "sites_kept": 34,
+        "sites_kept": 32,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       },
       "fty_qist": {
@@ -62,13 +62,13 @@
       "xhz": {
         "label": "小盒子4K",
         "sites_in": 53,
-        "sites_kept": 44,
+        "sites_kept": 43,
         "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1"
       },
       "xhz_xhz": {
         "label": "小盒子单仓",
         "sites_in": 54,
-        "sites_kept": 37,
+        "sites_kept": 35,
         "spider": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
       },
       "ouge": {
@@ -80,19 +80,19 @@
       "ouge_iptv": {
         "label": "欧歌（iptv365）",
         "sites_in": 106,
-        "sites_kept": 70,
+        "sites_kept": 68,
         "spider": "https://play.iptv365.org/欧歌/spider.jar"
       },
       "laoliubei": {
         "label": "老刘备",
         "sites_in": 234,
-        "sites_kept": 180,
+        "sites_kept": 175,
         "spider": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
       },
       "xiaoma": {
         "label": "小马",
         "sites_in": 62,
-        "sites_kept": 32,
+        "sites_kept": 31,
         "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
       },
       "easytv": {
@@ -116,7 +116,7 @@
       "ayrjk": {
         "label": "ayrjk",
         "sites_in": 187,
-        "sites_kept": 92,
+        "sites_kept": 91,
         "spider": "https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/jar/all/anyi_all.jpg;md5;b"
       },
       "jike": {
@@ -146,13 +146,13 @@
       "qist0821": {
         "label": "qist 0821（饭太硬+扩展）",
         "sites_in": 86,
-        "sites_kept": 49,
+        "sites_kept": 47,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d"
       },
       "qist0825": {
         "label": "qist 0825（PG）",
         "sites_in": 135,
-        "sites_kept": 87,
+        "sites_kept": 84,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c"
       },
       "qist0826": {
@@ -206,7 +206,7 @@
       "sub007": {
         "label": "sub007",
         "sites_in": 51,
-        "sites_kept": 12,
+        "sites_kept": 11,
         "spider": "http://cnmb.cc.cd/jk/fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
       },
       "sub010": {
@@ -224,7 +224,7 @@
       "sub020": {
         "label": "sub020",
         "sites_in": 16,
-        "sites_kept": 10,
+        "sites_kept": 7,
         "spider": "http://mzrjk.top/唱戏/bhxq.jar"
       },
       "sub022": {
@@ -308,7 +308,7 @@
       "sub046": {
         "label": "sub046",
         "sites_in": 100,
-        "sites_kept": 50,
+        "sites_kept": 47,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub047": {
@@ -362,7 +362,7 @@
       "sub055": {
         "label": "sub055",
         "sites_in": 93,
-        "sites_kept": 34,
+        "sites_kept": 33,
         "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/h"
       },
       "sub056": {
@@ -374,7 +374,7 @@
       "sub060": {
         "label": "sub060",
         "sites_in": 66,
-        "sites_kept": 28,
+        "sites_kept": 25,
         "spider": "https://7337.kstore.vip/xw/kjtw.jar"
       },
       "sub061": {
@@ -464,7 +464,7 @@
       "sub087": {
         "label": "sub087",
         "sites_in": 246,
-        "sites_kept": 169,
+        "sites_kept": 164,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main"
       },
       "sub088": {
@@ -524,7 +524,7 @@
       "sub118": {
         "label": "sub118",
         "sites_in": 28,
-        "sites_kept": 15,
+        "sites_kept": 14,
         "spider": "https://jihulab.com/jyqhkd/kd/-/raw/main/fan.txt;md5;5543dae038ce2248e7759e9cbca"
       },
       "sub119": {
@@ -542,7 +542,7 @@
       "sub122": {
         "label": "sub122",
         "sites_in": 61,
-        "sites_kept": 31,
+        "sites_kept": 30,
         "spider": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/spider.jar;md5;06925c578c42374"
       },
       "sub123": {
@@ -637,8 +637,9 @@
     ],
     "unique_configs": 101,
     "excluded": {
-      "网盘": 846,
-      "体育": 134,
+      "网盘": 826,
+      "用户点名": 66,
+      "体育": 211,
       "音乐": 203,
       "听书": 266,
       "课堂": 239,
@@ -654,7 +655,7 @@
     "parses": 216,
     "rules": 112,
     "flags": 96,
-    "output_bytes": 1848549,
+    "output_bytes": 1823807,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
