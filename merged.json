@@ -609,17 +609,6 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
-            "name": "🏆88┃体育",
-            "key": "aowu_BbkqLive",
-            "type": 3,
-            "api": "csp_BbkqLiveAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "BbkqLive",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
             "name": "🏆咖啡┃体育",
             "key": "aowu_KafLive",
             "type": 3,
@@ -646,6 +635,38 @@
                 "type": "rect",
                 "ratio": 1.433
             },
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "🎸橙子┃音乐",
+            "key": "aowu_Czyy",
+            "type": 3,
+            "api": "csp_CzyyAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "🎸酷狗┃音乐",
+            "key": "aowu_KuGou",
+            "type": 3,
+            "api": "csp_KuGouAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "genre": "music",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "🎸酷听┃音乐",
+            "key": "aowu_Kuwo",
+            "type": 3,
+            "api": "csp_KuwoAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "genre": "music",
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
@@ -1220,75 +1241,6 @@
             "api": "csp_MusicAiLunHuiGuard",
             "searchable": 1,
             "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_SportAiFeiQiu",
-            "name": "🌐飞球┃体育🌐",
-            "type": 3,
-            "api": "csp_SportAiFeiQiuGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_SportAiGuaZi",
-            "name": "🌐瓜子┃体育🌐",
-            "type": 3,
-            "api": "csp_SportAiGuaZiGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_SportAiKanQiuTong",
-            "name": "🌐球通┃体育🌐",
-            "type": 3,
-            "api": "csp_SportAiKanQiuTongGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_SportAiKanqiu",
-            "name": "🌐八八┃体育🌐",
-            "type": 3,
-            "api": "csp_SportAiKanqiuGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_SportAiKaFei",
-            "name": "🌐咖啡┃体育🌐",
-            "type": 3,
-            "api": "csp_SportAiKaFeiGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_SportAiWwe",
-            "name": "🌐WWE┃体育🌐",
-            "type": 3,
-            "api": "csp_SportAiWweGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
             "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
         },
         {
@@ -2311,63 +2263,6 @@
             "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
         },
         {
-            "key": "moyu_Kanqiu",
-            "name": "⚽┆看球┆体育",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 0,
-            "filterable": 1,
-            "indexs": 0,
-            "ext": "http://www.88kanqiu.one",
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_Sir88",
-            "name": "🏟️┆超全┆体育",
-            "type": 3,
-            "api": "csp_Sir88",
-            "searchable": 0,
-            "filterable": 1,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_QiutongTY",
-            "name": "🏀┆球通┆体育",
-            "type": 3,
-            "api": "csp_QiutongTY",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 1,
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_GuaziTY",
-            "name": "🥜┆瓜子┆体育",
-            "type": 3,
-            "api": "csp_GuaziTY",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 1,
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_919TY",
-            "name": "🏅┆919┆体育",
-            "type": 3,
-            "api": "csp_C919TY",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 1,
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
             "key": "moyu_push_agent",
             "name": "💌┆推送┆接收",
             "type": 3,
@@ -3172,58 +3067,6 @@
             "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
         },
         {
-            "key": "xiaosa_mirror_飞球体育",
-            "name": "飞球 • 体育",
-            "type": 3,
-            "api": "csp_SportsFeiqiu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_瓜子体育",
-            "name": "瓜子 • 体育",
-            "type": 3,
-            "api": "csp_SportsGuazi",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_咖啡体育",
-            "name": "咖啡 • 体育",
-            "type": 3,
-            "api": "csp_SportsKafei",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_球通体育",
-            "name": "球通 • 体育",
-            "type": 3,
-            "api": "csp_SportQiutong",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
             "key": "xiaosa_mirror_童趣",
             "name": "童趣 • 儿童",
             "type": 3,
@@ -3960,6 +3803,23 @@
             "changeable": 0,
             "style": {
                 "type": "list"
+            },
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
+        },
+        {
+            "key": "fty1_MTV",
+            "name": "🎶明星┃MV",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
             },
             "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
         },
@@ -8001,17 +7861,6 @@
             "jar": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
         },
         {
-            "key": "laoliubei_py_qie",
-            "name": "🏀┃企鹅┃体育",
-            "type": 3,
-            "api": "py_qie",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://raw.liucn.cc/box/libs/qie.py",
-            "jar": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
-        },
-        {
             "key": "laoliubei_py_cctv",
             "name": "❤️┃央视┃py",
             "type": 3,
@@ -8225,17 +8074,6 @@
             "filterable": 1,
             "jar": "https://raw.liucn.cc/box/libs/jar/HCCX.jar",
             "ext": "https://raw.liucn.cc/box/libs/hccx/中医.json"
-        },
-        {
-            "key": "laoliubei_csp_Bili_TYjs",
-            "name": "🅱️┃体育┃健身",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "https://raw.liucn.cc/box/libs/jar/HCCX.jar",
-            "ext": "https://raw.liucn.cc/box/libs/hccx/体育.json"
         },
         {
             "key": "laoliubei_csp_Bili_FBqx",
@@ -9634,17 +9472,6 @@
             "name": "🧲荐片丨磁力",
             "api": "csp_JianPian",
             "type": 3,
-            "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
-        },
-        {
-            "key": "yi_球通体育",
-            "name": "⚽球通丨体育",
-            "type": 3,
-            "api": "csp_SportsQiutong",
-            "style": {
-                "type": "rect",
-                "ratio": 1.0009
-            },
             "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
         },
         {
@@ -15659,42 +15486,6 @@
             "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/哔哩影视.js"
         },
         {
-            "key": "qistjs_drpy_js_88看球",
-            "name": "体育 | 88看球[js]",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/88看球.js"
-        },
-        {
-            "key": "qistjs_drpy_js_JRKAN直播",
-            "name": "体育 | JRKAN直播[js]",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/JRKAN直播.js"
-        },
-        {
-            "key": "qistjs_drpy_js_抓饭体育",
-            "name": "体育 | 抓饭体育[js]",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/抓饭体育.js"
-        },
-        {
             "key": "qistjs_drpy_js_武享吧",
             "name": "格斗 | 武享吧[js]",
             "type": 3,
@@ -17227,19 +17018,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
-        },
-        {
-            "key": "sub002_drpy_js_310直播",
-            "name": "🏀┃体育┃直播",
-            "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "changeable": 0,
-            "gridview": 3,
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull",
-            "jar": "https://img2.gelonghui.com/library/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
         },
         {
             "key": "sub002_咕噜1080p.py",
@@ -18779,13 +18557,6 @@
             "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
         },
         {
-            "key": "sub010_体育",
-            "name": "体育|网站",
-            "type": 3,
-            "api": "csp_KanqiuCAT",
-            "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
-        },
-        {
             "key": "sub010_HBXingKong4K",
             "name": "糖豆|网站",
             "type": 3,
@@ -19010,46 +18781,6 @@
                 "type": "rect",
                 "ratio": 0.75
             },
-            "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
-        },
-        {
-            "key": "sub010_kqt",
-            "name": "看球通|体育",
-            "type": 3,
-            "api": "csp_HBSportAiCAT",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": "CxsyWQQ3KhkrCwFYD1E+WSgBWEg=",
-            "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
-        },
-        {
-            "key": "sub010_kafei",
-            "name": "咖啡|体育",
-            "type": 3,
-            "api": "csp_HBSportAiCAT",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": "CxsyWQQ3KhkrCwFYD1A+BDs4AxwEMFMM",
-            "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
-        },
-        {
-            "key": "sub010_guazi",
-            "name": "瓜子|体育",
-            "type": 3,
-            "api": "csp_HBSportAiCAT",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": "CxsyWQQ3KhkrCwFYNFEuAQQCAxwEMFMM",
-            "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
-        },
-        {
-            "key": "sub010_feiqiu",
-            "name": "飞球|体育",
-            "type": 3,
-            "api": "csp_HBSportAiCAT",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": "CxsyWQQ3KhkrCwFYNA8uGQI4BEQrD14M",
             "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
         },
         {
@@ -20764,31 +20495,6 @@
             "filterable": 1,
             "ext": "https://www.69mj.com/xgapp.php/v2/",
             "jar": "http://xhztv.top/dc/神仙/sx.jar;md5;0840fd78292d4a87dfa48dbebd3e6466"
-        },
-        {
-            "key": "sub031_py_qie",
-            "name": "体育 | 企鹅体育",
-            "type": 3,
-            "api": "py_qie",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "http://xhztv.top/dc/神仙/lib/qty.py",
-            "jar": "http://xhztv.top/dc/神仙/sx.jar;md5;0840fd78292d4a87dfa48dbebd3e6466"
-        },
-        {
-            "key": "sub031_310看球",
-            "name": "体育 | 310看球",
-            "type": 3,
-            "api": "http://xhztv.top/dc/神仙/lib/drpy.min.js",
-            "ext": "http://xhztv.top/dc/神仙/lib/310直播.js"
-        },
-        {
-            "key": "sub031_JRKAN直播",
-            "name": "体育 | JRKAN直播",
-            "type": 3,
-            "api": "http://xhztv.top/dc/神仙/lib/drpy.min.js",
-            "ext": "http://xhztv.top/dc/神仙/lib/JRKAN直播.js"
         },
         {
             "key": "sub031_网络直播",
@@ -24367,29 +24073,6 @@
             "filterable": 1
         },
         {
-            "key": "sub046_py_咖啡直播",
-            "name": "星星⚽｜咖啡体育",
-            "type": 3,
-            "api": "https://15487.kstore.space/%E5%92%96%E5%95%A1%E7%9B%B4%E6%92%AD.py",
-            "style": {
-                "type": "list"
-            },
-            "quickSearch": 0,
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "sub046_cat蜘蛛体育",
-            "name": "星星⚽｜蜘蛛体育",
-            "type": 3,
-            "api": "https://15487.kstore.space/%E8%9C%98%E8%9B%9B%E4%BD%93%E8%82%B2.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-        {
             "key": "sub046_310直播",
             "name": "星星⚽┃310看球",
             "type": 3,
@@ -24934,67 +24617,6 @@
                 "斗鱼",
                 "网易"
             ]
-        },
-        {
-            "key": "sub047_919JAR",
-            "name": "七星·就要体育",
-            "type": 3,
-            "api": "csp_919TY",
-            "jar": "https://15487.kstore.space/jar/app.jar",
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "playerType": 2,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "sub047_企鹅PY",
-            "name": "七星·企鹅体育",
-            "type": 3,
-            "api": "https://15487.kstore.space/py/%E4%BC%81%E9%B9%85%E4%BD%93%E8%82%B2.py",
-            "jar": "https://15487.kstore.space/jar/app.jar",
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "playerType": 2,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "sub047_咖啡JAR",
-            "name": "七星·咖啡体育",
-            "type": 3,
-            "api": "csp_SportKaFeiGuard",
-            "jar": "https://15487.kstore.space/jar/wex.jar",
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "playerType": 2,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "sub047_WWEJAR",
-            "name": "七星·摔角体育",
-            "type": 3,
-            "api": "csp_SportWweGuard",
-            "jar": "https://15487.kstore.space/jar/wex.jar",
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "playerType": 2,
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "sub047_哔哩JAR·C",
@@ -26344,20 +25966,6 @@
             "filterable": 1
         },
         {
-            "key": "sub050_企鹅xp",
-            "name": "酷喵🐱体育",
-            "type": 3,
-            "api": "csp_XPath",
-            "jar": "https://11145.kstore.space/lcby/lib/fan.txt",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "https://11145.kstore.space/lcby/lib/企鹅直播.json"
-        },
-        {
             "key": "sub050_聚合短剧",
             "name": "酷喵🐱聚合短剧",
             "type": 3,
@@ -26639,34 +26247,6 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            },
-            "filterable": 1,
-            "jar": "https://backup.fukit.cn/autoupload/f/pog6q/20260731/mZ8Z/aidaox-20260731-141929.jar;md5;27fc726f23bc0aeed9a868e83cee5a78"
-        },
-        {
-            "key": "sub051_摔角",
-            "name": "🏈摔角[体育]",
-            "type": 3,
-            "api": "csp_ShuaiJiao",
-            "searchable": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://backup.fukit.cn/autoupload/f/pog6q/20260731/mZ8Z/aidaox-20260731-141929.jar;md5;27fc726f23bc0aeed9a868e83cee5a78"
-        },
-        {
-            "key": "sub051_糖豆",
-            "name": "🌟糖豆[体育]",
-            "type": 3,
-            "api": "csp_TangDou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 2
             },
             "filterable": 1,
             "jar": "https://backup.fukit.cn/autoupload/f/pog6q/20260731/mZ8Z/aidaox-20260731-141929.jar;md5;27fc726f23bc0aeed9a868e83cee5a78"
@@ -31275,16 +30855,6 @@
             "jar": "https://ym.wya6.cn/tz/wyxs.php;md5;803ee0bcfa247f0cb839b914e8aea5dd"
         },
         {
-            "key": "sub073_咖啡体育",
-            "name": "咖啡｜体育",
-            "type": 3,
-            "api": "csp_KafeiTY",
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://ym.wya6.cn/tz/wyxs.php;md5;803ee0bcfa247f0cb839b914e8aea5dd"
-        },
-        {
             "key": "sub073_网络直播",
             "name": "网络｜直播",
             "type": 3,
@@ -32040,18 +31610,6 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.333
-            },
-            "jar": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
-        },
-        {
-            "key": "sub083_csp_ShuaiJiao",
-            "name": "🤺摔跤┃体育",
-            "type": 3,
-            "api": "csp_ShuaiJiao",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": {
-                "sites": ""
             },
             "jar": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
         },
@@ -36095,20 +35653,6 @@
             "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/网易公版影像.js"
         },
         {
-            "key": "sub093_drpy_js_JRKAN直播",
-            "name": "体育 | JRKAN直播 ",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy.min.js",
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/JRKAN直播.js"
-        },
-        {
-            "key": "sub093_drpy_js_310直播",
-            "name": "体育 | 310直播 ",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/310直播.js"
-        },
-        {
             "key": "sub093_drpy_js_AnFuns",
             "name": "动漫 | AnFuns ",
             "type": 3,
@@ -36208,12 +35752,6 @@
             "name": "👖聚合",
             "type": 3,
             "api": "https://jsnz.pages.dev/f/4df9fb60.py"
-        },
-        {
-            "key": "sub094_3",
-            "name": "👖体育",
-            "type": 1,
-            "api": "https://jsnzkpg.de5.net/t4.json"
         },
         {
             "key": "sub094_4",
@@ -36632,48 +36170,6 @@
                 "ratio": 1.333
             },
             "ext": {
-                "danmu_api": "https://dm.211.li/nonay"
-            },
-            "jar": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NTA3NDEyNV83ZDVkNWQyMC04Y2I3LTQ5NzgtYTAzNS1kOTk4NDYzYWJmYjA%3D;md5;ebe3af9c9f2cdcd4756cbb9036a57823"
-        },
-        {
-            "key": "sub096_瓜子体育",
-            "name": "⚽瓜子┃体育",
-            "type": 3,
-            "api": "csp_GuaziTY",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "timeout": 12,
-            "changeable": 0,
-            "order_num": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "ext": {
-                "danmu": true,
-                "danmu_api": "https://dm.211.li/nonay"
-            },
-            "jar": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NTA3NDEyNV83ZDVkNWQyMC04Y2I3LTQ5NzgtYTAzNS1kOTk4NDYzYWJmYjA%3D;md5;ebe3af9c9f2cdcd4756cbb9036a57823"
-        },
-        {
-            "key": "sub096_Kanqiu",
-            "name": "⚽叭叭┃体育",
-            "type": 3,
-            "api": "csp_KanQiu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "timeout": 12,
-            "changeable": 0,
-            "order_num": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "ext": {
-                "danmu": true,
                 "danmu_api": "https://dm.211.li/nonay"
             },
             "jar": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NTA3NDEyNV83ZDVkNWQyMC04Y2I3LTQ5NzgtYTAzNS1kOTk4NDYzYWJmYjA%3D;md5;ebe3af9c9f2cdcd4756cbb9036a57823"
@@ -39977,54 +39473,6 @@
             "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/哔哩直播.js"
         },
         {
-            "key": "sub113_drpy_js_310直播",
-            "name": "💥310直播(体育)",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/310直播.js"
-        },
-        {
-            "key": "sub113_drpy_js_88看球",
-            "name": "💥88看球(体育)",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/88看球.js"
-        },
-        {
-            "key": "sub113_drpy_js_JRKAN直播",
-            "name": "💥JRKAN直播(体育)",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/JRKAN直播.js"
-        },
-        {
-            "key": "sub113_drpy_js_抓饭体育",
-            "name": "💥抓饭体育(体育)",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/抓饭体育.js"
-        },
-        {
             "key": "sub113_我的哔哩(js)",
             "name": "💥哔哩合集",
             "type": 3,
@@ -40594,18 +40042,6 @@
                 "type": "rect",
                 "ratio": 1.68
             }
-        },
-        {
-            "key": "sub119_drpy_js_310直播",
-            "name": "🏀┃体育┃直播",
-            "type": 3,
-            "api": "https://jihulab.com/jyqhkd1/kai/-/raw/main/lib/drpy2.min.js",
-            "changeable": 0,
-            "gridview": 3,
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://jihulab.com/jyqhkd1/kai/-/raw/main/lib/310直播.js"
         },
         {
             "key": "sub119_drpy_哔哩",
