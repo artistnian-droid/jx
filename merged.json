@@ -233,68 +233,6 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
-            "name": "💎Sed┃4 K",
-            "key": "aowu_SeedHub",
-            "type": 3,
-            "api": "csp_SeedHubAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "SeedHub",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "💎观影┃4 K",
-            "key": "aowu_Gying",
-            "type": 3,
-            "api": "csp_GyingAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "💎七味┃4 K",
-            "key": "aowu_Qiwei",
-            "type": 3,
-            "api": "csp_QiweiAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "Qiwei",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "💎逸动┃4 K",
-            "key": "aowu_SheQuyd",
-            "type": 3,
-            "api": "csp_SheQuydAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "💎123┃4 K",
-            "key": "aowu_SheQu123",
-            "type": 3,
-            "api": "csp_SheQu123Amns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "💎蜗牛┃4 K",
-            "key": "aowu_SheQuwon",
-            "type": 3,
-            "api": "csp_SheQuwonAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
             "name": "🐱嗷嗚┃动漫",
             "key": "aowu_DMlmm",
             "type": 3,
@@ -671,7 +609,7 @@
         },
         {
             "name": "🛴推送┃播放",
-            "key": "aowu_push_agent",
+            "key": "aowu_mirror_push_agent",
             "type": 3,
             "api": "csp_PushAmns",
             "searchable": 0,
@@ -680,8 +618,8 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
-            "key": "wex_Douban",
-            "name": "🐮【免费分享】🐮",
+            "key": "wex_Doubanaaaa",
+            "name": "🐮【更新日期:20261121】🐮",
             "type": 3,
             "api": "csp_NewDouBanGuard",
             "indexs": 1,
@@ -689,136 +627,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_花卷",
-            "name": "💓花卷┃4K💓‍",
-            "type": 3,
-            "api": "csp_AiNewHuaJuanGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewGuanYing",
-            "name": "💓‍观影┃4K💓‍",
-            "type": 3,
-            "api": "csp_AiNewGuanYingGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiQwMkv",
-            "name": "💓‍七味┃4K💓‍",
-            "type": 3,
-            "api": "csp_AiQwMkvGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewHuBan",
-            "name": "💓虎斑┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewHuBanGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewMuOu",
-            "name": "💓木偶┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewMuOuGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewDuoDuo",
-            "name": "💓多多┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewDuoDuoGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewKuaiYing",
-            "name": "💓快影┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewKuaiYingGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewLaBi",
-            "name": "💓蜡笔┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewLaBiGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewShanDian",
-            "name": "💓闪电┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewShanDianGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewJuTou",
-            "name": "💓剧透┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewJuTouGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewLibvio",
-            "name": "💓立播┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewLibvioGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_蜗牛",
-            "name": "💓‍蜗牛┃4K💓‍",
-            "type": 3,
-            "api": "csp_AiNewWoNiu4KGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_AiNewYiDong4K",
-            "name": "💓逸动┃4K💓",
-            "type": 3,
-            "api": "csp_AiNewYiDong4KGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
             "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
         },
         {
@@ -1241,29 +1049,6 @@
             "api": "csp_MusicAiLunHuiGuard",
             "searchable": 1,
             "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_Emby",
-            "name": "💓Emby┃4K💓",
-            "type": 3,
-            "api": "csp_EmbyGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
-            "key": "wex_Emby001",
-            "name": "💓Emby001┃4K💓",
-            "type": 3,
-            "api": "csp_EmbyDiyGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "embynumber": 0
-            },
             "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
         },
         {
@@ -3054,19 +2839,6 @@
             "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
         },
         {
-            "key": "xiaosa_mirror_88看球",
-            "name": "88 • 看球",
-            "type": 3,
-            "api": "csp_Sports88",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
             "key": "xiaosa_mirror_童趣",
             "name": "童趣 • 儿童",
             "type": 3,
@@ -3768,36 +3540,10 @@
             "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
         },
         {
-            "key": "fty1_看球",
-            "name": "⚽八八┃看球",
-            "type": 3,
-            "api": "csp_KanqiuGuard",
-            "timeout": 10,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
-        },
-        {
             "key": "fty1_多多",
             "name": "🏀多多┃回放",
             "type": 3,
             "api": "csp_DoubaoGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
-        },
-        {
-            "key": "fty1_吃瓜",
-            "name": "🏐吃瓜┃看球",
-            "type": 3,
-            "api": "csp_LiveGzGuard",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
@@ -4385,18 +4131,6 @@
             ]
         },
         {
-            "key": "xhz_drpy_js_310直播",
-            "name": "⚽310直播",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/js/310直播.js"
-        },
-        {
             "key": "xhz_短剧one",
             "name": "🥰┃短剧┃视频",
             "type": 3,
@@ -4677,17 +4411,6 @@
             "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
         },
         {
-            "key": "xhz_xhz_csp_Kanqiu",
-            "name": "⚽88看球",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "jar": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
-        },
-        {
             "key": "xhz_xhz_YiSo",
             "name": "🆎易搜",
             "type": 3,
@@ -4843,16 +4566,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "http://xhztv.top/xhz/js/斗鱼直播.js"
-        },
-        {
-            "key": "xhz_xhz_drpy_js_JRKAN直播",
-            "name": "JRKAN直播",
-            "type": 3,
-            "api": "http://xhztv.top/xhz/js/lib/drpy.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://xhztv.top/xhz/js/JRKAN直播.js"
         },
         {
             "key": "xhz_xhz_短视频",
@@ -5893,42 +5606,6 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/美食.json"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "jar": "https://play.iptv365.org/欧歌/spider.jar"
-        },
-        {
-            "key": "ouge_iptv_球类",
-            "name": "⚽️球类┃合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/球类合集.json"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "jar": "https://play.iptv365.org/欧歌/spider.jar"
-        },
-        {
-            "key": "ouge_iptv_️球星",
-            "name": "⚽️球星┃合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/球星合集.json"
             },
             "style": {
                 "type": "rect",
@@ -7846,21 +7523,6 @@
             "ext": "https://raw.liucn.cc/box/libs/hccx/哔哩经典.json"
         },
         {
-            "key": "laoliubei_csp_XPath_企鹅体育",
-            "name": "🐧企鹅┃直播",
-            "type": 3,
-            "api": "csp_XPath",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "https://raw.liucn.cc/box/libs/企鹅直播.json",
-            "jar": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
-        },
-        {
             "key": "laoliubei_py_cctv",
             "name": "❤️┃央视┃py",
             "type": 3,
@@ -7870,51 +7532,6 @@
             "filterable": 1,
             "ext": "https://raw.liucn.cc/box/libs/cctv.py",
             "jar": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
-        },
-        {
-            "key": "laoliubei_88js",
-            "name": "⚽ 88┃看球",
-            "playerType": 1,
-            "type": 3,
-            "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
-            "ext": "https://raw.liucn.cc/box/libs/js/88看球.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "laoliubei_csp_qiumi",
-            "name": "⚽ Jrs┃球迷",
-            "playerType": 1,
-            "type": 3,
-            "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
-            "ext": "https://raw.liucn.cc/box/libs/js/jrk.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "laoliubei_csp_310直播",
-            "name": "⚽310┃看球",
-            "playerType": 1,
-            "type": 3,
-            "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
-            "ext": "https://raw.liucn.cc/box/libs/js/310直播.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "laoliubei_js_武享吧",
@@ -8074,17 +7691,6 @@
             "filterable": 1,
             "jar": "https://raw.liucn.cc/box/libs/jar/HCCX.jar",
             "ext": "https://raw.liucn.cc/box/libs/hccx/中医.json"
-        },
-        {
-            "key": "laoliubei_csp_Bili_FBqx",
-            "name": "🅱️┃球队┃球星",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "https://raw.liucn.cc/box/libs/jar/HCCX.jar",
-            "ext": "https://raw.liucn.cc/box/libs/hccx/球队.json"
         },
         {
             "key": "laoliubei_csp_Bili_Meinvw",
@@ -8612,19 +8218,6 @@
             "changeable": 0,
             "ext": {
                 "json": "https://szyyds.cn/tv/jx/bilibiliheji.txt"
-            },
-            "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
-        },
-        {
-            "key": "xiaoma_88",
-            "name": "⚽八八┃看球",
-            "type": 3,
-            "api": "csp_Sir88Guard",
-            "timeout": 10,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
             },
             "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
         },
@@ -12414,17 +12007,6 @@
             "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
         },
         {
-            "key": "ayrjk_cat体育聚合",
-            "name": "⚽聚合｜球赛",
-            "type": 3,
-            "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/体育聚合.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-        {
             "key": "ayrjk_Cat_聚合儿歌",
             "name": "👶聚合丨儿童",
             "type": 3,
@@ -13211,33 +12793,6 @@
             "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
         },
         {
-            "key": "qist0821_926",
-            "name": "⚽926┃看球",
-            "type": 3,
-            "api": "csp_kanqiu926Guard",
-            "timeout": 10,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
-        },
-        {
-            "key": "qist0821_Jrsjs",
-            "name": "⚽Jrs┃球迷",
-            "type": 3,
-            "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
-            "style": {
-                "type": "list"
-            },
-            "timeout": 10,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "qist0821_虎牙直播js",
             "name": "🐯虎牙┃直播",
             "type": 3,
@@ -13731,45 +13286,6 @@
             "filterable": 1,
             "timeout": 60,
             "ext": "null$$$null$$$1",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
-        },
-        {
-            "key": "qist0825_88js",
-            "name": "88看球",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy.min.js",
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/88看球.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "qist0825_drpy_js_310直播",
-            "name": "310直播",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/310直播.js"
-        },
-        {
-            "key": "qist0825_csp_XPath_企鹅体育",
-            "name": "企鹅",
-            "type": 3,
-            "api": "csp_XPath",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/json/企鹅直播.json",
             "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
         },
         {
@@ -17486,20 +17002,6 @@
             "jar": "http://cnmb.cc.cd/jk/fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
         },
         {
-            "key": "sub007_超全",
-            "name": "⚽小脑斧┃超全┃看球",
-            "type": 3,
-            "api": "csp_ZbzGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q==",
-            "jar": "http://cnmb.cc.cd/jk/fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
-        },
-        {
             "key": "sub007_虎牙js",
             "name": "🐯小脑斧┃虎牙┃直播",
             "type": 3,
@@ -18935,45 +18437,6 @@
             "filterable": 1,
             "ext": "http://mzrjk.top/唱戏/json/影视解说.json",
             "jar": "http://mzrjk.top/唱戏/bhxq.jar"
-        },
-        {
-            "key": "sub020_88js",
-            "name": "88看球",
-            "type": 3,
-            "api": "http://mzrjk.top/唱戏/api/drpy2.min.js",
-            "ext": "http://mzrjk.top/唱戏/js/88看球.js",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "sub020_Jrsjs",
-            "name": "Jrs球迷",
-            "type": 3,
-            "api": "http://mzrjk.top/唱戏/api/drpy2.min.js",
-            "ext": "http://mzrjk.top/唱戏/js/jrk.js",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "sub020_js_310直播",
-            "name": "三一直播",
-            "type": 3,
-            "api": "http://mzrjk.top/唱戏/api/drpy2.min.js",
-            "searchable": 1,
-            "playerType": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://mzrjk.top/唱戏/js/310.js"
         },
         {
             "key": "sub020_虎牙直播",
@@ -24073,39 +23536,6 @@
             "filterable": 1
         },
         {
-            "key": "sub046_310直播",
-            "name": "星星⚽┃310看球",
-            "type": 3,
-            "api": "https://15487.kstore.space/js/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://15487.kstore.space/lib/310直播.js"
-        },
-        {
-            "key": "sub046_360吧",
-            "name": "星星⚽┃360看球",
-            "type": 3,
-            "api": "https://15487.kstore.space/js/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://15487.kstore.space/lib/360吧.js"
-        },
-        {
-            "key": "sub046_Jrsjs",
-            "name": "星星⚽┃jrs球迷",
-            "type": 3,
-            "api": "https://15487.kstore.space/js/drpy2.min.js",
-            "ext": "https://15487.kstore.space/js/jrk.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "sub046_哔哩合集",
             "name": "🅱哔哩｜合集",
             "type": 3,
@@ -26820,22 +26250,6 @@
             "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
         },
         {
-            "key": "sub055_Jzb",
-            "name": "⚽┃说球┃回放",
-            "type": 3,
-            "api": "csp_Jzb",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "gridview": 3,
-            "ext": {
-                "sites": ""
-            },
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
-        },
-        {
             "key": "sub055_DmBus",
             "name": "🌸｜巴士｜动漫",
             "type": 3,
@@ -27943,40 +27357,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://7337.kstore.vip/xw/js/bili.json"
-        },
-        {
-            "key": "sub060_cat体育聚合",
-            "name": "⚽聚合🔹球赛",
-            "type": 3,
-            "api": "https://7337.kstore.vip/xw/js/体育聚合.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-        {
-            "key": "sub060_py_咖啡直播",
-            "name": "⚽咖啡🔹球赛",
-            "type": 3,
-            "api": "https://7337.kstore.vip/xw/py/咖啡直播.py",
-            "style": {
-                "type": "list"
-            },
-            "quickSearch": 0,
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "sub060_cat蜘蛛体育",
-            "name": "⚽蜘蛛🔹球赛",
-            "type": 3,
-            "api": "https://7337.kstore.vip/xw/js/蜘蛛体育.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
         },
         {
             "key": "sub061_葫芦",
@@ -33218,47 +32598,6 @@
             "jar": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.jar"
         },
         {
-            "key": "sub087_看球PY",
-            "name": "球球｜看球",
-            "type": 3,
-            "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/py/球球.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "sub087_88看球",
-            "name": "88｜看球",
-            "type": 3,
-            "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/88看球.js"
-        },
-        {
-            "key": "sub087_310直播",
-            "name": "310｜看球",
-            "type": 3,
-            "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/310直播.js"
-        },
-        {
-            "key": "sub087_360吧",
-            "name": "360｜看球",
-            "type": 3,
-            "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/360吧.js"
-        },
-        {
             "key": "sub087_武享吧",
             "name": "格斗｜直播",
             "type": 3,
@@ -33267,16 +32606,6 @@
                 "type": "list"
             },
             "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/武享吧.js"
-        },
-        {
-            "key": "sub087_JRKAN直播",
-            "name": "JRKAN｜直播",
-            "type": 3,
-            "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/drpy2.min.js",
-            "style": {
-                "type": "list"
-            },
-            "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/JRKAN直播.js"
         },
         {
             "key": "sub087_快手直播",
@@ -39726,16 +39055,6 @@
             }
         },
         {
-            "key": "sub118_88看球",
-            "name": "⚽88看球",
-            "type": 3,
-            "api": "https://jihulab.com/jyqhkd/kd/-/raw/main/lib/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://jihulab.com/jyqhkd/kd/-/raw/main/lib/88kanqiu.js"
-        },
-        {
             "key": "sub118_YiSo",
             "name": "☁️易搜┃4K搜",
             "type": 3,
@@ -40589,16 +39908,6 @@
             "filterable": 1,
             "ext": "https://jihulab.com/yueer/yueera/-/raw/main/9.25/vip/duanshipin.json",
             "jar": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/spider.jar;md5;06925c578c423744fb4acd1c1806d4d6"
-        },
-        {
-            "key": "sub122_88看球",
-            "name": "⚽88看球",
-            "type": 3,
-            "api": "https://jihulab.com/yueer/yueera/-/raw/main/9.25/vip/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://jihulab.com/yueer/yueera/-/raw/main/9.25/vip/88kanqiu.js"
         },
         {
             "key": "sub122_虎牙直播",
