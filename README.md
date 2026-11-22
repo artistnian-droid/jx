@@ -1,3 +1,5 @@
+<p align="center"><img src="https://meow.668yun.top/c/1jcTL3IwhXKy/JX.png" width="120" alt="JX"></p>
+
 # TVBox 接口聚合
 
 把多个 TVBox 影视接口（嗷呜、摸鱼、潇洒、王二小、PG、饭太硬、小盒子 4K……）合并成一个配置文件，靠冗余取胜：个别接口挂了，其他接口的站还能用。
