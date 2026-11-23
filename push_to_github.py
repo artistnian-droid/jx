@@ -19,7 +19,7 @@ import urllib.error
 
 API = "https://api.github.com"
 OWNER = "artistnian-droid"
-REPO = "tv"
+REPO = "jx"
 BRANCH = "main"
 WORKDIR = os.path.dirname(os.path.abspath(__file__))
 
