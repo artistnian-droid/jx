@@ -100,7 +100,9 @@ DEAD_JARS = {
 EXCLUDE_API_NETDISK = re.compile(
     r'wogg|wobg|mogg|panhj|panwebshare|panwebqu|fishcloud|fishps|'
     r'pansou|pansearch|panali|panbaidu|panquark|panuc|panta|panyq|'
-    r'pancms|panconfig|mypan|myquark|mybaidu|aliyunpan', re.I)
+    r'pancms|panconfig|mypan|myquark|mybaidu|aliyunpan|'
+    r'panxunlei|panguangya|pantianyi|pan123|pan115|pan189|panpikpak|'
+    r'myuc|myxunlei|myali|mytianyi|my123|myguangya|my115|my189|mypikpak', re.I)
 
 
 # 整条线被移除的接口（2026-11-23 用户要求；与 exclude_reason 里的接口级
@@ -167,6 +169,19 @@ def exclude_reason(site, cid=''):
         return '用户点名'
     if '舞曲' in name:
         return '用户点名'
+    # 摸鱼的 9 个 4K 站（2026-11-23 用户截图点名）：立播/指南/Seed/移动/
+    # 蜗牛/七味/观影/双星/云集（┆X┆4K 格式）。不限 cid——sub039 是摸鱼的
+    # 子源分发（标 🚀摸鱼），同名站也要去；摸鱼其余 27 个 ┆X┆4K 站不动。
+    if re.search(r'┆(立播|指南|Seed|移动|蜗牛|七味|观影|双星|云集)┆4K', name):
+        return '用户点名'
+    # 天神别腾讯/天神别芒果（2026-11-23 用户截图点名，豆包接口里 2 个
+    # 名字含天神的站；去掉后天神分组里那个重复的豆包分隔头自动消失）
+    if '天神别' in name:
+        return '用户点名'
+    # easytv 的 "X | 4K" 组（2026-11-23 用户截图点名）：种子/搬运/指南/
+    # 小丑/茉莉/爱盼/即刻/双星（8 个）。只去 easytv 的，其他接口同格式站不动。
+    if cid == 'easytv' and name.endswith('| 4K'):
+        return '用户点名'
     # 整条线移除（2026-11-23 用户要求）：酷喵（5 个子源，按 cid + 名字双重匹配）、
     # 聚玩盒子（xhz + xhz_xhz；xhz_dc 是多仓订阅，展开的子源是其他接口，不动）、
     # 老刘备（截图里 7 个站所在的接口）、PG、饭太硬（fty 家族 + qistfty）、欧歌
@@ -184,6 +199,12 @@ def exclude_reason(site, cid=''):
     if GAMBLE_START.match(core):
         return '博彩'
     check_name = name.replace('光盘', '')  # 光盘不是网盘
+    # “我的丨X”网盘站（2026-11-23 用户要求）：我的+分隔符+盘名（迅雷/光鸭/
+    # 123/夸克/阿里/百度/115/189/UC/优囍/天懿/天翼等）。这类站名字里没有“盘”
+    # 字、api 又不在网盘列表里（如 csp_PanXunlei/csp_MyAli），之前全漏网了。
+    # 我的哔哩（哔哩不是盘）不受影响。
+    if re.search(r'我的[丨｜|┃]\s*(迅雷|光鸭|123(?!\d)|夸克|阿里|百度|115(?!\d)|189(?!\d)|UC|优囍|天懿|天翼|PikPak|移动)', check_name):
+        return '网盘'
     if EXCLUDE_NAME['网盘'].search(check_name):
         return '网盘'
     for cat in ('课堂', '听书', '音乐'):
