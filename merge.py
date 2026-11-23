@@ -173,6 +173,13 @@ def exclude_reason(site, cid=''):
     if ('嗷嗚┃动漫' in name or '新帆┃动漫' in name or '贝斯┃动漫' in name
             or '冬瓜┃动漫' in name or '魔都┃动漫' in name or '哔嘀┃蓝光' in name):
         return '用户点名'
+    # 短剧只留指定的几个（2026-11-23 用户要求）：潇洒留红果/果果，天神留红果。
+    # 嗷呜和摸鱼的短剧不动。cid 同时覆盖主源和备用源（xiaosa/tianshen_proxy）。
+    if '短剧' in name:
+        if cid in ('xiaosa', 'xiaosa_mirror') and '红果' not in name and '果果' not in name:
+            return '用户点名'
+        if cid in ('tianshen', 'tianshen_proxy') and '红果' not in name:
+            return '用户点名'
     # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
     if '配置' in name or '更新' in name or '公告' in name:
         return '用户点名'
