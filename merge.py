@@ -454,9 +454,14 @@ def sanitize_site(site, prefix, base_url, spider_url, stats):
 # 酷喵整条线已于 2026-11-23 移除，故不再置顶。
 
 
+# 置顶站（2026-11-23 用户要求）：瓜子秒播放最顶部。key 为完整 key（含接口前缀）。
+PIN_TOP = {'aowu_Guazi'}
+
 def front_rank(site):
     key = str(site.get('key', ''))
     name = str(site.get('name', ''))
+    if key in PIN_TOP:
+        return -1
     if key.startswith('aowu_'):
         return 0
     if key.startswith('moyu_'):
