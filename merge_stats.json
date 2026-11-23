@@ -2,11 +2,11 @@
   "stats": {
     "inputs": 117,
     "sites_in": 7948,
-    "sites_out": 3191,
-    "sites_deduped": 2185,
+    "sites_out": 3276,
+    "sites_deduped": 2183,
     "dup_configs": 15,
     "api_resolved": 546,
-    "jar_kept": 244,
+    "jar_kept": 242,
     "jar_added": 1737,
     "ext_resolved": 776,
     "cred_stripped": 2,
@@ -146,7 +146,7 @@
       "fm_gif": {
         "label": "肥猫（备线）",
         "sites_in": 40,
-        "sites_kept": 19,
+        "sites_kept": 18,
         "spider": "https://img2.gelonghui.com/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.pn"
       },
       "qist0821": {
@@ -194,7 +194,7 @@
       "ouge_snap": {
         "label": "ouge_snap",
         "sites_in": 12,
-        "sites_kept": 2,
+        "sites_kept": 0,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0820/00/fabb11d153077bd3f42e017a99d88e"
       },
       "jiang18": {
@@ -204,421 +204,421 @@
         "spider": "https://gh-proxy.com/https://github.com/bizhangjie/CatVodSpider/blob/main/jar/cu"
       },
       "sub002": {
-        "label": "sub002",
+        "label": "幸福年年线路",
         "sites_in": 123,
         "sites_kept": 23,
         "spider": "http://150.158.52.248/tgyg/spider.jar"
       },
       "sub007": {
-        "label": "sub007",
+        "label": "小脑斧线路",
         "sites_in": 51,
         "sites_kept": 11,
         "spider": "http://cnmb.cc.cd/jk/fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
       },
       "sub010": {
-        "label": "sub010",
+        "label": "🐯小虎斑线路",
         "sites_in": 136,
         "sites_kept": 112,
         "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898f"
       },
       "sub011": {
-        "label": "sub011",
+        "label": "🦆俊于",
         "sites_in": 24,
         "sites_kept": 2,
         "spider": "http://home.jundie.top:81/jar/top98_1.jar"
       },
       "sub020": {
-        "label": "sub020",
+        "label": "戏曲线路",
         "sites_in": 16,
         "sites_kept": 7,
         "spider": "http://mzrjk.top/唱戏/bhxq.jar"
       },
       "sub022": {
-        "label": "sub022",
+        "label": "传说📚在线",
         "sites_in": 58,
         "sites_kept": 49,
         "spider": "https://dl.kstore.dev/download/4718/%E6%8E%A5%E5%8F%A3/spider.jar"
       },
       "sub025": {
-        "label": "sub025",
+        "label": "🚀讴歌线路",
         "sites_in": 12,
         "sites_kept": 0,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cb"
       },
       "sub027": {
-        "label": "sub027",
+        "label": "聚合线路",
         "sites_in": 52,
         "sites_kept": 12,
         "spider": "https://tv.菜妮丝.top/jar/fty1016.jar;md5;aa8d37525617af470b3b8dfc91db8669"
       },
       "sub028": {
-        "label": "sub028",
+        "label": "刺桐线路",
         "sites_in": 51,
         "sites_kept": 24,
         "spider": ""
       },
       "sub031": {
-        "label": "sub031",
+        "label": "神仙线路",
         "sites_in": 94,
         "sites_kept": 63,
         "spider": "http://xhztv.top/dc/神仙/sx.jar;md5;0840fd78292d4a87dfa48dbebd3e6466"
       },
       "sub032": {
-        "label": "sub032",
+        "label": "宝盒线路",
         "sites_in": 77,
         "sites_kept": 30,
         "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/BH1116.jar"
       },
       "sub035": {
-        "label": "sub035",
+        "label": "🚀春秋线路",
         "sites_in": 51,
         "sites_kept": 14,
         "spider": "http://yydsok.com/api/bendi/yydsapi/ff/lib/spider.jar;md5;9bf5c1f491cc633ff14e1f"
       },
       "sub036": {
-        "label": "sub036",
+        "label": "请勿贩卖📚在线",
         "sites_in": 19,
         "sites_kept": 18,
         "spider": "http://zhangqun1818.serv00.net/zq/pro.jar?md5=007dddc1aedbbe022544d0fa13d11c92"
       },
       "sub037": {
-        "label": "sub037",
+        "label": "影视仓线路",
         "sites_in": 31,
         "sites_kept": 0,
         "spider": "http://118.89.172.248:8025/jar/tan.php"
       },
       "sub039": {
-        "label": "sub039",
+        "label": "🚀摸鱼",
         "sites_in": 109,
         "sites_kept": 0,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
       "sub041": {
-        "label": "sub041",
+        "label": "枫斗线路",
         "sites_in": 198,
         "sites_kept": 185,
         "spider": "http://xn--oev29b.top/files/18.jar"
       },
       "sub042": {
-        "label": "sub042",
+        "label": "肥猫线路①",
         "sites_in": 40,
-        "sites_kept": 10,
+        "sites_kept": 11,
         "spider": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.pn"
       },
       "sub045": {
-        "label": "sub045",
+        "label": "夏夏线路",
         "sites_in": 43,
         "sites_kept": 16,
         "spider": "https://11405.kstore.space/xiaye/nm/nm.jar"
       },
       "sub046": {
-        "label": "sub046",
+        "label": "七星在线",
         "sites_in": 100,
         "sites_kept": 46,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub047": {
-        "label": "sub047",
+        "label": "天微线路",
         "sites_in": 76,
         "sites_kept": 32,
         "spider": "https://15487.kstore.space/jar/app.jar"
       },
       "sub048": {
-        "label": "sub048",
+        "label": "宜优精选线路",
         "sites_in": 175,
         "sites_kept": 95,
         "spider": "https://15487.kstore.space/jar/18.jar"
       },
       "sub049": {
-        "label": "sub049",
+        "label": "老农民线路（测试）",
         "sites_in": 7,
         "sites_kept": 2,
         "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/redscarful/xpg/refs/heads"
       },
       "sub050": {
-        "label": "sub050",
+        "label": "酷喵1.1线路（0815版）",
         "sites_in": 43,
         "sites_kept": 0,
         "spider": ""
       },
       "sub051": {
-        "label": "sub051",
+        "label": "酷喵线路①（4K解析限时版）",
         "sites_in": 68,
         "sites_kept": 0,
         "spider": "https://backup.fukit.cn/autoupload/f/pog6q/20260731/mZ8Z/aidaox-20260731-141929."
       },
       "sub052": {
-        "label": "sub052",
+        "label": "酷喵线路②",
         "sites_in": 66,
         "sites_kept": 0,
         "spider": "https://backup.fukit.cn/autoupload/f/y48j5/20260728/KHz2/aidaox-20260727-225016."
       },
       "sub053": {
-        "label": "sub053",
+        "label": "酷喵线路③",
         "sites_in": 28,
         "sites_kept": 0,
         "spider": ""
       },
       "sub054": {
-        "label": "sub054",
+        "label": "闪电音乐线路",
         "sites_in": 36,
         "sites_kept": 8,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub055": {
-        "label": "sub055",
+        "label": "东篱线路",
         "sites_in": 93,
         "sites_kept": 32,
         "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/h"
       },
       "sub056": {
-        "label": "sub056",
+        "label": "豆包线路",
         "sites_in": 161,
         "sites_kept": 89,
         "spider": "https://meow.668yun.top/c/PuOcCVgXWA7p/柒豪.jar"
       },
       "sub060": {
-        "label": "sub060",
+        "label": "天微自用线路",
         "sites_in": 66,
         "sites_kept": 25,
         "spider": "https://7337.kstore.vip/xw/kjtw.jar"
       },
       "sub061": {
-        "label": "sub061",
+        "label": "超玩家线路",
         "sites_in": 86,
         "sites_kept": 3,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       },
       "sub062": {
-        "label": "sub062",
+        "label": "TVbox精品线路",
         "sites_in": 95,
         "sites_kept": 5,
         "spider": "https://raw.gitcode.com/2501_90909032/oooo/blobs/e724ea7f0931723a79d17e0f0d23b40"
       },
       "sub063": {
-        "label": "sub063",
+        "label": "凯速潇洒线路",
         "sites_in": 116,
         "sites_kept": 1,
         "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261121/6n97/0X0/11212343.png;md5"
       },
       "sub064": {
-        "label": "sub064",
+        "label": "🍯HG",
         "sites_in": 10,
         "sites_kept": 7,
         "spider": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
       },
       "sub066": {
-        "label": "sub066",
+        "label": "真六线路",
         "sites_in": 47,
         "sites_kept": 35,
         "spider": "https://cccimg.com/down.php/6bcb3de5f0d7c9b3d4f19cfe9a314ab2.jar"
       },
       "sub069": {
-        "label": "sub069",
+        "label": "Clun📚在线",
         "sites_in": 101,
         "sites_kept": 82,
         "spider": "https://clun.top/jar/xs.jar"
       },
       "sub070": {
-        "label": "sub070",
+        "label": "平安线路",
         "sites_in": 131,
         "sites_kept": 77,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/Mrish9527/tv/refs/heads/ma"
       },
       "sub073": {
-        "label": "sub073",
+        "label": "豆半线路",
         "sites_in": 164,
         "sites_kept": 61,
         "spider": "https://ym.wya6.cn/tz/wyxs.php;md5;803ee0bcfa247f0cb839b914e8aea5dd"
       },
       "sub076": {
-        "label": "sub076",
+        "label": "🐹dxawi",
         "sites_in": 48,
         "sites_kept": 23,
         "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d49226"
       },
       "sub079": {
-        "label": "sub079",
+        "label": "非凡晓晓线路",
         "sites_in": 46,
         "sites_kept": 10,
         "spider": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/spide"
       },
       "sub082": {
-        "label": "sub082",
+        "label": "🚀高天流云",
         "sites_in": 298,
         "sites_kept": 0,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/j"
       },
       "sub083": {
-        "label": "sub083",
+        "label": "月光📚在线",
         "sites_in": 77,
         "sites_kept": 42,
         "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
       },
       "sub084": {
-        "label": "sub084",
+        "label": "寳盒📚在线",
         "sites_in": 77,
         "sites_kept": 0,
         "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
       },
       "sub086": {
-        "label": "sub086",
+        "label": "网盘扫码4K线路",
         "sites_in": 33,
         "sites_kept": 2,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/tushen6/Tattoo/refs/heads/"
       },
       "sub087": {
-        "label": "sub087",
+        "label": "SVIP📚在线",
         "sites_in": 246,
         "sites_kept": 165,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main"
       },
       "sub088": {
-        "label": "sub088",
+        "label": "南风📚在线",
         "sites_in": 93,
         "sites_kept": 28,
         "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f"
       },
       "sub089": {
-        "label": "sub089",
+        "label": "周J线路",
         "sites_in": 27,
         "sites_kept": 3,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/zhoujck/config/main/jar/wu"
       },
       "sub093": {
-        "label": "sub093",
+        "label": "心魔📚在线",
         "sites_in": 151,
         "sites_kept": 134,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/HeChengChaXiu."
       },
       "sub094": {
-        "label": "sub094",
+        "label": "裤佬线路",
         "sites_in": 27,
         "sites_kept": 19,
         "spider": ""
       },
       "sub096": {
-        "label": "sub096",
+        "label": "小米线路",
         "sites_in": 43,
         "sites_kept": 34,
         "spider": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NT"
       },
       "sub099": {
-        "label": "sub099",
+        "label": "胜寒线路",
         "sites_in": 43,
         "sites_kept": 35,
         "spider": "https://ghfast.top/https:/raw.githubusercontent.com/hanhan8127/TVBox/main/lib/sp"
       },
       "sub106": {
-        "label": "sub106",
+        "label": "资源站线路",
         "sites_in": 60,
         "sites_kept": 42,
         "spider": "https://gitee.com/lu3589/776/raw/main/X4/lib/spider.jar"
       },
       "sub112": {
-        "label": "sub112",
+        "label": "黄金📚在线",
         "sites_in": 105,
         "sites_kept": 69,
         "spider": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/qrh/mew/spider__1_.jar;md5"
       },
       "sub113": {
-        "label": "sub113",
+        "label": "CandyMu📚在线",
         "sites_in": 64,
         "sites_kept": 47,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/T"
       },
       "sub118": {
-        "label": "sub118",
+        "label": "小凯📚在线",
         "sites_in": 28,
         "sites_kept": 18,
         "spider": "https://jihulab.com/jyqhkd/kd/-/raw/main/fan.txt;md5;5543dae038ce2248e7759e9cbca"
       },
       "sub119": {
-        "label": "sub119",
+        "label": "机缘巧盒线路",
         "sites_in": 63,
         "sites_kept": 32,
         "spider": "https://jihulab.com/jyqhkd1/kai/-/raw/main/PandaQ240225.jar;md5;16f19e614cdf7c9f"
       },
       "sub121": {
-        "label": "sub121",
+        "label": "少儿线路",
         "sites_in": 30,
         "sites_kept": 25,
         "spider": "https://jihulab.com/ymz1231/jar/-/raw/main/Bili.jar"
       },
       "sub122": {
-        "label": "sub122",
+        "label": "玩偶哥哥线路",
         "sites_in": 61,
         "sites_kept": 31,
         "spider": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/spider.jar;md5;06925c578c42374"
       },
       "sub123": {
-        "label": "sub123",
+        "label": "卡卡线路",
         "sites_in": 98,
         "sites_kept": 10,
         "spider": "http://oss4liview.moji.com/thd_file/2026/10/31/272e922132480799981a031067b6d722."
       },
       "sub124": {
-        "label": "sub124",
+        "label": "酷喵1.0线路（0812版）",
         "sites_in": 47,
         "sites_kept": 0,
         "spider": ""
       },
       "sub125": {
-        "label": "sub125",
+        "label": "香雅情线路",
         "sites_in": 55,
         "sites_kept": 37,
         "spider": "https://play.iptv365.org/香雅情/spider.jar"
       },
       "sub126": {
-        "label": "sub126",
+        "label": "骚零线路",
         "sites_in": 37,
         "sites_kept": 10,
         "spider": "https://play.iptv365.org/骚零/spider.jar"
       },
       "sub128": {
-        "label": "sub128",
+        "label": "初心线路",
         "sites_in": 20,
         "sites_kept": 7,
         "spider": "https://raw.giteeusercontent.com/wpider/original-aspiration/raw/master/spider.ja"
       },
       "sub129": {
-        "label": "sub129",
+        "label": "高天流云 18+",
         "sites_in": 64,
         "sites_kept": 44,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg23a94bb_upgraded.jar;m"
       },
       "sub130": {
-        "label": "sub130",
+        "label": "六六线路",
         "sites_in": 164,
         "sites_kept": 9,
         "spider": "https://tv.sxi.qzz.io/jar/spider.jar;md5;8599a715437d21e6660ad75f36967e70"
       },
       "sub133": {
-        "label": "sub133",
+        "label": "真心线路",
         "sites_in": 43,
         "sites_kept": 24,
         "spider": "https://www.252035.xyz/z/custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
       },
       "sub135": {
-        "label": "sub135",
+        "label": "😹动漫城",
         "sites_in": 27,
         "sites_kept": 18,
         "spider": "https://jihulab.com/clear1/yingmi/-/raw/main/jar/fan.jar"
       },
       "sub144": {
-        "label": "sub144",
+        "label": "📛挺好分享",
         "sites_in": 46,
         "sites_kept": 0,
         "spider": "https://ztha.top/TVBox/ztha.jar;md5;097bfd1388b83204958633f23eb6e4cb"
       },
       "sub151": {
-        "label": "sub151",
+        "label": "盒子短剧线路",
         "sites_in": 22,
         "sites_kept": 22,
         "spider": "https://cnb.cool/fish2018/duanju/-/git/raw/main/jar/短剧.jar"
       },
       "sub152": {
-        "label": "sub152",
+        "label": "盒子迷线路",
         "sites_in": 29,
         "sites_kept": 3,
         "spider": "https://lz.qaiu.top/parser?url=https://souluoshou.lanzouc.com/ijHi64f1682h;md5;a"
@@ -643,7 +643,7 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 837,
+      "用户点名": 841,
       "网盘": 779,
       "体育": 213,
       "音乐": 196,
@@ -657,11 +657,12 @@
       "sub130:秒看:token"
     ],
     "dead_jar_dropped": 45,
+    "headers": 87,
     "lives": 0,
     "parses": 216,
     "rules": 112,
     "flags": 96,
-    "output_bytes": 1642357,
+    "output_bytes": 1660101,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
@@ -811,397 +812,397 @@
     },
     "sub002": {
       "status": "缓存",
-      "label": "sub002",
+      "label": "幸福年年线路",
       "url": "http://150.158.52.248/tgyg/bbm.json"
     },
     "sub007": {
       "status": "缓存",
-      "label": "sub007",
+      "label": "小脑斧线路",
       "url": "http://cnmb.cc.cd/jk/xnf.json"
     },
     "sub010": {
       "status": "缓存",
-      "label": "sub010",
+      "label": "🐯小虎斑线路",
       "url": "http://hb.小虎斑.site:25252/仅供测试"
     },
     "sub011": {
       "status": "缓存",
-      "label": "sub011",
+      "label": "🦆俊于",
       "url": "http://home.jundie.top:81/top98.json"
     },
     "sub013": {
       "status": "缓存",
-      "label": "sub013",
+      "label": "NewBox点播线路",
       "url": "http://itv666.cc/aowu/config.webp"
     },
     "sub020": {
       "status": "缓存",
-      "label": "sub020",
+      "label": "戏曲线路",
       "url": "http://mzrjk.top/唱戏"
     },
     "sub021": {
       "status": "缓存",
-      "label": "sub021",
+      "label": "小马📚在线",
       "url": "http://szyyds.cn/tv/x.json"
     },
     "sub022": {
       "status": "缓存",
-      "label": "sub022",
+      "label": "传说📚在线",
       "url": "http://tjf1100.serv00.net/"
     },
     "sub025": {
       "status": "缓存",
-      "label": "sub025",
+      "label": "🚀讴歌线路",
       "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌"
     },
     "sub026": {
       "status": "缓存",
-      "label": "sub026",
+      "label": "🚀王二小线",
       "url": "http://tvbox.王二小放牛娃.top"
     },
     "sub027": {
       "status": "缓存",
-      "label": "sub027",
+      "label": "聚合线路",
       "url": "http://tvjuhe.mitetech.cn:5622/"
     },
     "sub028": {
       "status": "缓存",
-      "label": "sub028",
+      "label": "刺桐线路",
       "url": "http://www.cttv.vip/ys/json/ctys.json"
     },
     "sub031": {
       "status": "缓存",
-      "label": "sub031",
+      "label": "神仙线路",
       "url": "http://xhztv.top/dc/神仙/api.json"
     },
     "sub032": {
       "status": "缓存",
-      "label": "sub032",
+      "label": "宝盒线路",
       "url": "http://xn--6orr3pi6g9uu.top"
     },
     "sub035": {
       "status": "缓存",
-      "label": "sub035",
+      "label": "🚀春秋线路",
       "url": "http://yydsok.com/api/bendi/yydsapi/ff/api.json"
     },
     "sub036": {
       "status": "缓存",
-      "label": "sub036",
+      "label": "请勿贩卖📚在线",
       "url": "http://zhangqun1818.serv00.net/zq/api.json"
     },
     "sub037": {
       "status": "缓存",
-      "label": "sub037",
+      "label": "影视仓线路",
       "url": "http://影视仓.com/"
     },
     "sub039": {
       "status": "缓存",
-      "label": "sub039",
+      "label": "🚀摸鱼",
       "url": "http://我不是.摸鱼儿.top"
     },
     "sub041": {
       "status": "缓存",
-      "label": "sub041",
+      "label": "枫斗线路",
       "url": "http://枫斗.top/tv"
     },
     "sub042": {
       "status": "缓存",
-      "label": "sub042",
+      "label": "肥猫线路①",
       "url": "http://肥猫.net"
     },
     "sub045": {
       "status": "缓存",
-      "label": "sub045",
+      "label": "夏夏线路",
       "url": "https://11405.kstore.space/xiaye/qk4k.json"
     },
     "sub046": {
       "status": "缓存",
-      "label": "sub046",
+      "label": "七星在线",
       "url": "https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt"
     },
     "sub047": {
       "status": "缓存",
-      "label": "sub047",
+      "label": "天微线路",
       "url": "https://15487.kstore.space/%E5%A4%A9%E5%BE%AE.txt"
     },
     "sub048": {
       "status": "缓存",
-      "label": "sub048",
+      "label": "宜优精选线路",
       "url": "https://15487.kstore.space/%E5%AE%9C%E4%BC%98%E7%B2%BE%E9%80%89.txt"
     },
     "sub049": {
       "status": "缓存",
-      "label": "sub049",
+      "label": "老农民线路（测试）",
       "url": "https://15487.kstore.space/%E8%80%81%E5%86%9C%E6%B0%91.txt"
     },
     "sub050": {
       "status": "缓存",
-      "label": "sub050",
+      "label": "酷喵1.1线路（0815版）",
       "url": "https://15487.kstore.space/%E9%85%B7%E5%96%B5-1.1%281%29.txt"
     },
     "sub051": {
       "status": "缓存",
-      "label": "sub051",
+      "label": "酷喵线路①（4K解析限时版）",
       "url": "https://15487.kstore.space/%E9%85%B71.txt"
     },
     "sub052": {
       "status": "缓存",
-      "label": "sub052",
+      "label": "酷喵线路②",
       "url": "https://15487.kstore.space/%E9%85%B72.txt"
     },
     "sub053": {
       "status": "缓存",
-      "label": "sub053",
+      "label": "酷喵线路③",
       "url": "https://15487.kstore.space/%E9%85%B73.txt"
     },
     "sub054": {
       "status": "缓存",
-      "label": "sub054",
+      "label": "闪电音乐线路",
       "url": "https://15487.kstore.space/%E9%9F%B3%E4%B9%902.txt"
     },
     "sub055": {
       "status": "缓存",
-      "label": "sub055",
+      "label": "东篱线路",
       "url": "https://16151.kstore.space"
     },
     "sub056": {
       "status": "缓存",
-      "label": "sub056",
+      "label": "豆包线路",
       "url": "https://17264.kstore.space/豆包.jpg"
     },
     "sub059": {
       "status": "缓存",
-      "label": "sub059",
+      "label": "茄子线路",
       "url": "https://700sjro44343.vicp.fun/eggp/qiezi/tv.php"
     },
     "sub060": {
       "status": "缓存",
-      "label": "sub060",
+      "label": "天微自用线路",
       "url": "https://7337.kstore.vip/xw/测试勿传"
     },
     "sub061": {
       "status": "缓存",
-      "label": "sub061",
+      "label": "超玩家线路",
       "url": "https://8492.kstore.space/超玩家影视仓库/影视线路/fty/ncwj"
     },
     "sub062": {
       "status": "缓存",
-      "label": "sub062",
+      "label": "TVbox精品线路",
       "url": "https://8815.kstore.vip/tvbox/wmz"
     },
     "sub063": {
       "status": "缓存",
-      "label": "sub063",
+      "label": "凯速潇洒线路",
       "url": "https://9877.kstore.space/sun.json"
     },
     "sub064": {
       "status": "缓存",
-      "label": "sub064",
+      "label": "🍯HG",
       "url": "https://api.hgyx.vip/hgyx.json"
     },
     "sub066": {
       "status": "缓存",
-      "label": "sub066",
+      "label": "真六线路",
       "url": "https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6"
     },
     "sub067": {
       "status": "缓存",
-      "label": "sub067",
+      "label": "东篱线路",
       "url": "https://chigua.eu.org"
     },
     "sub069": {
       "status": "缓存",
-      "label": "sub069",
+      "label": "Clun📚在线",
       "url": "https://clun.top/box.json"
     },
     "sub070": {
       "status": "缓存",
-      "label": "sub070",
+      "label": "平安线路",
       "url": "https://cnb.cool/cnlv/tv/-/git/raw/main/20000.json"
     },
     "sub073": {
       "status": "缓存",
-      "label": "sub073",
+      "label": "豆半线路",
       "url": "https://cnb.cool/luotao-dev/tvbo/-/git/raw/main/fxapi.json"
     },
     "sub076": {
       "status": "缓存",
-      "label": "sub076",
+      "label": "🐹dxawi",
       "url": "https://dxawi.github.io/0/0.json"
     },
     "sub079": {
       "status": "缓存",
-      "label": "sub079",
+      "label": "非凡晓晓线路",
       "url": "https://g.3344550.xyz/https://raw.githubusercontent.com/jigedos/1024/master/jsm.json"
     },
     "sub082": {
       "status": "缓存",
-      "label": "sub082",
+      "label": "🚀高天流云",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
     },
     "sub083": {
       "status": "缓存",
-      "label": "sub083",
+      "label": "月光📚在线",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json"
     },
     "sub084": {
       "status": "缓存",
-      "label": "sub084",
+      "label": "寳盒📚在线",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json"
     },
     "sub086": {
       "status": "缓存",
-      "label": "sub086",
+      "label": "网盘扫码4K线路",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/okys.json"
     },
     "sub087": {
       "status": "缓存",
-      "label": "sub087",
+      "label": "SVIP📚在线",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
     },
     "sub088": {
       "status": "缓存",
-      "label": "sub088",
+      "label": "南风📚在线",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
     },
     "sub089": {
       "status": "缓存",
-      "label": "sub089",
+      "label": "周J线路",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box"
     },
     "sub093": {
       "status": "缓存",
-      "label": "sub093",
+      "label": "心魔📚在线",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
     },
     "sub094": {
       "status": "缓存",
-      "label": "sub094",
+      "label": "裤佬线路",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg"
     },
     "sub096": {
       "status": "缓存",
-      "label": "sub096",
+      "label": "小米线路",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json"
     },
     "sub098": {
       "status": "缓存",
-      "label": "sub098",
+      "label": "备用📚在线",
       "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
     },
     "sub099": {
       "status": "缓存",
-      "label": "sub099",
+      "label": "胜寒线路",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/hanhan8127/TVBox/main/hanXC.json"
     },
     "sub106": {
       "status": "缓存",
-      "label": "sub106",
+      "label": "资源站线路",
       "url": "https://gitee.com/lu3589/776/raw/main/0/x4c.json"
     },
     "sub109": {
       "status": "缓存",
-      "label": "sub109",
+      "label": "🚀老刘线路",
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
     },
     "sub110": {
       "status": "缓存",
-      "label": "sub110",
+      "label": "🚀南风线路",
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
     },
     "sub112": {
       "status": "缓存",
-      "label": "sub112",
+      "label": "黄金📚在线",
       "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json"
     },
     "sub113": {
       "status": "缓存",
-      "label": "sub113",
+      "label": "CandyMu📚在线",
       "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
     },
     "sub117": {
       "status": "缓存",
-      "label": "sub117",
+      "label": "VIP📚在线",
       "url": "https://jiekou.netlify.app/svip.json"
     },
     "sub118": {
       "status": "缓存",
-      "label": "sub118",
+      "label": "小凯📚在线",
       "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json"
     },
     "sub119": {
       "status": "缓存",
-      "label": "sub119",
+      "label": "机缘巧盒线路",
       "url": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json"
     },
     "sub121": {
       "status": "缓存",
-      "label": "sub121",
+      "label": "少儿线路",
       "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer"
     },
     "sub122": {
       "status": "缓存",
-      "label": "sub122",
+      "label": "玩偶哥哥线路",
       "url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json"
     },
     "sub123": {
       "status": "缓存",
-      "label": "sub123",
+      "label": "卡卡线路",
       "url": "https://jikefuye.cn/tvbox.json"
     },
     "sub124": {
       "status": "缓存",
-      "label": "sub124",
+      "label": "酷喵1.0线路（0812版）",
       "url": "https://meow.668yun.top/c/3gasC9PB5Wuo/酷喵1.0.txt"
     },
     "sub125": {
       "status": "缓存",
-      "label": "sub125",
+      "label": "香雅情线路",
       "url": "https://play.iptv365.org/香雅情/api.json"
     },
     "sub126": {
       "status": "缓存",
-      "label": "sub126",
+      "label": "骚零线路",
       "url": "https://play.iptv365.org/骚零/api.json"
     },
     "sub128": {
       "status": "缓存",
-      "label": "sub128",
+      "label": "初心线路",
       "url": "https://raw.giteeusercontent.com/wpider/original-aspiration/raw/master/初心.json"
     },
     "sub129": {
       "status": "缓存",
-      "label": "sub129",
+      "label": "高天流云 18+",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/99188.json"
     },
     "sub130": {
       "status": "缓存",
-      "label": "sub130",
+      "label": "六六线路",
       "url": "https://tv.sxi.qzz.io/jsm.json"
     },
     "sub133": {
       "status": "缓存",
-      "label": "sub133",
+      "label": "真心线路",
       "url": "https://www.252035.xyz/z/FongMi.json"
     },
     "sub135": {
       "status": "缓存",
-      "label": "sub135",
+      "label": "😹动漫城",
       "url": "https://www.yingm.cc/dm/dm.json"
     },
     "sub144": {
       "status": "缓存",
-      "label": "sub144",
+      "label": "📛挺好分享",
       "url": "https://ztha.top/TVBox/thdjk.json"
     },
     "sub151": {
       "status": "缓存",
-      "label": "sub151",
+      "label": "盒子短剧线路",
       "url": "https://盒子迷.top/短剧"
     },
     "sub152": {
       "status": "缓存",
-      "label": "sub152",
+      "label": "盒子迷线路",
       "url": "https://盒子迷.top/禁止贩卖"
     },
     "tianshen": {
