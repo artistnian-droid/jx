@@ -60,7 +60,7 @@ EXCLUDE_NAME = {
     '课堂': re.compile(r'课堂|课程|教学|学习|教育|讲座|培训|网课|公开课|学校|考试|考研|考证|外语|英语|启蒙'),
     '听书': re.compile(r'听书|有声|评书|播客|电台|FM|相声|戏曲|说书|音频'),
     '音乐': re.compile(r'音乐|MV|歌曲|演唱会|KTV|DJ|戏曲|儿歌'),
-    '网盘': re.compile(r'盘|夸克|阿里盘|115|189|百度盘|UC盘|迅雷盘|PikPak|天翼|移动盘|123盘'),
+    '网盘': re.compile(r'盘|夸克|阿里盘|115|189|百度盘|UC盘|迅雷盘|PikPak|天翼|移动盘|123盘|自扫'),
 }
 
 # 直播频道（2026-11-23 用户要求）：全部去掉，不合并任何 lives。
@@ -140,6 +140,15 @@ def exclude_reason(site, cid=''):
     if 'DIY' in name:
         return '用户点名'
     if '舞曲' in name:
+        return '用户点名'
+    # 整条线移除（2026-11-23 用户要求）：酷喵（5 个子源，按 cid + 名字双重匹配）、
+    # 聚玩盒子（xhz + xhz_xhz；xhz_dc 是多仓订阅，展开的子源是其他接口，不动）、
+    # 老刘备（截图里 7 个站所在的接口）
+    if cid in ('sub050', 'sub051', 'sub052', 'sub053', 'sub124') or '酷喵' in name:
+        return '用户点名'
+    if cid.startswith('xhz'):
+        return '用户点名'
+    if cid == 'laoliubei':
         return '用户点名'
     if full_key == 'aowu_push_agent':
         return '用户点名'
@@ -392,11 +401,10 @@ def sanitize_site(site, prefix, base_url, spider_url, stats):
 
 
 # ---------------------------------------------------------------- 合并
-# 置顶顺序（2026-11-23 用户要求）：嗷呜、摸鱼、潇洒、天神、酷喵排在最前面。
-# 天神没有独立接口（只有 2 个站名含天神），按名字匹配；酷喵是 5 个子源
-# （sub050/051/052/053/124），按 key 前缀 + 名字双重匹配（子源编号若在
-# 每日刷新中漂移，名字匹配仍能兜底）。
-KUMIAO_CIDS = ('sub050_', 'sub051_', 'sub052_', 'sub053_', 'sub124_')
+# 置顶顺序（2026-11-23 用户要求）：嗷呜、摸鱼、潇洒、天神排在最前面。
+# 天神接口（tianshen，2026-11-23 并入）的站名大多不含“天神”，按 key 前缀
+# 匹配；另有 2 个旧站名含天神（sub056），按名字匹配兜底。
+# 酷喵整条线已于 2026-11-23 移除，故不再置顶。
 
 
 def front_rank(site):
@@ -408,11 +416,9 @@ def front_rank(site):
         return 1
     if key.startswith('xiaosa_') or key.startswith('xiaosa_mirror_'):
         return 2
-    if '天神' in name:
+    if '天神' in name or key.startswith('tianshen_'):
         return 3
-    if '酷喵' in name or key.startswith(KUMIAO_CIDS):
-        return 4
-    return 5
+    return 4
 def config_fingerprint(obj):
     """配置内容指纹（去重相同配置用）。"""
     canon = json.dumps(obj, ensure_ascii=False, sort_keys=True)
