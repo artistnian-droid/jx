@@ -71,6 +71,28 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
+            "name": "🌟玩偶┃4 K",
+            "key": "aowu_woWogg",
+            "type": 3,
+            "api": "csp_WoggAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "woWogg",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "🌟木偶┃4 K",
+            "key": "aowu_moWobg",
+            "type": 3,
+            "api": "csp_WobgAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "moWobg",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
             "name": "🚀韩剧┃秒播",
             "key": "aowu_Hxq",
             "type": 3,
@@ -209,6 +231,61 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Xhr",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "💎花卷┃4 K",
+            "key": "aowu_PanHj",
+            "type": 3,
+            "api": "csp_PanHjAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "PanHj",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "💎多多┃4 K",
+            "key": "aowu_ddWobg",
+            "type": 3,
+            "api": "csp_WobgAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "ddWobg",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "💎虎斑┃4 K",
+            "key": "aowu_hbWobg",
+            "type": 3,
+            "api": "csp_WobgAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "hbWobg",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "💎蜡笔┃4 K",
+            "key": "aowu_lbWobg",
+            "type": 3,
+            "api": "csp_WobgAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "lbWobg",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "💎原盘┃4 K",
+            "key": "aowu_Zhinan",
+            "type": 3,
+            "api": "csp_ZhinanAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "Zhinan",
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
@@ -556,6 +633,26 @@
             "quickSearch": 1,
             "changeable": 1,
             "genre": "music",
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "🔍飞鱼┃盘搜",
+            "key": "aowu_PSfish",
+            "type": 3,
+            "api": "csp_PSfishAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
+            "name": "🔍觅寻┃盘搜",
+            "key": "aowu_PSdju",
+            "type": 3,
+            "api": "csp_PSdjuAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
