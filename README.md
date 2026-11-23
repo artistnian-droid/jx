@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/artistnian-droid/tv/main/logo.png" width="120" alt="JX"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/artistnian-droid/jx/main/logo.png" width="120" alt="JX"></p>
 
 # TVBox 接口聚合
 
@@ -11,7 +11,7 @@
 在 OK影视（或 TVBox、影视仓）的配置地址里填这个链接：
 
 ```
-https://raw.githubusercontent.com/artistnian-droid/tv/main/merged.json
+https://raw.githubusercontent.com/artistnian-droid/jx/main/merged.json
 ```
 
 这个地址无缓存，永远是最新提交的版本。jsDelivr 的 CDN 缓存经常滞后好几分钟甚至更久，已弃用。
