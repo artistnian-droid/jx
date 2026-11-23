@@ -168,6 +168,11 @@ def exclude_reason(site, cid=''):
             or '荐影┃预告片' in name or '抠抠' in name or '优汐' in name
             or '哔哔合集' in name or '请勿信' in name):
         return '用户点名'
+    # 动漫只留牛来（2026-11-23 用户截图要求）：嗷呜的其余 5 个动漫站
+    # （嗷嗚/新帆/贝斯/冬瓜/魔都，注意嗷嗚用繁体嗚）+ 哔嘀蓝光去掉
+    if ('嗷嗚┃动漫' in name or '新帆┃动漫' in name or '贝斯┃动漫' in name
+            or '冬瓜┃动漫' in name or '魔都┃动漫' in name or '哔嘀┃蓝光' in name):
+        return '用户点名'
     # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
     if '配置' in name or '更新' in name or '公告' in name:
         return '用户点名'
