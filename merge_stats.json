@@ -2,13 +2,13 @@
   "stats": {
     "inputs": 117,
     "sites_in": 7948,
-    "sites_out": 3276,
-    "sites_deduped": 2183,
+    "sites_out": 3263,
+    "sites_deduped": 2169,
     "dup_configs": 15,
     "api_resolved": 546,
-    "jar_kept": 242,
-    "jar_added": 1737,
-    "ext_resolved": 776,
+    "jar_kept": 245,
+    "jar_added": 1727,
+    "ext_resolved": 773,
     "cred_stripped": 2,
     "per_source": {
       "aowu": {
@@ -44,7 +44,7 @@
       "pg": {
         "label": "PG",
         "sites_in": 74,
-        "sites_kept": 25,
+        "sites_kept": 0,
         "spider": "https://www.252035.xyz/p/pg.jar"
       },
       "tianshen": {
@@ -86,7 +86,7 @@
       "ouge_iptv": {
         "label": "欧歌（iptv365）",
         "sites_in": 106,
-        "sites_kept": 66,
+        "sites_kept": 67,
         "spider": "https://play.iptv365.org/欧歌/spider.jar"
       },
       "laoliubei": {
@@ -104,13 +104,13 @@
       "easytv": {
         "label": "EasyTV",
         "sites_in": 135,
-        "sites_kept": 39,
+        "sites_kept": 40,
         "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;"
       },
       "yi": {
         "label": "宜优",
         "sites_in": 137,
-        "sites_kept": 51,
+        "sites_kept": 52,
         "spider": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
       },
       "eggp": {
@@ -134,7 +134,7 @@
       "tvyhqu": {
         "label": "菜妮丝",
         "sites_in": 37,
-        "sites_kept": 4,
+        "sites_kept": 5,
         "spider": "https://tv.菜妮丝.top/jar/fty1016.jar;md5;aa8d37525617af470b3b8dfc91db8669"
       },
       "feimao_snap": {
@@ -158,7 +158,7 @@
       "qist0825": {
         "label": "qist 0825（PG）",
         "sites_in": 135,
-        "sites_kept": 87,
+        "sites_kept": 90,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c"
       },
       "qist0826": {
@@ -170,7 +170,7 @@
       "qist0827": {
         "label": "qist 0827（fongmi）",
         "sites_in": 33,
-        "sites_kept": 12,
+        "sites_kept": 13,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/custom_spider.jar;md5;41"
       },
       "qistjs": {
@@ -404,7 +404,7 @@
       "sub064": {
         "label": "🍯HG",
         "sites_in": 10,
-        "sites_kept": 7,
+        "sites_kept": 8,
         "spider": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
       },
       "sub066": {
@@ -416,7 +416,7 @@
       "sub069": {
         "label": "Clun📚在线",
         "sites_in": 101,
-        "sites_kept": 82,
+        "sites_kept": 83,
         "spider": "https://clun.top/jar/xs.jar"
       },
       "sub070": {
@@ -440,7 +440,7 @@
       "sub079": {
         "label": "非凡晓晓线路",
         "sites_in": 46,
-        "sites_kept": 10,
+        "sites_kept": 13,
         "spider": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/spide"
       },
       "sub082": {
@@ -643,8 +643,8 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 841,
-      "网盘": 779,
+      "用户点名": 913,
+      "网盘": 733,
       "体育": 213,
       "音乐": 196,
       "听书": 261,
@@ -657,12 +657,12 @@
       "sub130:秒看:token"
     ],
     "dead_jar_dropped": 45,
-    "headers": 87,
+    "headers": 86,
     "lives": 0,
     "parses": 200,
     "rules": 110,
     "flags": 86,
-    "output_bytes": 1651275,
+    "output_bytes": 1642538,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
