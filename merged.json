@@ -595,24 +595,6 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
-            "key": "hdr_aowu_mirror",
-            "name": "━━━━ 嗷呜 ━━━━",
-            "type": 0,
-            "api": "",
-            "searchable": 0,
-            "changeable": 0
-        },
-        {
-            "name": "🛴推送┃播放",
-            "key": "aowu_mirror_push_agent",
-            "type": 3,
-            "api": "csp_PushAmns",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
             "key": "hdr_moyu",
             "name": "━━━━ 摸鱼 ━━━━",
             "type": 0,
@@ -1529,17 +1511,6 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_push_agent",
-            "name": "💌┆推送┆接收",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "timeout": 60,
             "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
         },
         {
@@ -2922,15 +2893,6 @@
             "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
         },
         {
-            "key": "wex_push_agent",
-            "name": "推送",
-            "type": 3,
-            "api": "csp_PushGuard",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a.jpg;md5;b7e2f9d16ff81dfe13853c6fff2e2b22"
-        },
-        {
             "key": "hdr_fty1",
             "name": "━━━━ 饭太硬 ━━━━",
             "type": 0,
@@ -3321,18 +3283,6 @@
             "changeable": 0,
             "ext": {
                 "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
-            },
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
-        },
-        {
-            "key": "fty1_push_agent",
-            "name": "🛴手机┃推送",
-            "type": 3,
-            "api": "csp_PushGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt"
             },
             "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b"
         },
@@ -4425,20 +4375,6 @@
             "api": "",
             "searchable": 0,
             "changeable": 0
-        },
-        {
-            "key": "xiaoma_push_agent",
-            "name": "手机┃推送",
-            "type": 3,
-            "api": "csp_AweSomeGuard",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "sp": "Push"
-            },
-            "timeout": 25,
-            "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
         },
         {
             "key": "xiaoma_dbokutv_key",
@@ -9751,19 +9687,6 @@
             "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
         },
         {
-            "key": "qist0821_push_agent",
-            "name": "🛴手机┃推送",
-            "type": 3,
-            "api": "csp_PushGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
-        },
-        {
             "key": "qist0821_新6V",
             "name": "新6V磁力┃慎用",
             "type": 3,
@@ -10222,22 +10145,6 @@
             "api": "csp_Yinyuetai",
             "searchable": 1,
             "changeable": 0,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
-        },
-        {
-            "key": "qist0825_PushShare",
-            "name": "资源分享",
-            "type": 3,
-            "api": "csp_PushShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/lib/token.json$$$./json/pushshare.txt$$$db$$$1",
-            "style": {
-                "type": "list"
-            },
             "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
         },
         {
@@ -11064,18 +10971,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "timeout": 30
-        },
-        {
-            "key": "qist0825_push_agent",
-            "name": "推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/lib/token.json",
-            "timeout": 30,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
         },
         {
             "key": "qist0825_量子",
@@ -12587,17 +12482,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://raw.githubusercontent.com/qist/tvbox/master/XYQHiker/玩偶哥哥.json",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
-        },
-        {
-            "key": "qistxyq_push_agent",
-            "name": "📽推送",
-            "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
             "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
         },
         {
@@ -15341,16 +15225,6 @@
             "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
         },
         {
-            "key": "sub010_push_agent",
-            "name": "手机|推送",
-            "type": 3,
-            "api": "csp_PushCAT",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "jar": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898fa0c8e0e372307718f1db51efb"
-        },
-        {
             "key": "sub010_专用",
             "name": "测试|测试",
             "type": 3,
@@ -16483,17 +16357,6 @@
             "filterable": 0,
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$lmok37266@bazatek.com$$$Yoursmile",
-            "jar": "https://dl.kstore.dev/download/4718/%E6%8E%A5%E5%8F%A3/spider.jar"
-        },
-        {
-            "key": "sub022_push_agent",
-            "name": "♎推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
             "jar": "https://dl.kstore.dev/download/4718/%E6%8E%A5%E5%8F%A3/spider.jar"
         },
         {
@@ -17990,18 +17853,6 @@
             "changeable": 0,
             "ext": {
                 "json": "http://yydsok.com/api/bendi/yydsapi/ff/lib/0075389dca9afadd4614e9713765ff17.txt"
-            },
-            "jar": "http://yydsok.com/api/bendi/yydsapi/ff/lib/spider.jar;md5;9bf5c1f491cc633ff14e1fee5c91daa9"
-        },
-        {
-            "key": "sub035_push_agent",
-            "name": "🛴手机┃推送",
-            "type": 3,
-            "api": "csp_PushGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "Cloud-drive": "http://yydsok.com/api/bendi/yydsapi/ff/lib/Cloud-drive.txt"
             },
             "jar": "http://yydsok.com/api/bendi/yydsapi/ff/lib/spider.jar;md5;9bf5c1f491cc633ff14e1fee5c91daa9"
         },
@@ -20066,16 +19917,6 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://app.omofun1.top|66dc309cbeeca454",
-            "jar": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.png;md5;73c42d5c2f86efd6ddc6c85fd286069c"
-        },
-        {
-            "key": "sub042_push_agent",
-            "name": "QQ频道：肥猫宝贝",
-            "type": 3,
-            "api": "csp_Push",
-            "playerType": "1",
-            "searchable": 0,
-            "ext": ".json/txt/ken.txt",
             "jar": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.png;md5;73c42d5c2f86efd6ddc6c85fd286069c"
         },
         {
@@ -23582,24 +23423,6 @@
             "searchable": 1
         },
         {
-            "key": "sub056_优惜",
-            "name": "优惜|推送",
-            "type": 4,
-            "api": "https://so.yinpai.xyz/api.php?type=uc"
-        },
-        {
-            "key": "sub056_百度",
-            "name": "百度|推送",
-            "type": 4,
-            "api": "https://so.yinpai.xyz/api.php?type=baidu"
-        },
-        {
-            "key": "sub056_xunlei",
-            "name": "迅雷|推送",
-            "type": 4,
-            "api": "https://so.yinpai.xyz/api.php?type=xunlei"
-        },
-        {
             "key": "sub056_全网短",
             "name": "🔍短剧影音阁🔍",
             "type": 4,
@@ -24167,18 +23990,6 @@
             "quickSearch": 1
         },
         {
-            "key": "sub064_push_agent",
-            "name": "推送|阿里|解析",
-            "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 1,
-            "quickSearch": 1,
-            "playerType": 1,
-            "filterable": 1,
-            "ext": "token;desc",
-            "jar": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
-        },
-        {
             "key": "hdr_sub066",
             "name": "━━━━ 真六线路 ━━━━",
             "type": 0,
@@ -24551,22 +24362,6 @@
             "type": 3,
             "api": "csp_Living",
             "searchable": 1,
-            "jar": "https://cccimg.com/down.php/6bcb3de5f0d7c9b3d4f19cfe9a314ab2.jar"
-        },
-        {
-            "key": "sub066_push_agent",
-            "name": "野草口令：8072",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "danmu": true
-            },
             "jar": "https://cccimg.com/down.php/6bcb3de5f0d7c9b3d4f19cfe9a314ab2.jar"
         },
         {
@@ -26110,18 +25905,6 @@
             "api": "https://taopianapi.com/cjapi/mc/vod/xml"
         },
         {
-            "key": "sub070_push_agent",
-            "name": "平安视界",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "commonConfig": "https://gh-proxy.org/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
-            },
-            "jar": "https://gh-proxy.com/https:/raw.githubusercontent.com/Mrish9527/tv/refs/heads/main/fm1225.png"
-        },
-        {
             "key": "sub070_游戏直播",
             "name": "🙀游戏直播",
             "type": 3,
@@ -27198,19 +26981,6 @@
             "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06"
         },
         {
-            "key": "sub076_push_agent",
-            "name": "手机推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            },
-            "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06"
-        },
-        {
             "key": "sub076_cntv",
             "name": "央视[cat]",
             "type": 3,
@@ -27264,23 +27034,6 @@
             "api": "",
             "searchable": 0,
             "changeable": 0
-        },
-        {
-            "key": "sub079_PushShare",
-            "name": "💻我的资源",
-            "type": 3,
-            "jar": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/pg.jar",
-            "api": "csp_PushShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            }
         },
         {
             "key": "sub079_UP云搜",
@@ -27430,16 +27183,6 @@
             "jar": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/spider2.jar"
         },
         {
-            "key": "sub079_push_agent",
-            "name": "推送",
-            "type": 3,
-            "api": "csp_Push",
-            "changeable": 0,
-            "timeout": 30,
-            "ext": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/lib/tokenm.json",
-            "jar": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/spider2.jar"
-        },
-        {
             "key": "hdr_sub083",
             "name": "━━━━ 月光📚在线 ━━━━",
             "type": 0,
@@ -27545,18 +27288,6 @@
                 "channel": "yunpan139,ydypzyfx"
             },
             "jar": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
-        },
-        {
-            "key": "sub083_123推送",
-            "name": "✌️123┃推送",
-            "type": 4,
-            "api": "https://so.yinpai.xyz/api.php?type=123"
-        },
-        {
-            "key": "sub083_移动推送",
-            "name": "👍移动┃推送",
-            "type": 4,
-            "api": "https://so.yinpai.xyz/api.php?type=mobile"
         },
         {
             "key": "sub083_csp_Douban",
@@ -30193,18 +29924,6 @@
             "jar": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f68dec7863a0b31a2b85d4"
         },
         {
-            "key": "sub088_push_agent",
-            "name": "🎾推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "quickSearch": 0,
-            "ext": {
-                "commonConfig": "https://gh-proxy.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
-            },
-            "jar": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f68dec7863a0b31a2b85d4"
-        },
-        {
             "key": "sub088_虎牙",
             "name": "🐯虎牙",
             "type": 3,
@@ -32091,14 +31810,6 @@
             "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/腾云驾雾.js"
         },
         {
-            "key": "sub093_push_agent",
-            "name": "阿里 | 推送",
-            "type": 3,
-            "api": "csp_Push",
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/token.txt",
-            "jar": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/HeChengChaXiu.jar"
-        },
-        {
             "key": "hdr_sub094",
             "name": "━━━━ 裤佬线路 ━━━━",
             "type": 0,
@@ -32749,21 +32460,6 @@
                 "type": "rect",
                 "ratio": 3.8
             },
-            "ext": {
-                "danmu": true,
-                "danmu_api": "https://dm.211.li/nonay"
-            },
-            "jar": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NTA3NDEyNV83ZDVkNWQyMC04Y2I3LTQ5NzgtYTAzNS1kOTk4NDYzYWJmYjA%3D;md5;ebe3af9c9f2cdcd4756cbb9036a57823"
-        },
-        {
-            "key": "sub096_push_agent",
-            "name": "📤推送┃授权",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
             "ext": {
                 "danmu": true,
                 "danmu_api": "https://dm.211.li/nonay"
@@ -36013,14 +35709,6 @@
             "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/子子影视.js"
         },
         {
-            "key": "sub113_push_agent",
-            "name": "💤推送(播放页链接或磁力)",
-            "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 0,
-            "jar": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69"
-        },
-        {
             "key": "hdr_sub118",
             "name": "━━━━ 小凯📚在线 ━━━━",
             "type": 0,
@@ -36305,17 +35993,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://jihulab.com/jyqhkd/kd/-/raw/main/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9"
-        },
-        {
-            "key": "sub118_push_agent",
-            "name": "公众号：机缘巧盒凯弟",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
             "jar": "https://jihulab.com/jyqhkd/kd/-/raw/main/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9"
         },
         {
@@ -36887,18 +36564,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "https://jihulab.com/ymz1231/json/-/raw/main/央视经典.json",
-            "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/Bili.jar"
-        },
-        {
-            "key": "sub121_push_agent",
-            "name": "▶┃推送┃磁力",
-            "type": 3,
-            "api": "csp_Push",
-            "playerType": 1,
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt",
             "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/Bili.jar"
         },
         {
@@ -38010,22 +37675,6 @@
             "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg23a94bb_upgraded.jar;md5;7c8f662c4d1ed4351e02691c15ed24a2"
         },
         {
-            "key": "sub129_PushShare",
-            "name": "资源分享",
-            "type": 3,
-            "api": "csp_PushShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "https://raw.githubusercontent.com/qist/tvbox/master/lib/token.json$$$./json/pushshare.a.txt$$$db$$$1",
-            "style": {
-                "type": "list"
-            },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg23a94bb_upgraded.jar;md5;7c8f662c4d1ed4351e02691c15ed24a2"
-        },
-        {
             "key": "sub129_SambaShare",
             "name": "Samba分享",
             "type": 3,
@@ -38929,19 +38578,6 @@
             "switchable": 0,
             "ext": {
                 "cookie": "",
-                "commonConfig": "https://www.252035.xyz/z/json/peizhi.json"
-            },
-            "jar": "https://www.252035.xyz/z/custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
-        },
-        {
-            "key": "sub133_push_agent",
-            "name": "推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
                 "commonConfig": "https://www.252035.xyz/z/json/peizhi.json"
             },
             "jar": "https://www.252035.xyz/z/custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
