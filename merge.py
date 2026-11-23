@@ -69,10 +69,11 @@ EXCLUDE_NAME = {
 DROP_LIVES = True
 # 音乐留 3 个 + MV 留 2 个；其余同类站点全部去掉。key 为合并后的完整 key（接口前缀_原 key）。
 SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
-# 注意：音悦台在 pg/qist0825/qistjs/sub082 四个接口里都有，去重后只留 pg 的
-# （priority 最高），所以白名单写 pg_Yinyuetai；写 qistjs_Yinyuetai 不生效。
+# 注意：音悦台在 pg/qist0825/qistjs/sub082 四个接口里都有；pg 整条线已于
+# 2026-11-23 移除，去重后只留 qist0825 的（priority 最高），所以白名单写
+# qist0825_Yinyuetai；写 qistjs_Yinyuetai 不生效。
 MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy',
-              'pg_Yinyuetai', 'fty1_MTV'}
+              'qist0825_Yinyuetai', 'fty1_MTV'}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -102,12 +103,12 @@ EXCLUDE_API_NETDISK = re.compile(
 # 整条线被移除的接口（2026-11-23 用户要求；与 exclude_reason 里的接口级
 # 过滤保持一致）：不收集它们的任何顶层内容（解析/规则/公告等），避免品牌残留
 # （如酷喵 notice 弹窗、酷喵解析）。
-EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei'}
+EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei', 'pg'}
 REMOVED_BRANDS = ('酷喵', '聚玩', '老刘备')
 
 
 def is_excluded_interface(cid):
-    """整条线被移除的接口：酷喵 5 子源、聚玩盒子（xhz 家族）、老刘备。"""
+    """整条线被移除的接口：酷喵 5 子源、聚玩盒子（xhz 家族）、老刘备、PG。"""
     return cid in EXCLUDED_CIDS or cid.startswith('xhz')
 
 
@@ -158,12 +159,8 @@ def exclude_reason(site, cid=''):
         return '用户点名'
     # 整条线移除（2026-11-23 用户要求）：酷喵（5 个子源，按 cid + 名字双重匹配）、
     # 聚玩盒子（xhz + xhz_xhz；xhz_dc 是多仓订阅，展开的子源是其他接口，不动）、
-    # 老刘备（截图里 7 个站所在的接口）
-    if cid in ('sub050', 'sub051', 'sub052', 'sub053', 'sub124') or '酷喵' in name:
-        return '用户点名'
-    if cid.startswith('xhz'):
-        return '用户点名'
-    if cid == 'laoliubei':
+    # 老刘备（截图里 7 个站所在的接口）、PG
+    if is_excluded_interface(cid) or '酷喵' in name:
         return '用户点名'
     if full_key == 'aowu_push_agent':
         return '用户点名'
