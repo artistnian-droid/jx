@@ -1766,46 +1766,6 @@
             "genre": "shortdrama"
         },
         {
-            "key": "xiaosa_mirror_七猫短剧",
-            "name": "七猫 • 短剧",
-            "type": 3,
-            "api": "csp_ShortQimao",
-            "genre": "shortdrama",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_河马短剧",
-            "name": "河马 • 短剧",
-            "type": 3,
-            "api": "csp_ShortHema",
-            "genre": "shortdrama",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_围观短剧",
-            "name": "围观 • 短剧",
-            "type": 3,
-            "api": "csp_ShortWeiguan",
-            "genre": "shortdrama",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_好看短剧",
-            "name": "好看 • 短剧",
-            "type": 3,
-            "api": "csp_ShortHaokan",
-            "genre": "shortdrama",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
-            "key": "xiaosa_mirror_星芽短剧",
-            "name": "星芽 • 短剧",
-            "type": 3,
-            "api": "csp_ShortXingya",
-            "genre": "shortdrama",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
             "key": "xiaosa_mirror_果果短剧",
             "name": "果果 • 短剧",
             "type": 3,
@@ -2234,30 +2194,6 @@
             "type": 3,
             "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/hgdj.py",
             "genre": "shortdrama"
-        },
-        {
-            "key": "tianshen_七星短剧",
-            "name": "🎬七星丨短剧",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/qxdj.py"
-        },
-        {
-            "key": "tianshen_百度短剧",
-            "name": "🎬百度丨短剧",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/bddj.js",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1
-        },
-        {
-            "key": "tianshen_聚合短剧",
-            "name": "🎬聚合丨短剧",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/jhdj.js",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1
         },
         {
             "key": "tianshen_去看吧",
