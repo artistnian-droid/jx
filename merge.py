@@ -69,14 +69,10 @@ EXCLUDE_NAME = {
 DROP_LIVES = True
 # 音乐留 3 个 + MV 留 2 个；其余同类站点全部去掉。key 为合并后的完整 key（接口前缀_原 key）。
 SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
-# 注意：音悦台在 pg/qist0825/qistjs/sub082 四个接口里都有；pg 整条线已于
-# 2026-11-23 移除，去重后只留 qist0825 的（priority 最高），所以白名单写
-# qist0825_Yinyuetai；写 qistjs_Yinyuetai 不生效。
-# 明星┃MV 同理：fty1 整条线已于 2026-11-23 移除，与 fty1_MTV 内容完全相同
-# （同 api csp_BiliGuard + 同 ext）的只剩 sub007/sub061，去重后留 sub007 的，
-# 所以白名单写 sub007_MTV。
-MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy',
-              'qist0825_Yinyuetai', 'sub007_MTV'}
+# 注意：音悦台/明星┃MV 原来由 qist0825/sub007 提供；2026-11-23 用户只留
+# 4 条线后那两个接口被排除，MV 站随之没了（4 条线里没有 MV 站）。白名单
+# 现只剩嗷呜的 3 个音乐站。
+MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy'}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -108,6 +104,10 @@ EXCLUDE_API_NETDISK = re.compile(
 # 整条线被移除的接口（2026-11-23 用户要求；与 exclude_reason 里的接口级
 # 过滤保持一致）：不收集它们的任何顶层内容（解析/规则/公告等），避免品牌残留
 # （如酷喵 notice 弹窗、酷喵解析）。
+# 只聚合这 4 条线（2026-11-23 用户要求：其他的都不要了）。
+# xiaosa 官方经常 502，实际出站的是 xiaosa_mirror；aowu_mirror 已无站。
+# sources.json 不动，想加回某条线时只需把它的 cid 加进这里。
+KEEP_CIDS = {'aowu', 'moyu', 'xiaosa', 'xiaosa_mirror', 'tianshen'}
 EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei', 'pg',
                  'fty1', 'fty2', 'fty_qist', 'fty_cc', 'qistfty',
                  'ouge', 'ouge_iptv', 'ouge_snap'}
@@ -511,6 +511,10 @@ def merge_configs(configs):
     top_single = {}  # 只取一个的顶层字段：wallpaper/logo/danmaku/warningText/notice
 
     for cid, label, prio, base, obj in unique:
+        # 只聚合 4 条线（2026-11-23 用户要求）：不在 KEEP_CIDS 里的接口整个
+        # 不参与合并（站+顶层内容都不收）。站的过滤在下面 exclude_reason 里。
+        if cid not in KEEP_CIDS:
+            continue
         sites = obj.get('sites') or []
         if not isinstance(sites, list):
             sites = []
