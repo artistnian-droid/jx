@@ -28,6 +28,16 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
+            "name": "⚙️配置┃中心",
+            "key": "aowu_MyConfig",
+            "type": 3,
+            "api": "csp_AAConfigAmns",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+        },
+        {
             "name": "📁资源┃中心",
             "key": "aowu_MyAll",
             "type": 3,
