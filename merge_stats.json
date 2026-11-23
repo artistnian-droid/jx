@@ -659,10 +659,10 @@
     "dead_jar_dropped": 45,
     "headers": 87,
     "lives": 0,
-    "parses": 216,
-    "rules": 112,
-    "flags": 96,
-    "output_bytes": 1660101,
+    "parses": 200,
+    "rules": 110,
+    "flags": 86,
+    "output_bytes": 1651275,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
