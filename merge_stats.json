@@ -2,19 +2,19 @@
   "stats": {
     "inputs": 116,
     "sites_in": 7848,
-    "sites_out": 3441,
-    "sites_deduped": 2501,
+    "sites_out": 3412,
+    "sites_deduped": 2426,
     "dup_configs": 15,
     "api_resolved": 570,
-    "jar_kept": 366,
-    "jar_added": 1793,
-    "ext_resolved": 885,
+    "jar_kept": 361,
+    "jar_added": 1770,
+    "ext_resolved": 880,
     "cred_stripped": 2,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
         "sites_in": 83,
-        "sites_kept": 55,
+        "sites_kept": 53,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "aowu_mirror": {
@@ -26,7 +26,7 @@
       "wex": {
         "label": "王二小",
         "sites_in": 100,
-        "sites_kept": 48,
+        "sites_kept": 30,
         "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a."
       },
       "moyu": {
@@ -38,13 +38,13 @@
       "xiaosa_mirror": {
         "label": "潇洒（镜像）",
         "sites_in": 116,
-        "sites_kept": 57,
+        "sites_kept": 56,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar"
       },
       "pg": {
         "label": "PG",
         "sites_in": 74,
-        "sites_kept": 26,
+        "sites_kept": 25,
         "spider": "https://www.252035.xyz/p/pg.jar"
       },
       "fty1": {
@@ -74,25 +74,25 @@
       "ouge": {
         "label": "欧歌",
         "sites_in": 12,
-        "sites_kept": 4,
+        "sites_kept": 3,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cb"
       },
       "ouge_iptv": {
         "label": "欧歌（iptv365）",
         "sites_in": 106,
-        "sites_kept": 68,
+        "sites_kept": 66,
         "spider": "https://play.iptv365.org/欧歌/spider.jar"
       },
       "laoliubei": {
         "label": "老刘备",
         "sites_in": 234,
-        "sites_kept": 175,
+        "sites_kept": 174,
         "spider": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
       },
       "xiaoma": {
         "label": "小马",
         "sites_in": 62,
-        "sites_kept": 31,
+        "sites_kept": 30,
         "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
       },
       "easytv": {
@@ -116,7 +116,7 @@
       "ayrjk": {
         "label": "ayrjk",
         "sites_in": 187,
-        "sites_kept": 91,
+        "sites_kept": 90,
         "spider": "https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/jar/all/anyi_all.jpg;md5;b"
       },
       "jike": {
@@ -152,7 +152,7 @@
       "qist0825": {
         "label": "qist 0825（PG）",
         "sites_in": 135,
-        "sites_kept": 84,
+        "sites_kept": 82,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c"
       },
       "qist0826": {
@@ -188,7 +188,7 @@
       "ouge_snap": {
         "label": "ouge_snap",
         "sites_in": 12,
-        "sites_kept": 4,
+        "sites_kept": 2,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0820/00/fabb11d153077bd3f42e017a99d88e"
       },
       "jiang18": {
@@ -212,7 +212,7 @@
       "sub010": {
         "label": "sub010",
         "sites_in": 136,
-        "sites_kept": 113,
+        "sites_kept": 112,
         "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898f"
       },
       "sub011": {
@@ -236,7 +236,7 @@
       "sub025": {
         "label": "sub025",
         "sites_in": 12,
-        "sites_kept": 1,
+        "sites_kept": 0,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cb"
       },
       "sub027": {
@@ -356,13 +356,13 @@
       "sub054": {
         "label": "sub054",
         "sites_in": 36,
-        "sites_kept": 9,
+        "sites_kept": 8,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub055": {
         "label": "sub055",
         "sites_in": 93,
-        "sites_kept": 33,
+        "sites_kept": 31,
         "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/h"
       },
       "sub056": {
@@ -422,7 +422,7 @@
       "sub073": {
         "label": "sub073",
         "sites_in": 164,
-        "sites_kept": 58,
+        "sites_kept": 59,
         "spider": "https://ym.wya6.cn/tz/wyxs.php;md5;803ee0bcfa247f0cb839b914e8aea5dd"
       },
       "sub076": {
@@ -476,7 +476,7 @@
       "sub089": {
         "label": "sub089",
         "sites_in": 27,
-        "sites_kept": 4,
+        "sites_kept": 3,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/zhoujck/config/main/jar/wu"
       },
       "sub093": {
@@ -518,7 +518,7 @@
       "sub113": {
         "label": "sub113",
         "sites_in": 64,
-        "sites_kept": 47,
+        "sites_kept": 46,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/T"
       },
       "sub118": {
@@ -548,7 +548,7 @@
       "sub123": {
         "label": "sub123",
         "sites_in": 98,
-        "sites_kept": 0,
+        "sites_kept": 10,
         "spider": "http://oss4liview.moji.com/thd_file/2026/10/31/272e922132480799981a031067b6d722."
       },
       "sub124": {
@@ -590,7 +590,7 @@
       "sub133": {
         "label": "sub133",
         "sites_in": 43,
-        "sites_kept": 25,
+        "sites_kept": 24,
         "spider": "https://www.252035.xyz/z/custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
       },
       "sub135": {
@@ -637,8 +637,8 @@
     ],
     "unique_configs": 101,
     "excluded": {
-      "网盘": 790,
-      "用户点名": 144,
+      "用户点名": 266,
+      "网盘": 772,
       "体育": 211,
       "音乐": 203,
       "听书": 266,
@@ -655,7 +655,7 @@
     "parses": 216,
     "rules": 112,
     "flags": 96,
-    "output_bytes": 1748248,
+    "output_bytes": 1736260,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
