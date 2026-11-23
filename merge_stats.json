@@ -88,7 +88,7 @@
     "parses": 19,
     "rules": 17,
     "flags": 33,
-    "output_bytes": 122836,
+    "output_bytes": 122858,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
