@@ -132,6 +132,9 @@ def exclude_reason(site, cid=''):
     # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
     if '配置' in name or '更新' in name or '公告' in name:
         return '用户点名'
+    # 公告/失效类（2026-11-23 分隔头暴露出来的）：接口失效、关注公众号
+    if '接口失效' in name or '关注公众号' in name:
+        return '用户点名'
     # 截图点名的拉不到数据的站（2026-11-23）：王二小 Guard 系列
     if '🤡' in name:
         return '用户点名'
@@ -448,6 +451,7 @@ def merge_configs(configs):
     stats['unique_configs'] = len(unique)
 
     merged_sites = []
+    site_cids = []  # 与 merged_sites 一一对应，记录每个站所属接口（用于分隔头）
     seen_site = set()
     used_keys = set()
     lives, seen_live = [], set()
@@ -506,6 +510,7 @@ def merge_configs(configs):
                 new_site['key'] = final_key
             used_keys.add(final_key)
             merged_sites.append(new_site)
+            site_cids.append(cid)
             n_out += 1
         stats['per_source'][cid] = {'label': label, 'sites_in': n_in,
                                     'sites_kept': n_out,
@@ -576,7 +581,36 @@ def merge_configs(configs):
     stats['sites_out'] = len(merged_sites)
 
     # 置顶排序（稳定排序：组内保持原顺序）
-    merged_sites.sort(key=front_rank)
+    paired = sorted(zip(merged_sites, site_cids), key=lambda p: front_rank(p[0]))
+    merged_sites = [p[0] for p in paired]
+    site_cids = [p[1] for p in paired]
+
+    # 每条线顶部加一个分隔头（2026-11-23 用户要求：方便区分各接口）。
+    # 分隔头是 type 0 空 api 的假站，searchable/changeable 均为 0，不参与
+    # 搜索与换源；点它只会加载失败，不会播放。名字取接口 label，去掉括号备注。
+    labels = {cid: info.get('label', cid)
+              for cid, info in stats['per_source'].items()}
+    headed = []
+    prev_cid = None
+    hdr_keys = set()
+    for site, cid in zip(merged_sites, site_cids):
+        if cid != prev_cid:
+            label = re.sub(r'[（(].*[）)]\s*$', '',
+                           labels.get(cid, cid) or cid).strip() or cid
+            hk = f'hdr_{cid}'
+            n = 2
+            while hk in hdr_keys or hk in used_keys:
+                hk = f'hdr_{cid}_{n}'
+                n += 1
+            hdr_keys.add(hk)
+            headed.append({'key': hk, 'name': f'━━━━ {label} ━━━━',
+                           'type': 0, 'api': '', 'searchable': 0,
+                           'changeable': 0})
+            prev_cid = cid
+        headed.append(site)
+    merged_sites = headed
+    stats['headers'] = len(hdr_keys)
+    stats['sites_out'] = len(merged_sites)
 
     merged = {'spider': AOWU_SPIDER}
     merged['logo'] = JX_LOGO  # 固定使用用户指定的 JX 图标
@@ -705,6 +739,22 @@ def collect_offline():
     if os.path.exists(URLMAP_JSON):
         with open(URLMAP_JSON, encoding='utf-8') as f:
             urlmap = json.load(f)
+    # 从多仓订阅文件建立 URL -> 名字映射（给子源起可读的名字，用于分隔头）
+    sub_names = {}
+    for fn in sorted(os.listdir(DEC_DIR)):
+        if not fn.endswith('.json'):
+            continue
+        try:
+            with open(os.path.join(DEC_DIR, fn), encoding='utf-8') as f:
+                o = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+        if isinstance(o, dict) and o.get('urls') and not o.get('sites'):
+            base_u = urlmap.get(fn[:-5], sources.get(fn[:-5], {}).get('url', ''))
+            for e in o.get('urls') or []:
+                if isinstance(e, dict) and e.get('url'):
+                    full = urljoin(base_u, e['url']) if base_u else e['url']
+                    sub_names[norm_url(full)] = e.get('name', '')
     configs = []
     report = {}
     for fn in sorted(os.listdir(DEC_DIR)):
@@ -731,9 +781,9 @@ def collect_offline():
         src = sources.get(cid, {})
         prio = src.get('priority', 100 if cid.startswith('sub') else 50)
         base = urlmap.get(cid, src.get('url', ''))
-        configs.append((cid, src.get('label', cid), prio, base, obj))
-        report[cid] = {'status': '缓存', 'label': src.get('label', cid),
-                       'url': base}
+        label = src.get('label') or sub_names.get(norm_url(base), '') or cid
+        configs.append((cid, label, prio, base, obj))
+        report[cid] = {'status': '缓存', 'label': label, 'url': base}
     return configs, report
 
 
@@ -765,6 +815,8 @@ def main():
           f"（{stats['dup_configs']} 个重复内容）")
     print(f"站点: {stats['sites_in']} → {stats['sites_out']} "
           f"（去重 {stats['sites_deduped']}）")
+    if stats.get('headers'):
+        print(f"接口分隔头: {stats['headers']} 个（已计入站点总数）")
     if stats.get('excluded'):
         ex = '、'.join(f"{k}{v}" for k, v in stats['excluded'].items())
         print(f"分类过滤去掉: {ex}，共 {sum(stats['excluded'].values())} 个")
