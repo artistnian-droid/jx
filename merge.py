@@ -80,6 +80,10 @@ MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy'}
 NETDISK_KEEP = {'aowu_woWogg', 'aowu_moWobg', 'aowu_PanHj', 'aowu_ddWobg',
                 'aowu_hbWobg', 'aowu_lbWobg', 'aowu_Zhinan', 'aowu_PSfish',
                 'aowu_PSdju'}
+# 嗷呜配置中心（2026-11-23 用户要求加回）：⚙️配置┃中心（MyConfig，
+# csp_AAConfigAmns），网盘 cookie 在这里设置。名字含“配置”会被 meta
+# 过滤去掉，所以进白名单绕过。更新日期:【侏罗纪】（Y360）只是公告站，不加。
+CONFIG_KEEP = {'aowu_MyConfig'}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -132,7 +136,7 @@ def exclude_reason(site, cid=''):
     cid 为接口 id，用于白名单匹配（完整 key = 接口前缀_原 key）。"""
     # 白名单站点不受任何分类过滤影响
     full_key = f"{cid}_{site.get('key', '')}" if cid else str(site.get('key', ''))
-    if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP or full_key in NETDISK_KEEP:
+    if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP or full_key in NETDISK_KEEP or full_key in CONFIG_KEEP:
         return None
     name = str(site.get('name', ''))
     raw_key = str(site.get('key', ''))
