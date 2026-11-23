@@ -1,12 +1,12 @@
 {
- "aowu": "http://www.2525666.xyz/tv",
- "aowu_mirror": "https://9763.kstore.vip/aowu.json",
- "moyu": "https://6800.kstore.vip/fish.json",
- "moyu_y456y": "http://www.y456y.com",
  "xiaosa_mirror": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
  "tianshen": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
- "fty1": "http://www.饭太硬.net/tv",
  "tianshen_proxy": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
  "fty2": "http://fty.888484.xyz/tv",
- "fty_cc": "http://www.饭太硬.cc/tv"
+ "aowu_mirror": "https://9763.kstore.vip/aowu.json",
+ "moyu": "https://6800.kstore.vip/fish.json",
+ "fty_cc": "http://www.饭太硬.cc/tv",
+ "fty1": "http://www.饭太硬.net/tv",
+ "moyu_y456y": "http://www.y456y.com",
+ "aowu": "http://www.2525666.xyz/tv"
 }
