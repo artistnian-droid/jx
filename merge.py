@@ -107,16 +107,16 @@ EXCLUDE_API_NETDISK = re.compile(
 # 只聚合这 4 条线（2026-11-23 用户要求：其他的都不要了）。
 # xiaosa 官方经常 502，实际出站的是 xiaosa_mirror；aowu_mirror 已无站。
 # sources.json 不动，想加回某条线时只需把它的 cid 加进这里。
-KEEP_CIDS = {'aowu', 'moyu', 'xiaosa', 'xiaosa_mirror', 'tianshen'}
+KEEP_CIDS = {'aowu', 'aowu_mirror', 'moyu', 'moyu_y456y', 'xiaosa', 'xiaosa_mirror',
+             'tianshen', 'tianshen_proxy', 'fty_cc', 'fty1', 'fty2'}
 EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei', 'pg',
-                 'fty1', 'fty2', 'fty_qist', 'fty_cc', 'qistfty',
                  'ouge', 'ouge_iptv', 'ouge_snap'}
 REMOVED_BRANDS = ('酷喵', '聚玩', '老刘备')
 
 
 def is_excluded_interface(cid):
     """整条线被移除的接口：酷喵 5 子源、聚玩盒子（xhz 家族）、老刘备、PG、
-    饭太硬（fty 家族 + qistfty）、欧歌（ouge 家族）。"""
+    欧歌（ouge 家族）。饭太硬 2026-11-23 已加回，不再排除。"""
     return cid in EXCLUDED_CIDS or cid.startswith('xhz')
 
 
@@ -470,7 +470,9 @@ def front_rank(site):
         return 2
     if '天神' in name or key.startswith('tianshen_'):
         return 3
-    return 4
+    if key.startswith('fty'):
+        return 4
+    return 5
 def config_fingerprint(obj):
     """配置内容指纹（去重相同配置用）。"""
     canon = json.dumps(obj, ensure_ascii=False, sort_keys=True)
@@ -649,6 +651,9 @@ def merge_configs(configs):
     # 每条线顶部加一个分隔头（2026-11-23 用户要求：方便区分各接口）。
     # 分隔头是 type 0 空 api 的假站，searchable/changeable 均为 0，不参与
     # 搜索与换源；点它只会加载失败，不会播放。名字取接口 label，去掉括号备注。
+    # 不加分隔头的接口（2026-11-23 用户要求：去掉嗷呜占位，让瓜子秒播成为第一行）。
+    # aowu_mirror 同属嗷呜，一并去掉。
+    NO_HEADER_CIDS = {'aowu', 'aowu_mirror'}
     labels = {cid: info.get('label', cid)
               for cid, info in stats['per_source'].items()}
     headed = []
@@ -656,6 +661,10 @@ def merge_configs(configs):
     hdr_keys = set()
     for site, cid in zip(merged_sites, site_cids):
         if cid != prev_cid:
+            prev_cid = cid
+            if cid in NO_HEADER_CIDS:
+                headed.append(site)
+                continue
             label = re.sub(r'[（(].*[）)]\s*$', '',
                            labels.get(cid, cid) or cid).strip() or cid
             hk = f'hdr_{cid}'
@@ -667,7 +676,6 @@ def merge_configs(configs):
             headed.append({'key': hk, 'name': f'━━━━ {label} ━━━━',
                            'type': 0, 'api': '', 'searchable': 0,
                            'changeable': 0})
-            prev_cid = cid
         headed.append(site)
     merged_sites = headed
     stats['headers'] = len(hdr_keys)
