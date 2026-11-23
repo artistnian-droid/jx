@@ -2,12 +2,12 @@
   "stats": {
     "inputs": 119,
     "sites_in": 651,
-    "sites_out": 232,
-    "sites_deduped": 143,
+    "sites_out": 224,
+    "sites_deduped": 138,
     "dup_configs": 17,
-    "api_resolved": 18,
+    "api_resolved": 15,
     "jar_kept": 0,
-    "jar_added": 210,
+    "jar_added": 205,
     "ext_resolved": 7,
     "cred_stripped": 0,
     "per_source": {
@@ -38,13 +38,13 @@
       "xiaosa_mirror": {
         "label": "潇洒（镜像）",
         "sites_in": 116,
-        "sites_kept": 56,
+        "sites_kept": 51,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar"
       },
       "tianshen": {
         "label": "天神",
         "sites_in": 100,
-        "sites_kept": 25,
+        "sites_kept": 22,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
       },
       "fty1": {
@@ -75,7 +75,7 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 91,
+      "用户点名": 104,
       "直播": 9,
       "体育": 24,
       "音乐": 23,
@@ -88,7 +88,7 @@
     "parses": 19,
     "rules": 17,
     "flags": 33,
-    "output_bytes": 125379,
+    "output_bytes": 122836,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
