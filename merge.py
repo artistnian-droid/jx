@@ -72,8 +72,11 @@ SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
 # 注意：音悦台在 pg/qist0825/qistjs/sub082 四个接口里都有；pg 整条线已于
 # 2026-11-23 移除，去重后只留 qist0825 的（priority 最高），所以白名单写
 # qist0825_Yinyuetai；写 qistjs_Yinyuetai 不生效。
+# 明星┃MV 同理：fty1 整条线已于 2026-11-23 移除，与 fty1_MTV 内容完全相同
+# （同 api csp_BiliGuard + 同 ext）的只剩 sub007/sub061，去重后留 sub007 的，
+# 所以白名单写 sub007_MTV。
 MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy',
-              'qist0825_Yinyuetai', 'fty1_MTV'}
+              'qist0825_Yinyuetai', 'sub007_MTV'}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -103,17 +106,20 @@ EXCLUDE_API_NETDISK = re.compile(
 # 整条线被移除的接口（2026-11-23 用户要求；与 exclude_reason 里的接口级
 # 过滤保持一致）：不收集它们的任何顶层内容（解析/规则/公告等），避免品牌残留
 # （如酷喵 notice 弹窗、酷喵解析）。
-EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei', 'pg'}
+EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei', 'pg',
+                 'fty1', 'fty2', 'fty_qist', 'fty_cc', 'qistfty',
+                 'ouge', 'ouge_iptv', 'ouge_snap'}
 REMOVED_BRANDS = ('酷喵', '聚玩', '老刘备')
 
 
 def is_excluded_interface(cid):
-    """整条线被移除的接口：酷喵 5 子源、聚玩盒子（xhz 家族）、老刘备、PG。"""
+    """整条线被移除的接口：酷喵 5 子源、聚玩盒子（xhz 家族）、老刘备、PG、
+    饭太硬（fty 家族 + qistfty）、欧歌（ouge 家族）。"""
     return cid in EXCLUDED_CIDS or cid.startswith('xhz')
 
 
 def exclude_reason(site, cid=''):
-    """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩/体育），保留则返回 None。
+    """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩/体育/直播），保留则返回 None。
     cid 为接口 id，用于白名单匹配（完整 key = 接口前缀_原 key）。"""
     # 白名单站点不受任何分类过滤影响
     full_key = f"{cid}_{site.get('key', '')}" if cid else str(site.get('key', ''))
@@ -128,6 +134,10 @@ def exclude_reason(site, cid=''):
         return '体育'
     if re.search(r'球赛|看球|球迷|310|360吧|球类|球星|说球|Jrs|926|Jrkan', name + ' ' + raw_key, re.IGNORECASE):
         return '体育'
+    # 直播类（2026-11-23 用户要求）：名字含直播/LIVE 或 key 含 live。
+    # 白名单的 3 个体育站（key 含 Live）不受影响——白名单在前面已返回。
+    if '直播' in name or 'live' in name.lower() or 'live' in raw_key.lower():
+        return '直播'
     # 用户截图点名去掉的站（2026-11-23）：💓4K 系列（王二小，全部拉不到数据）、
     # 💎4K 系列（嗷呜）、推送┃播放、【免费分享】
     if '💓' in name and '4K' in name:
@@ -159,7 +169,7 @@ def exclude_reason(site, cid=''):
         return '用户点名'
     # 整条线移除（2026-11-23 用户要求）：酷喵（5 个子源，按 cid + 名字双重匹配）、
     # 聚玩盒子（xhz + xhz_xhz；xhz_dc 是多仓订阅，展开的子源是其他接口，不动）、
-    # 老刘备（截图里 7 个站所在的接口）、PG
+    # 老刘备（截图里 7 个站所在的接口）、PG、饭太硬（fty 家族 + qistfty）、欧歌
     if is_excluded_interface(cid) or '酷喵' in name:
         return '用户点名'
     # 所有推送站（2026-11-23 用户要求）：push_agent/PushShare key、名字含推送、
