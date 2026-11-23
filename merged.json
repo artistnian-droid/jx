@@ -1,6 +1,6 @@
 {
     "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe",
-    "logo": "https://raw.githubusercontent.com/artistnian-droid/jx/main/logo.png",
+    "logo": "https://cdn.jsdelivr.net/gh/artistnian-droid/jx@main/logo.png",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
     "sites": [
