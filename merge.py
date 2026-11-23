@@ -73,6 +73,13 @@ SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
 # 4 条线后那两个接口被排除，MV 站随之没了（4 条线里没有 MV 站）。白名单
 # 现只剩嗷呜的 3 个音乐站。
 MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy'}
+# 嗷呜网盘留 9 个（2026-11-23 用户要求加回，排除闪电）。10 条网盘线里
+# 闪电（sdWobg）不要；其余 9 个（玩偶/木偶/花卷/多多/虎斑/蜡笔/原盘/
+# 飞鱼盘搜/觅寻盘搜）绕过网盘和 💎4K 过滤。用户同时点名的 Sed/观影/
+# 七味/逸动/123/蜗牛不是网盘线，仍被 💎4K 规则过滤，不进白名单。
+NETDISK_KEEP = {'aowu_woWogg', 'aowu_moWobg', 'aowu_PanHj', 'aowu_ddWobg',
+                'aowu_hbWobg', 'aowu_lbWobg', 'aowu_Zhinan', 'aowu_PSfish',
+                'aowu_PSdju'}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -125,7 +132,7 @@ def exclude_reason(site, cid=''):
     cid 为接口 id，用于白名单匹配（完整 key = 接口前缀_原 key）。"""
     # 白名单站点不受任何分类过滤影响
     full_key = f"{cid}_{site.get('key', '')}" if cid else str(site.get('key', ''))
-    if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP:
+    if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP or full_key in NETDISK_KEEP:
         return None
     name = str(site.get('name', ''))
     raw_key = str(site.get('key', ''))
