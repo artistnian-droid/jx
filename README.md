@@ -8,17 +8,18 @@
 
 ## 电视上怎么用
 
-在 OK影视（或 TVBox、影视仓）的配置地址里填下面任一链接：
+在 OK影视（或 TVBox、影视仓）的配置地址里填这个链接：
 
-| 链接 | 地址 |
-| --- | --- |
-| jsDelivr（推荐，国内快） | `https://cdn.jsdelivr.net/gh/artistnian-droid/tvbox-aggregator@main/merged.json` |
-| GitHub 原始地址 | `https://raw.githubusercontent.com/artistnian-droid/tvbox-aggregator/main/merged.json` |
+```
+https://raw.githubusercontent.com/artistnian-droid/tvbox-aggregator/main/merged.json
+```
+
+这个地址无缓存，永远是最新提交的版本。jsDelivr 的 CDN 缓存经常滞后好几分钟甚至更久，已弃用。
 
 ## 当前规模
 
 - 约 105 个唯一接口配置参与合并
-- 约 4300 个站点（去重后），另有直播源与解析线路
+- 约 3440 个站点（去重后），另有解析线路（直播频道已全部去掉）
 - 顶层 spider 为嗷呜新版 loader；各站点保留自己接口的 jar
 
 具体数字每天都在变，见 `merge_stats.json`。
