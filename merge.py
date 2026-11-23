@@ -184,6 +184,11 @@ def exclude_reason(site, cid=''):
             return '用户点名'
         if cid in ('tianshen', 'tianshen_proxy') and '红果' not in name:
             return '用户点名'
+    # 豆瓣推荐去掉（2026-11-23 用户要求）。注意去重冒泡：去掉嗷呜主源的
+    # 豆瓣┃推荐后，镜像源的同款（🔥┃豆瓣┃主线）会浮出来，一并去掉。
+    # 豆瓣 • 首页（潇洒，api 是 csp_Douban 不是 csp_DoubanAmns）不是推荐，不动。
+    if '豆瓣┃推荐' in name or '豆瓣┃主线' in name:
+        return '用户点名'
     # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
     if '配置' in name or '更新' in name or '公告' in name:
         return '用户点名'
@@ -484,14 +489,15 @@ def sanitize_site(site, prefix, base_url, spider_url, stats):
 # 酷喵整条线已于 2026-11-23 移除，故不再置顶。
 
 
-# 置顶站（2026-11-23 用户要求）：瓜子秒播放最顶部。key 为完整 key（含接口前缀）。
-PIN_TOP = {'aowu_Guazi'}
+# 置顶站（2026-11-23 用户要求）：瓜子秒播放最顶部，配置中心排第二。
+# 有序列表，先出现的排在越前面。key 为完整 key（含接口前缀）。
+PIN_TOP = ['aowu_Guazi', 'aowu_MyConfig']
 
 def front_rank(site):
     key = str(site.get('key', ''))
     name = str(site.get('name', ''))
     if key in PIN_TOP:
-        return -1
+        return PIN_TOP.index(key) - len(PIN_TOP)
     if key.startswith('aowu_'):
         return 0
     if key.startswith('moyu_'):
