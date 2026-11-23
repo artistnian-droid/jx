@@ -162,7 +162,11 @@ def exclude_reason(site, cid=''):
     # 老刘备（截图里 7 个站所在的接口）、PG
     if is_excluded_interface(cid) or '酷喵' in name:
         return '用户点名'
-    if full_key == 'aowu_push_agent':
+    # 所有推送站（2026-11-23 用户要求）：push_agent/PushShare key、名字含推送、
+    # csp_Push 系列 api（32 个，含 aowu_push_agent）
+    if 'push' in full_key.lower() or '推送' in name:
+        return '用户点名'
+    if str(site.get('api', '')).lower().startswith('csp_push'):
         return '用户点名'
     # 博彩：去掉开头的 emoji/符号和分类前缀后，以博彩品牌/术语开头
     core = re.sub(r'^[^\w\u4e00-\u9fff]+', '', name)
