@@ -2,19 +2,19 @@
   "stats": {
     "inputs": 117,
     "sites_in": 7948,
-    "sites_out": 3230,
-    "sites_deduped": 2126,
+    "sites_out": 3081,
+    "sites_deduped": 1989,
     "dup_configs": 15,
-    "api_resolved": 546,
-    "jar_kept": 244,
-    "jar_added": 1699,
-    "ext_resolved": 767,
+    "api_resolved": 513,
+    "jar_kept": 232,
+    "jar_added": 1621,
+    "ext_resolved": 735,
     "cred_stripped": 2,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
         "sites_in": 83,
-        "sites_kept": 53,
+        "sites_kept": 51,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "aowu_mirror": {
@@ -26,13 +26,13 @@
       "wex": {
         "label": "王二小",
         "sites_in": 100,
-        "sites_kept": 29,
+        "sites_kept": 26,
         "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a."
       },
       "moyu": {
         "label": "摸鱼",
         "sites_in": 111,
-        "sites_kept": 82,
+        "sites_kept": 81,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
       "xiaosa_mirror": {
@@ -56,13 +56,13 @@
       "fty1": {
         "label": "饭太硬",
         "sites_in": 50,
-        "sites_kept": 31,
+        "sites_kept": 0,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       },
       "fty_qist": {
         "label": "饭太硬（qist）",
         "sites_in": 49,
-        "sites_kept": 3,
+        "sites_kept": 0,
         "spider": "https://qist.wyfc.qzz.io/jar/fan.txt;md5;6ef2e95b434509eed5b943aa44bb3fdf"
       },
       "xhz": {
@@ -80,13 +80,13 @@
       "ouge": {
         "label": "欧歌",
         "sites_in": 12,
-        "sites_kept": 3,
+        "sites_kept": 0,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cb"
       },
       "ouge_iptv": {
         "label": "欧歌（iptv365）",
         "sites_in": 106,
-        "sites_kept": 67,
+        "sites_kept": 0,
         "spider": "https://play.iptv365.org/欧歌/spider.jar"
       },
       "laoliubei": {
@@ -98,7 +98,7 @@
       "xiaoma": {
         "label": "小马",
         "sites_in": 62,
-        "sites_kept": 33,
+        "sites_kept": 43,
         "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
       },
       "easytv": {
@@ -110,7 +110,7 @@
       "yi": {
         "label": "宜优",
         "sites_in": 137,
-        "sites_kept": 52,
+        "sites_kept": 50,
         "spider": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
       },
       "eggp": {
@@ -128,13 +128,13 @@
       "jike": {
         "label": "极客小盒",
         "sites_in": 56,
-        "sites_kept": 26,
+        "sites_kept": 28,
         "spider": "https://img2.gelonghui.com/library/e2693-9aa941a0-f96a-40c2-ac23-e6af358d19a7.pn"
       },
       "tvyhqu": {
         "label": "菜妮丝",
         "sites_in": 37,
-        "sites_kept": 5,
+        "sites_kept": 10,
         "spider": "https://tv.菜妮丝.top/jar/fty1016.jar;md5;aa8d37525617af470b3b8dfc91db8669"
       },
       "feimao_snap": {
@@ -152,7 +152,7 @@
       "qist0821": {
         "label": "qist 0821（饭太硬+扩展）",
         "sites_in": 86,
-        "sites_kept": 47,
+        "sites_kept": 40,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d"
       },
       "qist0825": {
@@ -164,13 +164,13 @@
       "qist0826": {
         "label": "qist 0826（饭太硬）",
         "sites_in": 54,
-        "sites_kept": 1,
+        "sites_kept": 2,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d"
       },
       "qist0827": {
         "label": "qist 0827（fongmi）",
         "sites_in": 33,
-        "sites_kept": 13,
+        "sites_kept": 12,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/custom_spider.jar;md5;41"
       },
       "qistjs": {
@@ -182,13 +182,13 @@
       "qistxyq": {
         "label": "qist 香雅情",
         "sites_in": 49,
-        "sites_kept": 33,
+        "sites_kept": 31,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/XYQ.jar;md5;705ba6e23c43"
       },
       "qistjsm": {
         "label": "qist jsm（合集）",
         "sites_in": 162,
-        "sites_kept": 15,
+        "sites_kept": 14,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;16e7a6d79"
       },
       "ouge_snap": {
@@ -218,7 +218,7 @@
       "sub010": {
         "label": "🐯小虎斑线路",
         "sites_in": 136,
-        "sites_kept": 111,
+        "sites_kept": 105,
         "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898f"
       },
       "sub011": {
@@ -230,19 +230,19 @@
       "sub020": {
         "label": "戏曲线路",
         "sites_in": 16,
-        "sites_kept": 7,
+        "sites_kept": 4,
         "spider": "http://mzrjk.top/唱戏/bhxq.jar"
       },
       "sub022": {
         "label": "传说📚在线",
         "sites_in": 58,
-        "sites_kept": 48,
+        "sites_kept": 49,
         "spider": "https://dl.kstore.dev/download/4718/%E6%8E%A5%E5%8F%A3/spider.jar"
       },
       "sub025": {
         "label": "🚀讴歌线路",
         "sites_in": 12,
-        "sites_kept": 0,
+        "sites_kept": 3,
         "spider": "https://ncstatic-file.clewm.net/rsrc/2026/1117/18/c3ac35c626414dbead28beb6e5a9cb"
       },
       "sub027": {
@@ -260,13 +260,13 @@
       "sub031": {
         "label": "神仙线路",
         "sites_in": 94,
-        "sites_kept": 63,
+        "sites_kept": 58,
         "spider": "http://xhztv.top/dc/神仙/sx.jar;md5;0840fd78292d4a87dfa48dbebd3e6466"
       },
       "sub032": {
         "label": "宝盒线路",
         "sites_in": 77,
-        "sites_kept": 30,
+        "sites_kept": 29,
         "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/BH1116.jar"
       },
       "sub035": {
@@ -278,7 +278,7 @@
       "sub036": {
         "label": "请勿贩卖📚在线",
         "sites_in": 19,
-        "sites_kept": 18,
+        "sites_kept": 17,
         "spider": "http://zhangqun1818.serv00.net/zq/pro.jar?md5=007dddc1aedbbe022544d0fa13d11c92"
       },
       "sub037": {
@@ -296,13 +296,13 @@
       "sub041": {
         "label": "枫斗线路",
         "sites_in": 198,
-        "sites_kept": 185,
+        "sites_kept": 184,
         "spider": "http://xn--oev29b.top/files/18.jar"
       },
       "sub042": {
         "label": "肥猫线路①",
         "sites_in": 40,
-        "sites_kept": 10,
+        "sites_kept": 9,
         "spider": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.pn"
       },
       "sub045": {
@@ -314,13 +314,13 @@
       "sub046": {
         "label": "七星在线",
         "sites_in": 100,
-        "sites_kept": 46,
+        "sites_kept": 45,
         "spider": "https://15487.kstore.space/spider.jar"
       },
       "sub047": {
         "label": "天微线路",
         "sites_in": 76,
-        "sites_kept": 32,
+        "sites_kept": 28,
         "spider": "https://15487.kstore.space/jar/app.jar"
       },
       "sub048": {
@@ -368,7 +368,7 @@
       "sub055": {
         "label": "东篱线路",
         "sites_in": 93,
-        "sites_kept": 32,
+        "sites_kept": 27,
         "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/h"
       },
       "sub056": {
@@ -386,7 +386,7 @@
       "sub061": {
         "label": "超玩家线路",
         "sites_in": 86,
-        "sites_kept": 3,
+        "sites_kept": 10,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       },
       "sub062": {
@@ -410,13 +410,13 @@
       "sub066": {
         "label": "真六线路",
         "sites_in": 47,
-        "sites_kept": 34,
+        "sites_kept": 35,
         "spider": "https://cccimg.com/down.php/6bcb3de5f0d7c9b3d4f19cfe9a314ab2.jar"
       },
       "sub069": {
         "label": "Clun📚在线",
         "sites_in": 101,
-        "sites_kept": 83,
+        "sites_kept": 81,
         "spider": "https://clun.top/jar/xs.jar"
       },
       "sub070": {
@@ -428,13 +428,13 @@
       "sub073": {
         "label": "豆半线路",
         "sites_in": 164,
-        "sites_kept": 61,
+        "sites_kept": 58,
         "spider": "https://ym.wya6.cn/tz/wyxs.php;md5;803ee0bcfa247f0cb839b914e8aea5dd"
       },
       "sub076": {
         "label": "🐹dxawi",
         "sites_in": 48,
-        "sites_kept": 22,
+        "sites_kept": 21,
         "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d49226"
       },
       "sub079": {
@@ -452,7 +452,7 @@
       "sub083": {
         "label": "月光📚在线",
         "sites_in": 77,
-        "sites_kept": 40,
+        "sites_kept": 39,
         "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
       },
       "sub084": {
@@ -470,13 +470,13 @@
       "sub087": {
         "label": "SVIP📚在线",
         "sites_in": 246,
-        "sites_kept": 165,
+        "sites_kept": 163,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main"
       },
       "sub088": {
         "label": "南风📚在线",
         "sites_in": 93,
-        "sites_kept": 27,
+        "sites_kept": 28,
         "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f"
       },
       "sub089": {
@@ -500,13 +500,13 @@
       "sub096": {
         "label": "小米线路",
         "sites_in": 43,
-        "sites_kept": 33,
+        "sites_kept": 31,
         "spider": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NT"
       },
       "sub099": {
         "label": "胜寒线路",
         "sites_in": 43,
-        "sites_kept": 35,
+        "sites_kept": 36,
         "spider": "https://ghfast.top/https:/raw.githubusercontent.com/hanhan8127/TVBox/main/lib/sp"
       },
       "sub106": {
@@ -518,13 +518,13 @@
       "sub112": {
         "label": "黄金📚在线",
         "sites_in": 105,
-        "sites_kept": 69,
+        "sites_kept": 68,
         "spider": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/qrh/mew/spider__1_.jar;md5"
       },
       "sub113": {
         "label": "CandyMu📚在线",
         "sites_in": 64,
-        "sites_kept": 46,
+        "sites_kept": 42,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/T"
       },
       "sub118": {
@@ -536,7 +536,7 @@
       "sub119": {
         "label": "机缘巧盒线路",
         "sites_in": 63,
-        "sites_kept": 32,
+        "sites_kept": 31,
         "spider": "https://jihulab.com/jyqhkd1/kai/-/raw/main/PandaQ240225.jar;md5;16f19e614cdf7c9f"
       },
       "sub121": {
@@ -548,7 +548,7 @@
       "sub122": {
         "label": "玩偶哥哥线路",
         "sites_in": 61,
-        "sites_kept": 31,
+        "sites_kept": 28,
         "spider": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/spider.jar;md5;06925c578c42374"
       },
       "sub123": {
@@ -566,7 +566,7 @@
       "sub125": {
         "label": "香雅情线路",
         "sites_in": 55,
-        "sites_kept": 37,
+        "sites_kept": 34,
         "spider": "https://play.iptv365.org/香雅情/spider.jar"
       },
       "sub126": {
@@ -584,7 +584,7 @@
       "sub129": {
         "label": "高天流云 18+",
         "sites_in": 64,
-        "sites_kept": 43,
+        "sites_kept": 41,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg23a94bb_upgraded.jar;m"
       },
       "sub130": {
@@ -596,7 +596,7 @@
       "sub133": {
         "label": "真心线路",
         "sites_in": 43,
-        "sites_kept": 23,
+        "sites_kept": 21,
         "spider": "https://www.252035.xyz/z/custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
       },
       "sub135": {
@@ -643,26 +643,27 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 1004,
-      "网盘": 721,
+      "用户点名": 1182,
+      "网盘": 691,
+      "直播": 160,
       "体育": 213,
-      "音乐": 195,
-      "听书": 261,
-      "课堂": 233,
+      "音乐": 188,
+      "听书": 257,
+      "课堂": 219,
       "博彩": 7
     },
-    "key_renamed": 7,
+    "key_renamed": 8,
     "cred_stripped_keys": [
       "xiaoma:秒看:token",
       "sub130:秒看:token"
     ],
     "dead_jar_dropped": 43,
-    "headers": 85,
+    "headers": 82,
     "lives": 0,
-    "parses": 200,
+    "parses": 191,
     "rules": 110,
     "flags": 86,
-    "output_bytes": 1628957,
+    "output_bytes": 1555425,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
