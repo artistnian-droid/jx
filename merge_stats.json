@@ -2,13 +2,13 @@
   "stats": {
     "inputs": 117,
     "sites_in": 7948,
-    "sites_out": 3263,
-    "sites_deduped": 2169,
+    "sites_out": 3230,
+    "sites_deduped": 2126,
     "dup_configs": 15,
     "api_resolved": 546,
-    "jar_kept": 245,
-    "jar_added": 1727,
-    "ext_resolved": 773,
+    "jar_kept": 244,
+    "jar_added": 1699,
+    "ext_resolved": 767,
     "cred_stripped": 2,
     "per_source": {
       "aowu": {
@@ -20,19 +20,19 @@
       "aowu_mirror": {
         "label": "嗷呜（镜像）",
         "sites_in": 83,
-        "sites_kept": 1,
+        "sites_kept": 0,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "wex": {
         "label": "王二小",
         "sites_in": 100,
-        "sites_kept": 30,
+        "sites_kept": 29,
         "spider": "http://oss4liview.moji.com/thd_file/2026/11/21/2eca9460132ba7940a5098877c187e1a."
       },
       "moyu": {
         "label": "摸鱼",
         "sites_in": 111,
-        "sites_kept": 83,
+        "sites_kept": 82,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
       "xiaosa_mirror": {
@@ -56,7 +56,7 @@
       "fty1": {
         "label": "饭太硬",
         "sites_in": 50,
-        "sites_kept": 32,
+        "sites_kept": 31,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       },
       "fty_qist": {
@@ -98,7 +98,7 @@
       "xiaoma": {
         "label": "小马",
         "sites_in": 62,
-        "sites_kept": 34,
+        "sites_kept": 33,
         "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
       },
       "easytv": {
@@ -152,13 +152,13 @@
       "qist0821": {
         "label": "qist 0821（饭太硬+扩展）",
         "sites_in": 86,
-        "sites_kept": 48,
+        "sites_kept": 47,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;8432d174d72d"
       },
       "qist0825": {
         "label": "qist 0825（PG）",
         "sites_in": 135,
-        "sites_kept": 90,
+        "sites_kept": 88,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c"
       },
       "qist0826": {
@@ -182,7 +182,7 @@
       "qistxyq": {
         "label": "qist 香雅情",
         "sites_in": 49,
-        "sites_kept": 34,
+        "sites_kept": 33,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/XYQ.jar;md5;705ba6e23c43"
       },
       "qistjsm": {
@@ -218,7 +218,7 @@
       "sub010": {
         "label": "🐯小虎斑线路",
         "sites_in": 136,
-        "sites_kept": 112,
+        "sites_kept": 111,
         "spider": "https://gitee.com/xhuban/getjar/raw/master/jar/custom_spider_cat.jar;md5;45f898f"
       },
       "sub011": {
@@ -236,7 +236,7 @@
       "sub022": {
         "label": "传说📚在线",
         "sites_in": 58,
-        "sites_kept": 49,
+        "sites_kept": 48,
         "spider": "https://dl.kstore.dev/download/4718/%E6%8E%A5%E5%8F%A3/spider.jar"
       },
       "sub025": {
@@ -272,7 +272,7 @@
       "sub035": {
         "label": "🚀春秋线路",
         "sites_in": 51,
-        "sites_kept": 14,
+        "sites_kept": 13,
         "spider": "http://yydsok.com/api/bendi/yydsapi/ff/lib/spider.jar;md5;9bf5c1f491cc633ff14e1f"
       },
       "sub036": {
@@ -302,7 +302,7 @@
       "sub042": {
         "label": "肥猫线路①",
         "sites_in": 40,
-        "sites_kept": 11,
+        "sites_kept": 10,
         "spider": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.pn"
       },
       "sub045": {
@@ -374,7 +374,7 @@
       "sub056": {
         "label": "豆包线路",
         "sites_in": 161,
-        "sites_kept": 89,
+        "sites_kept": 86,
         "spider": "https://meow.668yun.top/c/PuOcCVgXWA7p/柒豪.jar"
       },
       "sub060": {
@@ -404,13 +404,13 @@
       "sub064": {
         "label": "🍯HG",
         "sites_in": 10,
-        "sites_kept": 8,
+        "sites_kept": 7,
         "spider": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
       },
       "sub066": {
         "label": "真六线路",
         "sites_in": 47,
-        "sites_kept": 35,
+        "sites_kept": 34,
         "spider": "https://cccimg.com/down.php/6bcb3de5f0d7c9b3d4f19cfe9a314ab2.jar"
       },
       "sub069": {
@@ -422,7 +422,7 @@
       "sub070": {
         "label": "平安线路",
         "sites_in": 131,
-        "sites_kept": 77,
+        "sites_kept": 76,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/Mrish9527/tv/refs/heads/ma"
       },
       "sub073": {
@@ -434,13 +434,13 @@
       "sub076": {
         "label": "🐹dxawi",
         "sites_in": 48,
-        "sites_kept": 23,
+        "sites_kept": 22,
         "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d49226"
       },
       "sub079": {
         "label": "非凡晓晓线路",
         "sites_in": 46,
-        "sites_kept": 13,
+        "sites_kept": 11,
         "spider": "https://g.3344550.xyz/https:/raw.githubusercontent.com/jigedos/1024/master/spide"
       },
       "sub082": {
@@ -452,7 +452,7 @@
       "sub083": {
         "label": "月光📚在线",
         "sites_in": 77,
-        "sites_kept": 42,
+        "sites_kept": 40,
         "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
       },
       "sub084": {
@@ -476,7 +476,7 @@
       "sub088": {
         "label": "南风📚在线",
         "sites_in": 93,
-        "sites_kept": 28,
+        "sites_kept": 27,
         "spider": "https://jihulab.com/yoursmile77/TVBox/-/raw/master/Yoursmile.jar;md5;2fe20a9210f"
       },
       "sub089": {
@@ -488,7 +488,7 @@
       "sub093": {
         "label": "心魔📚在线",
         "sites_in": 151,
-        "sites_kept": 134,
+        "sites_kept": 133,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/HeChengChaXiu."
       },
       "sub094": {
@@ -500,7 +500,7 @@
       "sub096": {
         "label": "小米线路",
         "sites_in": 43,
-        "sites_kept": 34,
+        "sites_kept": 33,
         "spider": "https://nim-nosdn.netease.im/NTE4NDEwOA%3D%3D/bmltYV8yMDg2MzU4NTY2MDJfMTc5NTI2NT"
       },
       "sub099": {
@@ -524,13 +524,13 @@
       "sub113": {
         "label": "CandyMu📚在线",
         "sites_in": 64,
-        "sites_kept": 47,
+        "sites_kept": 46,
         "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/T"
       },
       "sub118": {
         "label": "小凯📚在线",
         "sites_in": 28,
-        "sites_kept": 18,
+        "sites_kept": 17,
         "spider": "https://jihulab.com/jyqhkd/kd/-/raw/main/fan.txt;md5;5543dae038ce2248e7759e9cbca"
       },
       "sub119": {
@@ -542,7 +542,7 @@
       "sub121": {
         "label": "少儿线路",
         "sites_in": 30,
-        "sites_kept": 25,
+        "sites_kept": 24,
         "spider": "https://jihulab.com/ymz1231/jar/-/raw/main/Bili.jar"
       },
       "sub122": {
@@ -584,7 +584,7 @@
       "sub129": {
         "label": "高天流云 18+",
         "sites_in": 64,
-        "sites_kept": 44,
+        "sites_kept": 43,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/pg23a94bb_upgraded.jar;m"
       },
       "sub130": {
@@ -596,7 +596,7 @@
       "sub133": {
         "label": "真心线路",
         "sites_in": 43,
-        "sites_kept": 24,
+        "sites_kept": 23,
         "spider": "https://www.252035.xyz/z/custom_spider.jar;md5;43989964965deab2a4b6b48251043412"
       },
       "sub135": {
@@ -643,12 +643,12 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 913,
-      "网盘": 733,
+      "用户点名": 1004,
+      "网盘": 721,
       "体育": 213,
-      "音乐": 196,
+      "音乐": 195,
       "听书": 261,
-      "课堂": 234,
+      "课堂": 233,
       "博彩": 7
     },
     "key_renamed": 7,
@@ -656,13 +656,13 @@
       "xiaoma:秒看:token",
       "sub130:秒看:token"
     ],
-    "dead_jar_dropped": 45,
-    "headers": 86,
+    "dead_jar_dropped": 43,
+    "headers": 85,
     "lives": 0,
     "parses": 200,
     "rules": 110,
     "flags": 86,
-    "output_bytes": 1642538,
+    "output_bytes": 1628957,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
