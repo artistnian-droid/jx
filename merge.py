@@ -99,6 +99,18 @@ EXCLUDE_API_NETDISK = re.compile(
     r'pancms|panconfig|mypan|myquark|mybaidu|aliyunpan', re.I)
 
 
+# 整条线被移除的接口（2026-11-23 用户要求；与 exclude_reason 里的接口级
+# 过滤保持一致）：不收集它们的任何顶层内容（解析/规则/公告等），避免品牌残留
+# （如酷喵 notice 弹窗、酷喵解析）。
+EXCLUDED_CIDS = {'sub050', 'sub051', 'sub052', 'sub053', 'sub124', 'laoliubei'}
+REMOVED_BRANDS = ('酷喵', '聚玩', '老刘备')
+
+
+def is_excluded_interface(cid):
+    """整条线被移除的接口：酷喵 5 子源、聚玩盒子（xhz 家族）、老刘备。"""
+    return cid in EXCLUDED_CIDS or cid.startswith('xhz')
+
+
 def exclude_reason(site, cid=''):
     """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩/体育），保留则返回 None。
     cid 为接口 id，用于白名单匹配（完整 key = 接口前缀_原 key）。"""
@@ -516,6 +528,11 @@ def merge_configs(configs):
                                     'sites_kept': n_out,
                                     'spider': spider_url[:80]}
 
+        # 被整条线移除的接口：不收集它的任何顶层内容（解析/规则/公告等），
+        # 避免品牌残留（如酷喵 notice 弹窗、酷喵解析）。站已在上面按条过滤。
+        if is_excluded_interface(cid):
+            continue
+
         # lives / parses 按 url 去重（DROP_LIVES 时不收集 lives）
         for live in [] if DROP_LIVES else (obj.get('lives') or []):
             if isinstance(live, dict):
@@ -528,6 +545,9 @@ def merge_configs(configs):
                     lives.append(nl)
         for ps in obj.get('parses') or []:
             if isinstance(ps, dict):
+                # 已移除接口的品牌解析一律不要（防其他接口也挂着同名解析）
+                if any(b in str(ps.get('name', '')) for b in REMOVED_BRANDS):
+                    continue
                 u = str(ps.get('url', ''))
                 if u and u not in seen_parse:
                     seen_parse.add(u)
