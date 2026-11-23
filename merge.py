@@ -50,7 +50,7 @@ AOWU_SPIDER = ("https://nos.netease.com/vcloud-statistic/nrtc/"
                ";md5;e76d6f0107817970b9f57d7d29129efe")
 
 # 顶层 logo：用户指定的 JX 图标（2026-11-22），覆盖各接口自带的 logo
-JX_LOGO = "https://raw.githubusercontent.com/artistnian-droid/jx/main/logo.png"  # JX 图标放仓库里（原 meow.668yun.top 太慢，经常 30 秒+才加载出来）
+JX_LOGO = "https://cdn.jsdelivr.net/gh/artistnian-droid/jx@main/logo.png"  # JX 图标放仓库里（原 meow.668yun.top 太慢，经常 30 秒+才加载出来）
 
 # 用户要求去掉的四类站点（2026-11-22）：课堂 / 听书 / 音乐 / 网盘
 # 按站点名过滤；网盘类额外按 spider 类名过滤（玩偶/木偶/花卷等名字里不带网盘字样）。
