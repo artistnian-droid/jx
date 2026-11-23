@@ -1071,136 +1071,6 @@
             "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
         },
         {
-            "key": "moyu_Libvio",
-            "name": "📺┆立播┆4K",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": [
-                    "https://libviofabu.com",
-                    "https://libvio.app",
-                    "https://libfabu.com",
-                    "https://libviogroup.github.io"
-                ]
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_KZN",
-            "name": "😋┆指南┆4K",
-            "type": 3,
-            "api": "csp_KZN",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_SeedHub",
-            "name": "🌱┆Seed┆4K",
-            "type": 3,
-            "api": "csp_SeedHub",
-            "searchable": 1,
-            "ext": {
-                "site": [
-                    "https://sidhub.cc",
-                    "https://seeduck.cc",
-                    "https://hubdog.cc"
-                ]
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_Yidong4K",
-            "name": "📶┆移动┆4K",
-            "type": 3,
-            "api": "csp_Yidong4K",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_WoNiu",
-            "name": "🐌┆蜗牛┆4K",
-            "type": 3,
-            "api": "csp_WoNiu",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://wn4k.com/"
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_Qiwei",
-            "name": "🌈┆七味┆4K",
-            "type": 3,
-            "api": "csp_Qiwei",
-            "searchable": 1,
-            "filterable": 0,
-            "ext": {
-                "site": [
-                    "https://www.qwnull.com",
-                    "https://www.qwmkv.com",
-                    "https://www.qwfilm.com",
-                    "https://www.qnmp4.com",
-                    "https://www.qnnull.com",
-                    "https://www.qnhot.com",
-                    "https://www.qncool.com"
-                ]
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_gying",
-            "name": "👀┆观影┆4K",
-            "type": 3,
-            "api": "csp_Gying",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "cookie": "",
-                "site": [
-                    "https://www.教父.com",
-                    "https://www.星际穿越.com",
-                    "https://www.楚门的世界.com",
-                    "https://www.泰坦尼克号.com",
-                    "https://www.盗梦空间.com",
-                    "https://www.肖申克的救赎.com",
-                    "https://www.阿甘正传.com",
-                    "https://www.黑客帝国.com"
-                ]
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_ShuangXing",
-            "name": "🌟┆双星┆4K",
-            "type": 3,
-            "api": "csp_ShuangXing",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
-            "key": "moyu_DianYingYunJi",
-            "name": "☁️┆云集┆4K",
-            "type": 3,
-            "api": "csp_DianYingYunJi",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
-        },
-        {
             "key": "moyu_VideoX",
             "name": "📺┆小北┆云视",
             "type": 3,
@@ -2305,6 +2175,13 @@
             "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
+            "key": "tianshen_移动",
+            "name": "🌀移动｜1920",
+            "type": 3,
+            "api": "csp_Yidong4K",
+            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+        },
+        {
             "key": "tianshen_华数",
             "name": "🌀华数｜1920",
             "type": 3,
@@ -2450,70 +2327,6 @@
                 "ratio": 1.618
             },
             "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_迅雷云盘",
-            "name": "📁我的｜迅雷",
-            "type": 3,
-            "api": "csp_PanXunlei",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_光鸭网盘",
-            "name": "📁我的｜光鸭",
-            "type": 3,
-            "api": "csp_PanGuangya",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_123云盘",
-            "name": "📁我的｜123",
-            "type": 3,
-            "api": "csp_Pan123",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "hdr_sub056",
-            "name": "━━━━ 豆包线路 ━━━━",
-            "type": 0,
-            "api": "",
-            "searchable": 0,
-            "changeable": 0
-        },
-        {
-            "key": "sub056_藤1藤",
-            "name": "天神别腾讯",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"
-        },
-        {
-            "key": "sub056_茫1茫",
-            "name": "天神别芒果",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
         },
         {
             "key": "hdr_wex",
@@ -3466,106 +3279,6 @@
             "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
         },
         {
-            "key": "easytv_种子",
-            "name": "种子 | 4K",
-            "type": 3,
-            "api": "csp_SeedHub",
-            "searchable": 1,
-            "quickSearch": 0,
-            "ext": {
-                "site": [
-                    "https://sidhub.cc",
-                    "https://seeduck.cc",
-                    "https://hubdog.cc",
-                    "http://104.243.25.80"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_搬运",
-            "name": "搬运 | 4K",
-            "type": 3,
-            "api": "csp_BanYunDao",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_指南",
-            "name": "指南 | 4K",
-            "type": 3,
-            "api": "csp_4KZhinan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": [
-                    "https://4kzn.cc"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_小丑",
-            "name": "小丑 | 4K",
-            "type": 3,
-            "api": "csp_4KZhinan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": [
-                    "https://4kxc.com"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_茉莉",
-            "name": "茉莉 | 4K",
-            "type": 3,
-            "api": "csp_HDmoli",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": [
-                    "https://www.hdmoli.com",
-                    "https://www.hdmoli.pro"
-                ]
-            },
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_爱盼",
-            "name": "爱盼 | 4K",
-            "type": 3,
-            "api": "csp_AiPan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
-            "key": "easytv_即刻",
-            "name": "即刻 | 4K",
-            "type": 3,
-            "api": "csp_Jike",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "jar": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb"
-        },
-        {
             "key": "easytv_TVB云播",
             "name": "TVB | 免扫4K",
             "type": 3,
@@ -4393,12 +4106,63 @@
             "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
         },
         {
+            "key": "yi_SeedHub",
+            "name": "🔵种子丨资源",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://sidhub.cc",
+                    "https://seeduck.cc",
+                    "https://hubdog.cc"
+                ]
+            },
+            "timeout": 60,
+            "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
+        },
+        {
             "key": "yi_libvio",
             "name": "🔵立播丨资源",
             "type": 3,
             "api": "csp_Libvio",
             "searchable": 1,
             "quickSearch": 1,
+            "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
+        },
+        {
+            "key": "yi_指南",
+            "name": "🔵指南丨资源",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": [
+                    "https://4kzn.cc"
+                ]
+            },
+            "timeout": 60,
+            "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
+        },
+        {
+            "key": "yi_小丑",
+            "name": "🔵小丑丨资源",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": [
+                    "https://4kxc.com"
+                ]
+            },
+            "timeout": 60,
             "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
         },
         {
@@ -4418,6 +4182,20 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "timeout": 60,
+            "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
+        },
+        {
+            "key": "yi_双星",
+            "name": "🔵双星丨资源",
+            "type": 3,
+            "api": "csp_ShuangXing",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "style": {
+                "type": "list"
+            },
             "timeout": 60,
             "jar": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
         },
@@ -18472,6 +18250,20 @@
             "timeout": 60
         },
         {
+            "key": "sub045_即刻",
+            "name": "即刻｜4K",
+            "type": 3,
+            "api": "csp_Jike",
+            "jar": "https://gitee.com/xiayede/tvbox/raw/master/spider.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 60
+        },
+        {
             "key": "sub045_人人电影网",
             "name": "人人｜4K",
             "type": 3,
@@ -20949,74 +20741,7 @@
             "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
         },
         {
-            "key": "sub055_myuc",
-            "name": "❤️｜我的┃优囍",
-            "type": 3,
-            "api": "csp_MyUC",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30,
-            "ext": "https://v6.gh-proxy.org/https://github.com/chitue/dongliTV/blob/main/config/myuc.json",
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
-        },
-        {
-            "key": "sub055_myxunlei",
-            "name": "❤️｜我的┃迅雷",
-            "type": 3,
-            "api": "csp_MyXunlei",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30,
-            "ext": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/4E5DC23_773_mx_20260328174516281newMediaFile.bmp",
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
-        },
-        {
-            "key": "sub055_myali",
-            "name": "❤️｜我的┃阿里",
-            "type": 3,
-            "api": "csp_MyAli",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30,
-            "ext": "https://v6.gh-proxy.org/https://github.com/chitue/dongliTV/blob/main/config/myali.json",
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
-        },
-        {
-            "key": "sub055_mytianyi",
-            "name": "❤️｜我的┃天懿",
-            "type": 3,
-            "api": "csp_MyTianYi",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "list"
-            },
-            "timeout": 30,
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;b6c28db3ed75438481f2fbae81a58428"
-        },
-        {
-            "key": "hdr_sub056_2",
+            "key": "hdr_sub056",
             "name": "━━━━ 豆包线路 ━━━━",
             "type": 0,
             "api": "",
@@ -21679,6 +21404,17 @@
             "api": "https://pan.29o.cn/down.php/64c724e1188ce33d5e8f04eccbcd455e.py",
             "category": "综合",
             "searchable": 1
+        },
+        {
+            "key": "sub056_爱盼",
+            "name": "爱盼*4K",
+            "type": 3,
+            "api": "csp_AiPan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "jar": "https://meow.668yun.top/c/PuOcCVgXWA7p/柒豪.jar"
         },
         {
             "key": "sub056_全网短",
@@ -25968,6 +25704,26 @@
             "api": "",
             "searchable": 0,
             "changeable": 0
+        },
+        {
+            "key": "sub086_种子",
+            "name": "🍃SeedHub丨4K",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://sidhub.cc",
+                    "https://seeduck.cc",
+                    "https://hubdog.cc",
+                    "http://104.243.25.80"
+                ]
+            },
+            "timeout": 60,
+            "jar": "https://gh-proxy.com/https:/raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/tvbox.jar"
         },
         {
             "key": "sub086_聚合",
