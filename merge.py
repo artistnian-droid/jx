@@ -129,6 +129,18 @@ def exclude_reason(site, cid=''):
         return '用户点名'
     if '免费分享' in name:
         return '用户点名'
+    # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
+    if '配置' in name or '更新' in name or '公告' in name:
+        return '用户点名'
+    # 截图点名的拉不到数据的站（2026-11-23）：王二小 Guard 系列
+    if '🤡' in name:
+        return '用户点名'
+    if '🍉' in name and cid == 'wex':
+        return '用户点名'
+    if 'DIY' in name:
+        return '用户点名'
+    if '舞曲' in name:
+        return '用户点名'
     if full_key == 'aowu_push_agent':
         return '用户点名'
     # 博彩：去掉开头的 emoji/符号和分类前缀后，以博彩品牌/术语开头
@@ -146,6 +158,9 @@ def exclude_reason(site, cid=''):
     if api and '://' not in api and not api.startswith('http'):
         if EXCLUDE_API_NETDISK.search(api):
             return '网盘'
+        # 应用商店/配置中心/公告类 spider（非视频站，2026-11-23 用户要求）
+        if re.match(r'csp_(Market|MarketCAT|Config|ConfigCenter|Notice)\b', api):
+            return '用户点名'
     return None
 
 UA_OK = 'okhttp/3.12.0'
@@ -377,6 +392,27 @@ def sanitize_site(site, prefix, base_url, spider_url, stats):
 
 
 # ---------------------------------------------------------------- 合并
+# 置顶顺序（2026-11-23 用户要求）：嗷呜、摸鱼、潇洒、天神、酷喵排在最前面。
+# 天神没有独立接口（只有 2 个站名含天神），按名字匹配；酷喵是 5 个子源
+# （sub050/051/052/053/124），按 key 前缀 + 名字双重匹配（子源编号若在
+# 每日刷新中漂移，名字匹配仍能兜底）。
+KUMIAO_CIDS = ('sub050_', 'sub051_', 'sub052_', 'sub053_', 'sub124_')
+
+
+def front_rank(site):
+    key = str(site.get('key', ''))
+    name = str(site.get('name', ''))
+    if key.startswith('aowu_'):
+        return 0
+    if key.startswith('moyu_'):
+        return 1
+    if key.startswith('xiaosa_') or key.startswith('xiaosa_mirror_'):
+        return 2
+    if '天神' in name:
+        return 3
+    if '酷喵' in name or key.startswith(KUMIAO_CIDS):
+        return 4
+    return 5
 def config_fingerprint(obj):
     """配置内容指纹（去重相同配置用）。"""
     canon = json.dumps(obj, ensure_ascii=False, sort_keys=True)
@@ -532,6 +568,9 @@ def merge_configs(configs):
                 top_single[k] = obj[k]
 
     stats['sites_out'] = len(merged_sites)
+
+    # 置顶排序（稳定排序：组内保持原顺序）
+    merged_sites.sort(key=front_rank)
 
     merged = {'spider': AOWU_SPIDER}
     merged['logo'] = JX_LOGO  # 固定使用用户指定的 JX 图标
