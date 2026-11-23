@@ -126,6 +126,15 @@ def b64_json(s):
         raw = gzip.decompress(raw)
     except Exception:
         pass
+    # 解出的可能是 TVBox hex 加密配置（天神格式：b64 里套 hex）
+    try:
+        hexstr = raw.decode('ascii').strip()
+        if re.fullmatch(r'[0-9a-fA-F]+', hexstr):
+            obj, _why = tvbox_decrypt(hexstr)
+            if obj is not None:
+                return obj
+    except Exception:
+        pass
     for enc in ('utf-8', 'gbk', 'latin-1'):
         try:
             return try_json(raw.decode(enc))
