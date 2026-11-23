@@ -26,14 +26,13 @@ https://raw.githubusercontent.com/artistnian-droid/tv/main/merged.json
 
 ## 增删接口
 
-`sources.json` 里只有 11 条在用的线（5 条线 + 各自的备用源）。真正决定哪些接口进合并的是 `merge.py` 里的 `KEEP_CIDS` 白名单。停用的接口都移到了 `sources-disabled.json`（2026-11-23 精简时移出），想加回某条线时，把它整条从 `sources-disabled.json` 移回 `sources.json`，再把它的 cid 加进 `KEEP_CIDS`，然后手动推送一次 merged.json。
+`sources.json` 里只有 11 条在用的线（5 条线 + 各自的备用源）。真正决定哪些接口进合并的是 `merge.py` 里的 `KEEP_CIDS` 白名单。想加新接口时，在 `sources.json` 里加一条，再把它的 cid 加进 `KEEP_CIDS`，然后手动推送一次 merged.json。
 
 ## 文件说明
 
 - `merge.py`：拉取 + 解码 + 合并流水线（`python3 merge.py` 全量刷新）
 - `decode.py`：配置解码器（纯 JSON、图片尾部 base64、TVBox 加密、整文件 base64、gzip）
 - `sources.json`：在用的 11 条接口清单
-- `sources-disabled.json`：停用的接口清单（加回时从这里移回 sources.json）
 - `urlmap.json`：多仓订阅展开映射
 - `decoded/`：各接口解码后的缓存（拉取失败时用缓存顶替，保证不断供）
 - `merged.json`：合并后的最终配置（电视加载这个）
