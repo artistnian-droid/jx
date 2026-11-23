@@ -1,26 +1,38 @@
 {
   "stats": {
-    "inputs": 116,
-    "sites_in": 409,
-    "sites_out": 209,
-    "sites_deduped": 34,
-    "dup_configs": 15,
+    "inputs": 119,
+    "sites_in": 651,
+    "sites_out": 237,
+    "sites_deduped": 148,
+    "dup_configs": 17,
     "api_resolved": 19,
     "jar_kept": 0,
-    "jar_added": 186,
+    "jar_added": 214,
     "ext_resolved": 8,
     "cred_stripped": 0,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
+        "sites_in": 83,
+        "sites_kept": 51,
+        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
+      },
+      "aowu_mirror": {
+        "label": "嗷呜（镜像）",
         "sites_in": 82,
-        "sites_kept": 50,
+        "sites_kept": 0,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/4f052dfd-2873-4f1e-9c42-c3f444fc60"
       },
       "moyu": {
         "label": "摸鱼",
         "sites_in": 111,
         "sites_kept": 72,
+        "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
+      },
+      "moyu_y456y": {
+        "label": "摸鱼（备用）",
+        "sites_in": 109,
+        "sites_kept": 0,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
       "xiaosa_mirror": {
@@ -34,1414 +46,661 @@
         "sites_in": 100,
         "sites_kept": 27,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+      },
+      "fty1": {
+        "label": "饭太硬",
+        "sites_in": 50,
+        "sites_kept": 27,
+        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       }
     },
     "dup_config_names": [
       "wex_alt 与 wex 内容相同",
+      "tianshen_proxy 与 tianshen 内容相同",
       "fty2 与 fty1 内容相同",
       "tv999 与 wex 内容相同",
       "qistfty 与 fty_qist 内容相同",
+      "wex_top 与 wex 内容相同",
       "fty_cc 与 fty1 内容相同",
       "sub013 与 aowu 内容相同",
       "sub021 与 xiaoma 内容相同",
       "sub026 与 wex 内容相同",
+      "sub039 与 moyu_y456y 内容相同",
       "sub059 与 eggp 内容相同",
       "sub067 与 sub055 内容相同",
-      "sub080 与 tianshen 内容相同",
       "sub098 与 sub087 内容相同",
       "sub109 与 laoliubei 内容相同",
       "sub110 与 sub088 内容相同",
       "sub117 与 sub087 内容相同"
     ],
-    "unique_configs": 101,
+    "unique_configs": 102,
     "excluded": {
-      "用户点名": 50,
-      "网盘": 51,
-      "直播": 3,
-      "体育": 13,
-      "音乐": 11,
-      "听书": 23,
-      "课堂": 19
+      "用户点名": 77,
+      "网盘": 72,
+      "直播": 9,
+      "体育": 24,
+      "音乐": 23,
+      "听书": 32,
+      "课堂": 33
     },
     "headers": 4,
     "lives": 0,
-    "parses": 11,
-    "rules": 16,
+    "parses": 19,
+    "rules": 17,
     "flags": 33,
-    "output_bytes": 112616,
-    "output_file": "/home/runner/work/tvbox-aggregator/tvbox-aggregator/merged.json"
+    "output_bytes": 127852,
+    "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
-    "xhz": {
-      "label": "小盒子4K",
-      "url": "http://xhztv.top/4k.json",
-      "status": "HTTP 200, 30612 bytes / 解码 json/single",
-      "cached": false
-    },
-    "xiaosa_mirror": {
-      "label": "潇洒（镜像）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "status": "HTTP 200, 29063 bytes / 解码 json/single",
-      "cached": false
-    },
-    "ouge_iptv": {
-      "label": "欧歌（iptv365）",
-      "url": "https://play.iptv365.org/欧歌/api.json",
-      "status": "HTTP 200, 56059 bytes / 解码 json/single",
-      "cached": false
-    },
-    "xhz_xhz": {
-      "label": "小盒子单仓",
-      "url": "http://xhztv.top/xhz",
-      "status": "HTTP 200, 19728 bytes / 解码 json/single",
-      "cached": false
-    },
-    "tianshen": {
-      "label": "天神",
-      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
-      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
-    "fty_qist": {
-      "label": "饭太硬（qist）",
-      "url": "https://qist.wyfc.qzz.io/fty.json",
-      "status": "HTTP 200, 12350 bytes / 解码 json/single",
-      "cached": false
-    },
-    "wex_alt": {
-      "label": "王二小（备用）",
-      "url": "https://d.kstore.dev/download/9280/wex.json",
-      "status": "HTTP 200, 34558 bytes / 解码 json/single",
-      "cached": false
-    },
-    "tvyhqu": {
-      "label": "菜妮丝",
-      "url": "https://tv.xn--yhqu5zs87a.top",
-      "status": "HTTP 200, 16013 bytes / 解码 json/single",
-      "cached": false
-    },
-    "feimao_snap": {
-      "label": "肥猫（Lightconer 快照，域名已停售）",
-      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
-      "status": "HTTP 200, 18366 bytes / 解码 json/single",
-      "cached": false
-    },
-    "laoliubei": {
-      "label": "老刘备",
-      "url": "https://raw.liucn.cc/box/m.json",
-      "status": "HTTP 200, 57874 bytes / 解码 json/single",
-      "cached": false
-    },
-    "fm_gif": {
-      "label": "肥猫（备线）",
-      "url": "https://w.junce.dpdns.org/fm.gif",
-      "status": "HTTP 200, 375235 bytes / 解码 image-embedded-b64/single",
-      "cached": false
-    },
-    "pg": {
-      "label": "PG",
-      "url": "https://www.252035.xyz/p/jsm.json",
-      "status": "HTTP 200, 34366 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qist0826": {
-      "label": "qist 0826（饭太硬）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0826.json",
-      "status": "HTTP 200, 12110 bytes / 解码 json/single",
-      "cached": false
-    },
-    "jike": {
-      "label": "极客小盒",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/ph7368/ok/main/极客小盒.json",
-      "status": "HTTP 200, 68174 bytes / 解码 tvbox-hex/single",
-      "cached": false
-    },
-    "ouge": {
-      "label": "欧歌",
-      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=all&jar=all&b=欧歌",
-      "status": "HTTP 200, 10487 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qist0827": {
-      "label": "qist 0827（fongmi）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0827.json",
-      "status": "HTTP 200, 9964 bytes / 解码 json/single",
-      "cached": false
-    },
-    "wex": {
-      "label": "王二小",
-      "url": "https://9280.kstore.vip/newwex.json",
-      "status": "HTTP 200, 34558 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qistxyq": {
-      "label": "qist 香雅情",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/XYQ.json",
-      "status": "HTTP 200, 19198 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qistjs": {
-      "label": "qist js（PG+drpy）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/js.json",
-      "status": "HTTP 200, 52718 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qist0821": {
-      "label": "qist 0821（饭太硬+扩展）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
-      "status": "HTTP 200, 23882 bytes / 解码 json/single",
-      "cached": false
-    },
-    "yi": {
-      "label": "宜优",
-      "url": "https://15889.kstore.space/yi.json",
-      "status": "HTTP 200, 87644 bytes / 解码 tvbox-hex/single",
-      "cached": false
-    },
-    "moyu": {
-      "label": "摸鱼",
-      "url": "https://6800.kstore.vip/fish.json",
-      "status": "HTTP 200, 37089 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qistjsm": {
-      "label": "qist jsm（合集）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
-      "status": "HTTP 200, 48843 bytes / 解码 json/single",
-      "cached": false
-    },
-    "qist0825": {
-      "label": "qist 0825（PG）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0825.json",
-      "status": "HTTP 200, 27643 bytes / 解码 json/single",
-      "cached": false
-    },
-    "fty1": {
-      "label": "饭太硬",
-      "url": "http://www.饭太硬.net/tv",
-      "status": "HTTP 200, 19111 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
-    "qistfty": {
-      "label": "qist 饭太硬",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
-      "status": "HTTP 200, 12350 bytes / 解码 json/single",
-      "cached": false
-    },
-    "fty2": {
-      "label": "饭太硬（备用）",
-      "url": "http://fty.888484.xyz/tv",
-      "status": "HTTP 200, 19111 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
-    "vox": {
-      "label": "VOX（2026-11-22 沙箱内无响应，保留重试）",
-      "url": "http://rihou.cc:88/demo.php",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false
-    },
-    "ok321": {
-      "label": "OK321（2026-11-22 沙箱内无响应，保留重试）",
-      "url": "http://ok321.top/ok",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false
-    },
-    "qist0707": {
-      "label": "qist 0707（多仓，指向 99188）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0707.json",
-      "status": "HTTP 200, 94 bytes / 解码 json/multi",
-      "cached": false
+    "aowu": {
+      "status": "缓存",
+      "label": "嗷呜",
+      "url": "http://www.2525666.xyz/tv"
     },
     "aowu_mirror": {
+      "status": "缓存",
       "label": "嗷呜（镜像）",
-      "url": "https://9763.kstore.space/aowu.json",
-      "status": "拉取失败(HTTP 401)，用缓存",
-      "cached": true
-    },
-    "feimao": {
-      "label": "肥猫（域名已停售，保留重试）",
-      "url": "http://肥猫.com",
-      "status": "HTTP 200, 1010 bytes / 解码失败",
-      "cached": false
-    },
-    "shiguang": {
-      "label": "拾光多仓",
-      "url": "http://xmbjm.fh4u.org/dc.txt",
-      "status": "HTTP 200, 6075 bytes / 解码 json/multi",
-      "cached": false
-    },
-    "xhz_dc": {
-      "label": "小盒子多仓",
-      "url": "http://xhztv.top/dc",
-      "status": "HTTP 200, 1312 bytes / 解码 json/multi",
-      "cached": false
-    },
-    "fty_cc": {
-      "label": "饭太硬cc",
-      "url": "http://www.饭太硬.cc/tv",
-      "status": "HTTP 200, 19111 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
-    "duoxian": {
-      "label": "多线（多仓）",
-      "url": "https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.txt",
-      "status": "HTTP 200, 12478 bytes / 解码 json/multi",
-      "cached": false
-    },
-    "wykj": {
-      "label": "无意云kj（2026-11-22 返回 456，保留重试）",
-      "url": "http://yc.wya6.cn/wykj.php",
-      "status": "拉取失败(HTTP 456)，无缓存",
-      "cached": false
-    },
-    "wyxs": {
-      "label": "无意云xs（2026-11-22 返回 456，保留重试）",
-      "url": "http://yc.wya6.cn/wyxs.php",
-      "status": "拉取失败(HTTP 456)，无缓存",
-      "cached": false
-    },
-    "ok213": {
-      "label": "OK213（2026-11-22 沙箱内无响应，保留重试）",
-      "url": "http://ok213.top/ok",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false
+      "url": "https://9763.kstore.space/aowu.json"
     },
     "ayrjk": {
+      "status": "缓存",
       "label": "ayrjk",
-      "url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/api.json",
-      "status": "HTTP 200, 121565 bytes / 解码 json/single",
-      "cached": false
+      "url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/api.json"
     },
-    "jiang18": {
-      "label": "江江18",
-      "url": "http://tv.江江.com/18.json",
-      "status": "HTTP 200, 50508 bytes / 解码 json/single",
-      "cached": false
-    },
-    "tv999": {
-      "label": "王二小（tv999 镜像）",
-      "url": "http://tv.999888987.xyz",
-      "status": "HTTP 200, 34558 bytes / 解码 json/single",
-      "cached": false
-    },
-    "xiaoma": {
-      "label": "小马",
-      "url": "https://szyyds.cn/tv/x.json",
-      "status": "HTTP 200, 30571 bytes / 解码 json/single",
-      "cached": false
+    "duoxian": {
+      "status": "多仓订阅（离线模式不展开）"
     },
     "easytv": {
+      "status": "缓存",
       "label": "EasyTV",
-      "url": "https://15318.kstore.space/easytv.jpg",
-      "status": "HTTP 200, 59918 bytes / 解码 json/single",
-      "cached": false
-    },
-    "tinghao": {
-      "label": "挺好分享多仓",
-      "url": "http://ztha.top/TVBox/GYCK.json",
-      "status": "HTTP 200, 3532 bytes / 解码 json/multi",
-      "cached": false
-    },
-    "aowu": {
-      "label": "嗷呜",
-      "url": "http://www.2525666.xyz/tv",
-      "status": "HTTP 200, 21536 bytes / 解码 image-tail-b64/single",
-      "cached": false
+      "url": "https://15318.kstore.space/easytv.jpg"
     },
     "eggp": {
+      "status": "缓存",
       "label": "二月红",
-      "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-      "status": "HTTP 200, 27529 bytes / 解码 json/single",
-      "cached": false
+      "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json"
     },
-    "xiaosa": {
-      "label": "潇洒（官方，2026-11-22 返回 502）",
-      "url": "https://9877.kstore.space/AnotherD/api.json",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false
+    "feimao_snap": {
+      "status": "缓存",
+      "label": "肥猫（Lightconer 快照，域名已停售）",
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json"
     },
-    "jiang": {
-      "label": "江江",
-      "url": "http://8.129.22.85/Jiang.json",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false
+    "fm_gif": {
+      "status": "缓存",
+      "label": "肥猫（备线）",
+      "url": "https://w.junce.dpdns.org/fm.gif"
     },
-    "pandown": {
-      "label": "pandown（2026-11-22 沙箱内无响应，保留重试）",
-      "url": "http://pandown.pro/tvbox/tvbox.json",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false
+    "fty1": {
+      "status": "缓存",
+      "label": "饭太硬",
+      "url": "http://www.饭太硬.net/tv"
     },
-    "sub019": {
-      "label": "🚀宝盒线路",
-      "url": "http://mzjk.top/禁止贩卖",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "fty2": {
+      "status": "缓存",
+      "label": "饭太硬（备用）",
+      "url": "http://fty.888484.xyz/tv"
     },
-    "sub005": {
-      "label": "😹影视资源",
-      "url": "http://bp.tvbox.cam",
-      "status": "HTTP 200, 1140 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
+    "fty_cc": {
+      "status": "缓存",
+      "label": "饭太硬",
+      "url": "http://www.饭太硬.cc/tv"
     },
-    "sub014": {
-      "label": "短剧📚在线",
-      "url": "http://jiduo.3116598.xyz",
-      "status": "HTTP 200, 2645 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
+    "fty_qist": {
+      "status": "缓存",
+      "label": "饭太硬（qist）",
+      "url": "https://qist.wyfc.qzz.io/fty.json"
+    },
+    "jiang18": {
+      "status": "缓存",
+      "label": "江江18",
+      "url": "http://tv.江江.com/18.json"
+    },
+    "jike": {
+      "status": "缓存",
+      "label": "极客小盒",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/ph7368/ok/main/极客小盒.json"
+    },
+    "laoliubei": {
+      "status": "缓存",
+      "label": "老刘备",
+      "url": "https://raw.liucn.cc/box/m.json"
+    },
+    "moyu": {
+      "status": "缓存",
+      "label": "摸鱼",
+      "url": "https://6800.kstore.vip/fish.json"
+    },
+    "moyu_y456y": {
+      "status": "缓存",
+      "label": "摸鱼（备用）",
+      "url": "http://www.y456y.com"
+    },
+    "ouge": {
+      "status": "缓存",
+      "label": "欧歌",
+      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=all&jar=all&b=欧歌"
+    },
+    "ouge_iptv": {
+      "status": "缓存",
+      "label": "欧歌（iptv365）",
+      "url": "https://play.iptv365.org/欧歌/api.json"
+    },
+    "ouge_snap": {
+      "status": "缓存",
+      "label": "ouge_snap",
+      "url": ""
+    },
+    "pg": {
+      "status": "缓存",
+      "label": "PG",
+      "url": "https://www.252035.xyz/p/jsm.json"
+    },
+    "qist0707": {
+      "status": "多仓订阅（离线模式不展开）"
+    },
+    "qist0821": {
+      "status": "缓存",
+      "label": "qist 0821（饭太硬+扩展）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json"
+    },
+    "qist0825": {
+      "status": "缓存",
+      "label": "qist 0825（PG）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0825.json"
+    },
+    "qist0826": {
+      "status": "缓存",
+      "label": "qist 0826（饭太硬）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0826.json"
+    },
+    "qist0827": {
+      "status": "缓存",
+      "label": "qist 0827（fongmi）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0827.json"
+    },
+    "qistfty": {
+      "status": "缓存",
+      "label": "qist 饭太硬",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json"
+    },
+    "qistjs": {
+      "status": "缓存",
+      "label": "qist js（PG+drpy）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/js.json"
+    },
+    "qistjsm": {
+      "status": "缓存",
+      "label": "qist jsm（合集）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+    },
+    "qistxyq": {
+      "status": "缓存",
+      "label": "qist 香雅情",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/XYQ.json"
+    },
+    "shiguang": {
+      "status": "多仓订阅（离线模式不展开）"
     },
     "sub002": {
+      "status": "缓存",
       "label": "幸福年年线路",
-      "url": "http://150.158.52.248/tgyg/bbm.json",
-      "status": "HTTP 200, 53722 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub006": {
-      "label": "巧记线路",
-      "url": "http://cdn.qiaoji8.com/tvbox.json.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub003": {
-      "label": "D佬📚在线",
-      "url": "http://2883.kstore.space/nzk/nzk0722.json",
-      "status": "拉取失败(HTTP 401)，无缓存",
-      "cached": false,
-      "via_multi": true
+      "url": "http://150.158.52.248/tgyg/bbm.json"
     },
     "sub007": {
+      "status": "缓存",
       "label": "小脑斧线路",
-      "url": "http://cnmb.cc.cd/jk/xnf.json",
-      "status": "HTTP 200, 13181 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub011": {
-      "label": "俊佬📚在线",
-      "url": "http://home.jundie.top:81/top98.json",
-      "status": "HTTP 200, 16543 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub023": {
-      "label": "老虎📚在线",
-      "url": "http://tv.laohu.cool/tvbox.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub025": {
-      "label": "🚀讴歌线路",
-      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌",
-      "status": "HTTP 200, 10478 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub030": {
-      "label": "摸鱼线路",
-      "url": "http://www.xn--ihq545aq7p.com/",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub029": {
-      "label": "🚀小米线路",
-      "url": "http://www.mpanso.com/小米/DEMO.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub031": {
-      "label": "神仙线路",
-      "url": "http://xhztv.top/dc/神仙/api.json",
-      "status": "HTTP 200, 34658 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub021": {
-      "label": "小马📚在线",
-      "url": "http://szyyds.cn/tv/x.json",
-      "status": "HTTP 200, 30571 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub026": {
-      "label": "二小📚在线",
-      "url": "http://tvbox.王二小放牛娃.top",
-      "status": "HTTP 200, 34558 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub024": {
-      "label": "欧歌线路①（直播看不了的去七星在线欧歌直播）",
-      "url": "http://tv.nxog.top/m/",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub009": {
-      "label": "驸马📚在线",
-      "url": "http://fmys.top/fmys.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub012": {
-      "label": "分享📚在线",
-      "url": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
-      "status": "HTTP 200, 95836 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub020": {
-      "label": "戏曲线路",
-      "url": "http://mzrjk.top/唱戏",
-      "status": "HTTP 200, 16852 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub027": {
-      "label": "聚合线路",
-      "url": "http://tvjuhe.mitetech.cn:5622/",
-      "status": "HTTP 200, 15567 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub022": {
-      "label": "传说📚在线",
-      "url": "http://tjf1100.serv00.net/",
-      "status": "HTTP 200, 25945 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub028": {
-      "label": "刺桐线路",
-      "url": "http://www.cttv.vip/ys/json/ctys.json",
-      "status": "HTTP 200, 25820 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub036": {
-      "label": "请勿贩卖📚在线",
-      "url": "http://zhangqun1818.serv00.net/zq/api.json",
-      "status": "HTTP 200, 12834 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub038": {
-      "label": "🚀摸鱼线路",
-      "url": "http://我不是.摸鱼儿.com",
-      "status": "HTTP 200, 6990 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub044": {
-      "label": "🦉飘零",
-      "url": "https://100km.top/0",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub040": {
-      "label": "🐔肥猫",
-      "url": "http://我不是.肥猫.live/接口禁止贩卖",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
+      "url": "http://cnmb.cc.cd/jk/xnf.json"
     },
     "sub010": {
-      "label": "小虎斑📚在线",
-      "url": "http://hb.小虎斑.site:25252/仅供测试",
-      "status": "HTTP 200, 114448 bytes / 解码 tvbox-hex/single",
-      "cached": false,
-      "via_multi": true
+      "status": "缓存",
+      "label": "🐯小虎斑线路",
+      "url": "http://hb.小虎斑.site:25252/仅供测试"
     },
-    "sub039": {
-      "label": "🐟 摸 鱼",
-      "url": "http://我不是.摸鱼儿.top",
-      "status": "HTTP 200, 36531 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub032": {
-      "label": "宝盒线路",
-      "url": "http://xn--6orr3pi6g9uu.top",
-      "status": "HTTP 200, 39128 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub045": {
-      "label": "夏夏线路",
-      "url": "https://11405.kstore.space/xiaye/qk4k.json",
-      "status": "HTTP 200, 21864 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub041": {
-      "label": "枫斗线路",
-      "url": "http://枫斗.top/tv",
-      "status": "HTTP 200, 62462 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub047": {
-      "label": "天微线路",
-      "url": "https://15487.kstore.space/%E5%A4%A9%E5%BE%AE.txt",
-      "status": "HTTP 200, 42537 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub048": {
-      "label": "宜优精选线路",
-      "url": "https://15487.kstore.space/%E5%AE%9C%E4%BC%98%E7%B2%BE%E9%80%89.txt",
-      "status": "HTTP 200, 56802 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub035": {
-      "label": "🚀春秋线路",
-      "url": "http://yydsok.com/api/bendi/yydsapi/ff/api.json",
-      "status": "HTTP 200, 17826 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub046": {
-      "label": "七星在线",
-      "url": "https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt",
-      "status": "HTTP 200, 61874 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub015": {
-      "label": "新肥猫线路",
-      "url": "http://jk.catvod.site/",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub034": {
-      "label": "余生的客栈线路",
-      "url": "http://ysys.lic10.cn/ys/",
-      "status": "HTTP 200, 26242 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub050": {
-      "label": "酷喵1.1线路（0815版）",
-      "url": "https://15487.kstore.space/%E9%85%B7%E5%96%B5-1.1%281%29.txt",
-      "status": "拉取失败(HTTP 429)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub049": {
-      "label": "老农民线路（测试）",
-      "url": "https://15487.kstore.space/%E8%80%81%E5%86%9C%E6%B0%91.txt",
-      "status": "HTTP 200, 6868 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub055": {
-      "label": "东篱线路",
-      "url": "https://16151.kstore.space",
-      "status": "HTTP 200, 60026 bytes / 解码 whole-b64/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub056": {
-      "label": "豆包线路",
-      "url": "https://17264.kstore.space/豆包.jpg",
-      "status": "HTTP 200, 58701 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub053": {
-      "label": "酷喵线路③",
-      "url": "https://15487.kstore.space/%E9%85%B73.txt",
-      "status": "拉取失败(HTTP 429)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub051": {
-      "label": "酷喵线路①（4K解析限时版）",
-      "url": "https://15487.kstore.space/%E9%85%B71.txt",
-      "status": "HTTP 200, 31743 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub058": {
-      "label": "小脑斧📚在线",
-      "url": "https://6492.kstore.space/xnf/xnf.json",
-      "status": "拉取失败(HTTP 401)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub060": {
-      "label": "天微自用线路",
-      "url": "https://7337.kstore.vip/xw/测试勿传",
-      "status": "HTTP 200, 40751 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub064": {
-      "label": "🍯HG",
-      "url": "https://api.hgyx.vip/hgyx.json",
-      "status": "HTTP 200, 9838 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub054": {
-      "label": "闪电音乐线路",
-      "url": "https://15487.kstore.space/%E9%9F%B3%E4%B9%902.txt",
-      "status": "HTTP 200, 15592 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub057": {
-      "label": "🚀拾光线路",
-      "url": "https://4708.kstore.space/svip/svip.json",
-      "status": "拉取失败(HTTP 401)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub052": {
-      "label": "酷喵线路②",
-      "url": "https://15487.kstore.space/%E9%85%B72.txt",
-      "status": "HTTP 200, 30285 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub063": {
-      "label": "凯速潇洒线路",
-      "url": "https://9877.kstore.space/sun.json",
-      "status": "HTTP 200, 59452 bytes / 解码 tvbox-hex/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub062": {
-      "label": "TVbox精品线路",
-      "url": "https://8815.kstore.vip/tvbox/wmz",
-      "status": "HTTP 200, 29571 bytes / 解码 whole-b64/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub061": {
-      "label": "超玩家线路",
-      "url": "https://8492.kstore.space/超玩家影视仓库/影视线路/fty/ncwj",
-      "status": "HTTP 200, 37886 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub069": {
-      "label": "Clun📚在线",
-      "url": "https://clun.top/box.json",
-      "status": "HTTP 200, 31412 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub037": {
-      "label": "影视仓线路",
-      "url": "http://影视仓.com/",
-      "status": "HTTP 200, 27555 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub066": {
-      "label": "真六线路",
-      "url": "https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6",
-      "status": "HTTP 200, 33298 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub067": {
-      "label": "东篱线路",
-      "url": "https://chigua.eu.org",
-      "status": "HTTP 200, 60026 bytes / 解码 whole-b64/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub076": {
-      "label": "🐹dxawi",
-      "url": "https://dxawi.github.io/0/0.json",
-      "status": "HTTP 200, 18598 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
+    "sub011": {
+      "status": "缓存",
+      "label": "🦆俊于",
+      "url": "http://home.jundie.top:81/top98.json"
     },
     "sub013": {
+      "status": "缓存",
       "label": "NewBox点播线路",
-      "url": "http://itv666.cc/aowu/config.webp",
-      "status": "HTTP 200, 21536 bytes / 解码 image-tail-b64/single",
-      "cached": false,
-      "via_multi": true
+      "url": "http://itv666.cc/aowu/config.webp"
     },
-    "sub074": {
-      "label": "刺刺📚在线",
-      "url": "https://d.kstore.dev/download/8975/刺刺专用音乐接口.json",
-      "status": "拉取失败(HTTP 502)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub020": {
+      "status": "缓存",
+      "label": "戏曲线路",
+      "url": "http://mzrjk.top/唱戏"
     },
-    "sub078": {
-      "label": "星辰📚在线",
-      "url": "https://fmbox.cc",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub021": {
+      "status": "缓存",
+      "label": "小马📚在线",
+      "url": "http://szyyds.cn/tv/x.json"
     },
-    "sub079": {
-      "label": "非凡线路",
-      "url": "https://g.3344550.xyz/https://raw.githubusercontent.com/jigedos/1024/master/jsm.json",
-      "status": "HTTP 200, 18841 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub065": {
-      "label": "喵影视📚在线",
-      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub082": {
-      "label": "采集线路",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-      "status": "HTTP 200, 51621 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub075": {
-      "label": "🍯影视仓",
-      "url": "https://download.kstore.space/download/2883/nzk/nzk0722.json",
-      "status": "拉取失败(HTTP 401)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub080": {
-      "label": "天神IY线路",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
-      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub008": {
-      "label": "🦆神仙线路",
-      "url": "http://dp.sxtv.top:88/img",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub083": {
-      "label": "月光📚在线",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
-      "status": "HTTP 200, 31205 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub070": {
-      "label": "平安线路",
-      "url": "https://cnb.cool/cnlv/tv/-/git/raw/main/20000.json",
-      "status": "HTTP 200, 66085 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub084": {
-      "label": "寳盒📚在线",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
-      "status": "HTTP 200, 31134 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub087": {
-      "label": "SVIP📚在线",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
-      "status": "HTTP 200, 108349 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub059": {
-      "label": "茄子线路",
-      "url": "https://700sjro44343.vicp.fun/eggp/qiezi/tv.php",
-      "status": "HTTP 200, 27529 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub086": {
-      "label": "网盘扫码4K线路",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/okys.json",
-      "status": "HTTP 200, 23470 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub088": {
-      "label": "南风📚在线",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "status": "HTTP 200, 68233 bytes / 解码 tvbox-hex/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub085": {
-      "label": "雷霆📚在线",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lemj.json",
-      "status": "HTTP 200, 511279 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub081": {
-      "label": "各种网盘📚在线",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub089": {
-      "label": "周J线路",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box",
-      "status": "HTTP 200, 6859 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub072": {
-      "label": "真訫📚在线",
-      "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub071": {
-      "label": "PG📚在线",
-      "url": "https://cnb.cool/fish2018/pg/-/git/raw/master/jsm.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub093": {
-      "label": "心魔📚在线",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
-      "status": "HTTP 200, 46130 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub073": {
-      "label": "豆半线路",
-      "url": "https://cnb.cool/luotao-dev/tvbo/-/git/raw/main/fxapi.json",
-      "status": "HTTP 200, 124462 bytes / 解码 tvbox-hex/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub094": {
-      "label": "裤佬线路",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-      "status": "HTTP 200, 11120 bytes / 解码 tvbox-hex/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub068": {
+    "sub022": {
+      "status": "缓存",
       "label": "传说📚在线",
-      "url": "https://chuanshuo.77blog.cn/tv.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
+      "url": "http://tjf1100.serv00.net/"
     },
-    "sub096": {
-      "label": "小米线路",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
-      "status": "HTTP 200, 20709 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
+    "sub025": {
+      "status": "缓存",
+      "label": "🚀讴歌线路",
+      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌"
     },
-    "sub090": {
-      "label": "多多📚在线",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/leevi0709/one/main/jsm.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub026": {
+      "status": "缓存",
+      "label": "🚀王二小线",
+      "url": "http://tvbox.王二小放牛娃.top"
     },
-    "sub098": {
-      "label": "备用📚在线",
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
-      "status": "HTTP 200 via direct 108349 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
+    "sub027": {
+      "status": "缓存",
+      "label": "聚合线路",
+      "url": "http://tvjuhe.mitetech.cn:5622/"
     },
-    "sub099": {
-      "label": "胜寒线路",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/hanhan8127/TVBox/main/hanXC.json",
-      "status": "HTTP 200, 23457 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
+    "sub028": {
+      "status": "缓存",
+      "label": "刺桐线路",
+      "url": "http://www.cttv.vip/ys/json/ctys.json"
     },
-    "sub092": {
-      "label": "特别📚在线",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/drpys/jsm.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub031": {
+      "status": "缓存",
+      "label": "神仙线路",
+      "url": "http://xhztv.top/dc/神仙/api.json"
     },
-    "sub097": {
-      "label": "蜀山线路",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/tianjitop/llllo/refs/heads/main/api.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub032": {
+      "status": "缓存",
+      "label": "宝盒线路",
+      "url": "http://xn--6orr3pi6g9uu.top"
     },
-    "sub091": {
-      "label": "兔小贝线路②",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/b1.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub035": {
+      "status": "缓存",
+      "label": "🚀春秋线路",
+      "url": "http://yydsok.com/api/bendi/yydsapi/ff/api.json"
     },
-    "sub077": {
-      "label": "摸鱼4K线路（测试）",
-      "url": "https://fastlink.cokey.xyz/f/5l62sd/KU-MIAO-MOYU.txt",
-      "status": "拉取失败(HTTP 567)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub036": {
+      "status": "缓存",
+      "label": "请勿贩卖📚在线",
+      "url": "http://zhangqun1818.serv00.net/zq/api.json"
     },
-    "sub095": {
-      "label": "源力forever·完整点播线路",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/energy65/yl/refs/heads/main/forever.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub037": {
+      "status": "缓存",
+      "label": "影视仓线路",
+      "url": "http://影视仓.com/"
     },
-    "sub110": {
-      "label": "🚀南风线路",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "status": "HTTP 200 via direct 68233 bytes / 解码 tvbox-hex/single",
-      "cached": false,
-      "via_multi": true
+    "sub039": {
+      "status": "缓存",
+      "label": "🚀摸鱼",
+      "url": "http://我不是.摸鱼儿.top"
     },
-    "sub109": {
-      "label": "🚀老刘线路",
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
-      "status": "HTTP 200 via direct 57874 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub112": {
-      "label": "黄金📚在线",
-      "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json",
-      "status": "HTTP 200, 188789 bytes / 解码 image-tail-b64/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub100": {
-      "label": "🚀One线路",
-      "url": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json",
-      "status": "HTTP 200, 6990 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub113": {
-      "label": "CandyMu📚在线",
-      "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
-      "status": "HTTP 200, 34512 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub111": {
-      "label": "道长📚在线",
-      "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub117": {
-      "label": "VIP📚在线",
-      "url": "https://jiekou.netlify.app/svip.json",
-      "status": "HTTP 200, 108349 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub115": {
-      "label": "🚀小虎斑线",
-      "url": "https://hb.xyyh.online/tvbox",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub017": {
-      "label": "🚀喵影视",
-      "url": "http://meowtv.cn/tv",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub103": {
-      "label": "🚀剪影线路",
-      "url": "https://git.acwing.com/lkq0379/zjys/-/raw/main/zjys.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub102": {
-      "label": "🍯PG线路",
-      "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub101": {
-      "label": "琉芸📚在线",
-      "url": "https://git.acwing.com/999/tvbox/-/raw/main/%E5%BD%B1%E8%A7%86.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub104": {
-      "label": "🚀刘伟线路",
-      "url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub120": {
-      "label": "😹玄珠",
-      "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
-      "status": "拉取失败(HTTP 403)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub116": {
-      "label": "多多线路",
-      "url": "https://iduo.us.ci/gt/leevi0709/one/main/config.bin",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub125": {
-      "label": "香雅情线路",
-      "url": "https://play.iptv365.org/香雅情/api.json",
-      "status": "HTTP 200, 33882 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub114": {
-      "label": "宫殿线路",
-      "url": "https://gongdian.top/tvbox/gongdian",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub119": {
-      "label": "机缘巧盒线路",
-      "url": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
-      "status": "HTTP 200, 19895 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub118": {
-      "label": "小凯📚在线",
-      "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
-      "status": "HTTP 200, 20844 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub126": {
-      "label": "骚零线路",
-      "url": "https://play.iptv365.org/骚零/api.json",
-      "status": "HTTP 200, 12644 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub129": {
-      "label": "高天流云 18+",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/99188.json",
-      "status": "HTTP 200, 17359 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub121": {
-      "label": "兔小贝线路①",
-      "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
-      "status": "HTTP 200, 57932 bytes / 解码 image-tail-b64/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub122": {
-      "label": "玩偶哥哥线路",
-      "url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json",
-      "status": "HTTP 200, 31754 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub130": {
-      "label": "六六线路",
-      "url": "https://tv.sxi.qzz.io/jsm.json",
-      "status": "HTTP 200, 48895 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub123": {
-      "label": "卡卡线路",
-      "url": "https://jikefuye.cn/tvbox.json",
-      "status": "HTTP 200, 35850 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub133": {
-      "label": "真心线路",
-      "url": "https://www.252035.xyz/z/FongMi.json",
-      "status": "HTTP 200, 18346 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub127": {
-      "label": "蜂蜜📚在线",
-      "url": "https://qu.ax/uanw.json",
-      "status": "HTTP 200, 8235 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub136": {
-      "label": "毒盒📚在线",
-      "url": "https://xn--8owq8u.com/tv/",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub135": {
-      "label": "动漫城📚在线",
-      "url": "https://www.yingm.cc/dm/dm.json",
-      "status": "HTTP 200, 8737 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub128": {
-      "label": "初心线路",
-      "url": "https://raw.giteeusercontent.com/wpider/original-aspiration/raw/master/初心.json",
-      "status": "HTTP 200, 9234 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub137": {
-      "label": "欧歌备用📚在线",
-      "url": "https://xn--biib-rp5imh.v.nxog.top/apitv.php",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub140": {
-      "label": "点播线路",
-      "url": "https://xpb.mhfs.eu.org/ZJ/XPB/api.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub131": {
-      "label": "酷喵看了么线路",
-      "url": "https://wp.kayyw.com/f/9lvgIR/kanlema.txt",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub139": {
-      "label": "欧歌线路②（直播看不了的去七星在线欧歌直播）",
-      "url": "https://xntkh-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&1238b=70",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub132": {
-      "label": "丰之玲线路（测试）",
-      "url": "https://wp.kayyw.com/f/LM1Xhk/20260724204842.json",
-      "status": "拉取失败(HTTP 404)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub138": {
-      "label": "欧歌线路（0905版）",
-      "url": "https://xn--jggj-wn6lw489o.v.nxog.top/apia?id=3",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub147": {
-      "label": "乐哥📚在线",
-      "url": "https://乐哥.xyz/TV/Zy.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub148": {
-      "label": "听书📚在线",
-      "url": "https://乐哥.xyz/Ting/Tshu.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub149": {
-      "label": "剧场📚在线",
-      "url": "https://乐哥.xyz/dj.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub142": {
-      "label": "无意云线路②",
-      "url": "https://yc.wya6.cn/wyxs.php",
-      "status": "拉取失败(HTTP 456)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub143": {
-      "label": "多多📚在线",
-      "url": "https://yydsys.top/duo",
-      "status": "HTTP 200, 1252 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub141": {
-      "label": "无意云线路①",
-      "url": "https://yc.wya6.cn/wykj.php",
-      "status": "拉取失败(HTTP 456)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub108": {
-      "label": "青龙📚在线",
-      "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
-      "status": "拉取失败(HTTP 423)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub105": {
-      "label": "澜露线路",
-      "url": "https://gitee.com/hulanlu/04/raw/master/lanlu.json",
-      "status": "拉取失败(HTTP 423)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub146": {
-      "label": "🌠公众号丨挺好专享",
-      "url": "https://zthaa.top/thzx/th.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub145": {
-      "label": "📛公众号丨挺好分享",
-      "url": "https://zthaa.top/th/api.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub107": {
-      "label": "蓝天📚在线",
-      "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
-      "status": "拉取失败(HTTP 423)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub150": {
-      "label": "欧歌📚在线",
-      "url": "https://欧歌.v.nxog.top/m/",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub144": {
-      "label": "挺好📚在线",
-      "url": "https://ztha.top/TVBox/thdjk.json",
-      "status": "HTTP 200, 16530 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub153": {
-      "label": "龙伊📚在线",
-      "url": "https://龙伊.top",
-      "status": "HTTP 200, 30939 bytes / 解码失败",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub106": {
-      "label": "资源站线路",
-      "url": "https://gitee.com/lu3589/776/raw/main/0/x4c.json",
-      "status": "HTTP 200, 51785 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub043": {
-      "label": "肥猫线路②",
-      "url": "http://肥猫.net/tv",
-      "status": "拉取失败(HTTP 522)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub018": {
-      "label": "小米📚在线",
-      "url": "http://miqk.cc/小米/DEMO.json",
-      "status": "拉取失败(connection error)，无缓存",
-      "cached": false,
-      "via_multi": true
-    },
-    "sub124": {
-      "label": "酷喵1.0线路（0812版）",
-      "url": "https://meow.668yun.top/c/3gasC9PB5Wuo/酷喵1.0.txt",
-      "status": "HTTP 200, 27669 bytes / 解码 json/single",
-      "cached": false,
-      "via_multi": true
+    "sub041": {
+      "status": "缓存",
+      "label": "枫斗线路",
+      "url": "http://枫斗.top/tv"
     },
     "sub042": {
+      "status": "缓存",
       "label": "肥猫线路①",
-      "url": "http://肥猫.net",
-      "status": "拉取失败(HTTP 522)，无缓存",
-      "cached": false,
-      "via_multi": true
+      "url": "http://肥猫.net"
     },
-    "sub001": {
-      "label": "自用线路（含4K资源）",
-      "url": "http://13395.kstore.space/ziyong/zy.json",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub045": {
+      "status": "缓存",
+      "label": "夏夏线路",
+      "url": "https://11405.kstore.space/xiaye/qk4k.json"
     },
-    "sub004": {
-      "label": "短剧📚在线",
-      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub046": {
+      "status": "缓存",
+      "label": "七星在线",
+      "url": "https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt"
     },
-    "sub016": {
-      "label": "Easy线路",
-      "url": "http://ko.zoho.to/ii/76171.txt",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub047": {
+      "status": "缓存",
+      "label": "天微线路",
+      "url": "https://15487.kstore.space/%E5%A4%A9%E5%BE%AE.txt"
     },
-    "sub033": {
-      "label": "公子📚在线",
-      "url": "http://xn--b9w.l5.ca/",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub048": {
+      "status": "缓存",
+      "label": "宜优精选线路",
+      "url": "https://15487.kstore.space/%E5%AE%9C%E4%BC%98%E7%B2%BE%E9%80%89.txt"
     },
-    "sub134": {
-      "label": "TG合集",
-      "url": "https://www.tangsan.fun/tv/",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+    "sub049": {
+      "status": "缓存",
+      "label": "老农民线路（测试）",
+      "url": "https://15487.kstore.space/%E8%80%81%E5%86%9C%E6%B0%91.txt"
+    },
+    "sub050": {
+      "status": "缓存",
+      "label": "酷喵1.1线路（0815版）",
+      "url": "https://15487.kstore.space/%E9%85%B7%E5%96%B5-1.1%281%29.txt"
+    },
+    "sub051": {
+      "status": "缓存",
+      "label": "酷喵线路①（4K解析限时版）",
+      "url": "https://15487.kstore.space/%E9%85%B71.txt"
+    },
+    "sub052": {
+      "status": "缓存",
+      "label": "酷喵线路②",
+      "url": "https://15487.kstore.space/%E9%85%B72.txt"
+    },
+    "sub053": {
+      "status": "缓存",
+      "label": "酷喵线路③",
+      "url": "https://15487.kstore.space/%E9%85%B73.txt"
+    },
+    "sub054": {
+      "status": "缓存",
+      "label": "闪电音乐线路",
+      "url": "https://15487.kstore.space/%E9%9F%B3%E4%B9%902.txt"
+    },
+    "sub055": {
+      "status": "缓存",
+      "label": "东篱线路",
+      "url": "https://16151.kstore.space"
+    },
+    "sub056": {
+      "status": "缓存",
+      "label": "豆包线路",
+      "url": "https://17264.kstore.space/豆包.jpg"
+    },
+    "sub059": {
+      "status": "缓存",
+      "label": "茄子线路",
+      "url": "https://700sjro44343.vicp.fun/eggp/qiezi/tv.php"
+    },
+    "sub060": {
+      "status": "缓存",
+      "label": "天微自用线路",
+      "url": "https://7337.kstore.vip/xw/测试勿传"
+    },
+    "sub061": {
+      "status": "缓存",
+      "label": "超玩家线路",
+      "url": "https://8492.kstore.space/超玩家影视仓库/影视线路/fty/ncwj"
+    },
+    "sub062": {
+      "status": "缓存",
+      "label": "TVbox精品线路",
+      "url": "https://8815.kstore.vip/tvbox/wmz"
+    },
+    "sub063": {
+      "status": "缓存",
+      "label": "凯速潇洒线路",
+      "url": "https://9877.kstore.space/sun.json"
+    },
+    "sub064": {
+      "status": "缓存",
+      "label": "🍯HG",
+      "url": "https://api.hgyx.vip/hgyx.json"
+    },
+    "sub066": {
+      "status": "缓存",
+      "label": "真六线路",
+      "url": "https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6"
+    },
+    "sub067": {
+      "status": "缓存",
+      "label": "东篱线路",
+      "url": "https://chigua.eu.org"
+    },
+    "sub069": {
+      "status": "缓存",
+      "label": "Clun📚在线",
+      "url": "https://clun.top/box.json"
+    },
+    "sub070": {
+      "status": "缓存",
+      "label": "平安线路",
+      "url": "https://cnb.cool/cnlv/tv/-/git/raw/main/20000.json"
+    },
+    "sub073": {
+      "status": "缓存",
+      "label": "豆半线路",
+      "url": "https://cnb.cool/luotao-dev/tvbo/-/git/raw/main/fxapi.json"
+    },
+    "sub076": {
+      "status": "缓存",
+      "label": "🐹dxawi",
+      "url": "https://dxawi.github.io/0/0.json"
+    },
+    "sub079": {
+      "status": "缓存",
+      "label": "非凡晓晓线路",
+      "url": "https://g.3344550.xyz/https://raw.githubusercontent.com/jigedos/1024/master/jsm.json"
+    },
+    "sub082": {
+      "status": "缓存",
+      "label": "🚀高天流云",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+    },
+    "sub083": {
+      "status": "缓存",
+      "label": "月光📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json"
+    },
+    "sub084": {
+      "status": "缓存",
+      "label": "寳盒📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json"
+    },
+    "sub086": {
+      "status": "缓存",
+      "label": "网盘扫码4K线路",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/okys.json"
+    },
+    "sub087": {
+      "status": "缓存",
+      "label": "SVIP📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
+    },
+    "sub088": {
+      "status": "缓存",
+      "label": "南风📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+    },
+    "sub089": {
+      "status": "缓存",
+      "label": "周J线路",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box"
+    },
+    "sub093": {
+      "status": "缓存",
+      "label": "心魔📚在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
+    },
+    "sub094": {
+      "status": "缓存",
+      "label": "裤佬线路",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg"
+    },
+    "sub096": {
+      "status": "缓存",
+      "label": "小米线路",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json"
+    },
+    "sub098": {
+      "status": "缓存",
+      "label": "备用📚在线",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
+    },
+    "sub099": {
+      "status": "缓存",
+      "label": "胜寒线路",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/hanhan8127/TVBox/main/hanXC.json"
+    },
+    "sub106": {
+      "status": "缓存",
+      "label": "资源站线路",
+      "url": "https://gitee.com/lu3589/776/raw/main/0/x4c.json"
+    },
+    "sub109": {
+      "status": "缓存",
+      "label": "🚀老刘线路",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
+    },
+    "sub110": {
+      "status": "缓存",
+      "label": "🚀南风线路",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+    },
+    "sub112": {
+      "status": "缓存",
+      "label": "黄金📚在线",
+      "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json"
+    },
+    "sub113": {
+      "status": "缓存",
+      "label": "CandyMu📚在线",
+      "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
+    },
+    "sub117": {
+      "status": "缓存",
+      "label": "VIP📚在线",
+      "url": "https://jiekou.netlify.app/svip.json"
+    },
+    "sub118": {
+      "status": "缓存",
+      "label": "小凯📚在线",
+      "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json"
+    },
+    "sub119": {
+      "status": "缓存",
+      "label": "机缘巧盒线路",
+      "url": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json"
+    },
+    "sub121": {
+      "status": "缓存",
+      "label": "少儿线路",
+      "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer"
+    },
+    "sub122": {
+      "status": "缓存",
+      "label": "玩偶哥哥线路",
+      "url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json"
+    },
+    "sub123": {
+      "status": "缓存",
+      "label": "卡卡线路",
+      "url": "https://jikefuye.cn/tvbox.json"
+    },
+    "sub124": {
+      "status": "缓存",
+      "label": "酷喵1.0线路（0812版）",
+      "url": "https://meow.668yun.top/c/3gasC9PB5Wuo/酷喵1.0.txt"
+    },
+    "sub125": {
+      "status": "缓存",
+      "label": "香雅情线路",
+      "url": "https://play.iptv365.org/香雅情/api.json"
+    },
+    "sub126": {
+      "status": "缓存",
+      "label": "骚零线路",
+      "url": "https://play.iptv365.org/骚零/api.json"
+    },
+    "sub128": {
+      "status": "缓存",
+      "label": "初心线路",
+      "url": "https://raw.giteeusercontent.com/wpider/original-aspiration/raw/master/初心.json"
+    },
+    "sub129": {
+      "status": "缓存",
+      "label": "高天流云 18+",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/99188.json"
+    },
+    "sub130": {
+      "status": "缓存",
+      "label": "六六线路",
+      "url": "https://tv.sxi.qzz.io/jsm.json"
+    },
+    "sub133": {
+      "status": "缓存",
+      "label": "真心线路",
+      "url": "https://www.252035.xyz/z/FongMi.json"
+    },
+    "sub135": {
+      "status": "缓存",
+      "label": "😹动漫城",
+      "url": "https://www.yingm.cc/dm/dm.json"
+    },
+    "sub144": {
+      "status": "缓存",
+      "label": "📛挺好分享",
+      "url": "https://ztha.top/TVBox/thdjk.json"
     },
     "sub151": {
+      "status": "缓存",
       "label": "盒子短剧线路",
-      "url": "https://盒子迷.top/短剧",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+      "url": "https://盒子迷.top/短剧"
     },
     "sub152": {
+      "status": "缓存",
       "label": "盒子迷线路",
-      "url": "https://盒子迷.top/禁止贩卖",
-      "status": "拉取失败(timeout)，无缓存",
-      "cached": false,
-      "via_multi": true
+      "url": "https://盒子迷.top/禁止贩卖"
+    },
+    "tianshen": {
+      "status": "缓存",
+      "label": "天神",
+      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
+    },
+    "tianshen_proxy": {
+      "status": "缓存",
+      "label": "天神（备用）",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
+    },
+    "tinghao": {
+      "status": "多仓订阅（离线模式不展开）"
+    },
+    "tv999": {
+      "status": "缓存",
+      "label": "王二小（tv999 镜像）",
+      "url": "http://tv.999888987.xyz"
+    },
+    "tvyhqu": {
+      "status": "缓存",
+      "label": "菜妮丝",
+      "url": "https://tv.xn--yhqu5zs87a.top"
+    },
+    "wex": {
+      "status": "缓存",
+      "label": "王二小",
+      "url": "https://9280.kstore.vip/newwex.json"
+    },
+    "wex_alt": {
+      "status": "缓存",
+      "label": "王二小（备用）",
+      "url": "https://d.kstore.dev/download/9280/wex.json"
+    },
+    "wex_top": {
+      "status": "缓存",
+      "label": "wex_top",
+      "url": ""
+    },
+    "xhz": {
+      "status": "缓存",
+      "label": "小盒子4K",
+      "url": "http://xhztv.top/4k.json"
+    },
+    "xhz_dc": {
+      "status": "多仓订阅（离线模式不展开）"
+    },
+    "xhz_xhz": {
+      "status": "缓存",
+      "label": "小盒子单仓",
+      "url": "http://xhztv.top/xhz"
+    },
+    "xiaoma": {
+      "status": "缓存",
+      "label": "小马",
+      "url": "https://szyyds.cn/tv/x.json"
+    },
+    "xiaosa_mirror": {
+      "status": "缓存",
+      "label": "潇洒（镜像）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json"
+    },
+    "yi": {
+      "status": "缓存",
+      "label": "宜优",
+      "url": "https://15889.kstore.space/yi.json"
     }
   }
 }
