@@ -2,12 +2,12 @@
   "stats": {
     "inputs": 117,
     "sites_in": 7948,
-    "sites_out": 3081,
-    "sites_deduped": 1989,
+    "sites_out": 3063,
+    "sites_deduped": 1970,
     "dup_configs": 15,
     "api_resolved": 513,
-    "jar_kept": 232,
-    "jar_added": 1621,
+    "jar_kept": 233,
+    "jar_added": 1605,
     "ext_resolved": 735,
     "cred_stripped": 2,
     "per_source": {
@@ -32,7 +32,7 @@
       "moyu": {
         "label": "摸鱼",
         "sites_in": 111,
-        "sites_kept": 81,
+        "sites_kept": 72,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
       "xiaosa_mirror": {
@@ -50,7 +50,7 @@
       "tianshen": {
         "label": "天神",
         "sites_in": 100,
-        "sites_kept": 29,
+        "sites_kept": 27,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
       },
       "fty1": {
@@ -104,13 +104,13 @@
       "easytv": {
         "label": "EasyTV",
         "sites_in": 135,
-        "sites_kept": 40,
+        "sites_kept": 33,
         "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;"
       },
       "yi": {
         "label": "宜优",
         "sites_in": 137,
-        "sites_kept": 50,
+        "sites_kept": 54,
         "spider": "https://meow.668yun.top/c/Vpf6DGGPBxW4/yi.jar"
       },
       "eggp": {
@@ -308,7 +308,7 @@
       "sub045": {
         "label": "夏夏线路",
         "sites_in": 43,
-        "sites_kept": 16,
+        "sites_kept": 17,
         "spider": "https://11405.kstore.space/xiaye/nm/nm.jar"
       },
       "sub046": {
@@ -368,13 +368,13 @@
       "sub055": {
         "label": "东篱线路",
         "sites_in": 93,
-        "sites_kept": 27,
+        "sites_kept": 23,
         "spider": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/h"
       },
       "sub056": {
         "label": "豆包线路",
         "sites_in": 161,
-        "sites_kept": 86,
+        "sites_kept": 85,
         "spider": "https://meow.668yun.top/c/PuOcCVgXWA7p/柒豪.jar"
       },
       "sub060": {
@@ -464,7 +464,7 @@
       "sub086": {
         "label": "网盘扫码4K线路",
         "sites_in": 33,
-        "sites_kept": 2,
+        "sites_kept": 3,
         "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/tushen6/Tattoo/refs/heads/"
       },
       "sub087": {
@@ -643,8 +643,8 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 1182,
-      "网盘": 691,
+      "用户点名": 1221,
+      "网盘": 688,
       "直播": 160,
       "体育": 213,
       "音乐": 188,
@@ -658,12 +658,12 @@
       "sub130:秒看:token"
     ],
     "dead_jar_dropped": 43,
-    "headers": 82,
+    "headers": 81,
     "lives": 0,
     "parses": 191,
     "rules": 110,
     "flags": 86,
-    "output_bytes": 1555425,
+    "output_bytes": 1545776,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
