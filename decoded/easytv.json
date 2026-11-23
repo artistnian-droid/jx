@@ -1,7 +1,7 @@
 {
-  "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261120/BEpk/0X0/easy11.20.png;md5;ce46ba43f66a7090d09bc6508253ebeb",
+  "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261123/aT20/0X0/easy11.23.png;md5;ea8eabe4f24036ff67451da055ada8f1",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
-  "logo": "https://pic2.ziyuan.wang/user/Easy/2026/11/logo_5271784f72821.gif",
+  "logo": "https://pic2.ziyuan.wang/user/Easy/2026/11/easy1_856a9fd04a026.png",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "key": "本地",
-      "name": "本地视频 | 11.20-3",
+      "name": "本地视频 | 11.23",
       "type": 3,
       "api": "csp_LocalFile"
     },
@@ -240,10 +240,9 @@
       "quickSearch": 0,
       "ext": {
         "site": [
-          "https://sidhub.cc",
+          "https://seedog.cc",
           "https://seeduck.cc",
-          "https://hubdog.cc",
-          "http://104.243.25.80"
+          "https://hubdog.cc"
         ]
       },
       "timeout": 60
@@ -298,8 +297,8 @@
       "filterable": 1,
       "ext": {
         "site": [
-          "https://www.hdmoli.com",
-          "https://www.hdmoli.pro"
+          "https://www.hdmoli.me",
+          "https://www.hdmoli.org"
         ]
       },
       "timeout": 60
@@ -403,15 +402,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    },
-    {
-      "key": "剧下饭影视",
-      "name": "剧下饭 | 免扫4K",
-      "type": 3,
-      "api": "csp_JuXiaFan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "快映fox",
@@ -902,12 +892,6 @@
       "api": "csp_XingChen"
     },
     {
-      "key": "飞娱影视",
-      "name": "飞娱 | 影视",
-      "type": 3,
-      "api": "csp_Feiyu"
-    },
-    {
       "key": "旺旺影视",
       "name": "旺旺 | 影视",
       "type": 3,
@@ -934,7 +918,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://cz01.vip/"
+      "ext": "https://www.4kcz.com"
     },
     {
       "key": "金牌影视",
@@ -949,13 +933,6 @@
       "type": 3,
       "api": "csp_SaoHuo",
       "ext": "https://shdy5.us"
-    },
-    {
-      "key": "枫叶影视",
-      "name": "枫叶 | 影视",
-      "type": 3,
-      "api": "csp_FengYe",
-      "ext": "https://www.vip1949.com/"
     },
     {
       "key": "爱看机器人",
