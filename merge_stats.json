@@ -2,13 +2,13 @@
   "stats": {
     "inputs": 119,
     "sites_in": 651,
-    "sites_out": 246,
+    "sites_out": 238,
     "sites_deduped": 148,
     "dup_configs": 17,
-    "api_resolved": 19,
+    "api_resolved": 18,
     "jar_kept": 0,
-    "jar_added": 223,
-    "ext_resolved": 8,
+    "jar_added": 216,
+    "ext_resolved": 7,
     "cred_stripped": 0,
     "per_source": {
       "aowu": {
@@ -44,13 +44,13 @@
       "tianshen": {
         "label": "天神",
         "sites_in": 100,
-        "sites_kept": 27,
+        "sites_kept": 25,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
       },
       "fty1": {
         "label": "饭太硬",
         "sites_in": 50,
-        "sites_kept": 27,
+        "sites_kept": 21,
         "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       }
     },
@@ -75,7 +75,7 @@
     ],
     "unique_configs": 102,
     "excluded": {
-      "用户点名": 72,
+      "用户点名": 80,
       "直播": 9,
       "体育": 24,
       "音乐": 23,
@@ -88,7 +88,7 @@
     "parses": 19,
     "rules": 17,
     "flags": 33,
-    "output_bytes": 131538,
+    "output_bytes": 127751,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
