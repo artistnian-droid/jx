@@ -1408,14 +1408,6 @@
             "changeable": 0
         },
         {
-            "key": "xiaosa_mirror_豆瓣",
-            "name": "豆瓣 • 首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;16e7a6d79af111b1a67a04769e877fb7"
-        },
-        {
             "key": "xiaosa_mirror_本地",
             "name": "本地 • 视频",
             "type": 3,
