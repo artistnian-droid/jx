@@ -184,10 +184,10 @@ def exclude_reason(site, cid=''):
             return '用户点名'
         if cid in ('tianshen', 'tianshen_proxy') and '红果' not in name:
             return '用户点名'
-    # 豆瓣推荐去掉（2026-11-23 用户要求）。注意去重冒泡：去掉嗷呜主源的
-    # 豆瓣┃推荐后，镜像源的同款（🔥┃豆瓣┃主线）会浮出来，一并去掉。
-    # 豆瓣 • 首页（潇洒，api 是 csp_Douban 不是 csp_DoubanAmns）不是推荐，不动。
-    if '豆瓣┃推荐' in name or '豆瓣┃主线' in name:
+    # 豆瓣站全部去掉（2026-11-23 用户要求）：先去豆瓣┃推荐（嗷呜）+ 豆瓣┃主线
+    # （镜像源冒泡的同款），后又去掉豆瓣 • 首页（潇洒，用户说“没用”）。
+    # 三个豆瓣站都没了，索性按名字全滤掉。
+    if '豆瓣' in name:
         return '用户点名'
     # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
     if '配置' in name or '更新' in name or '公告' in name:
