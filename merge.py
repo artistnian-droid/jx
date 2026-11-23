@@ -161,6 +161,13 @@ def exclude_reason(site, cid=''):
         return '用户点名'
     if '免费分享' in name:
         return '用户点名'
+    # 截图点名去掉的站（2026-11-23）：路漫漫动漫导航、小白弹幕、豆豆片单、
+    # 荐影预告片、抠抠搜搜（用户说成“驱驱”，实为抠抠）、优汐搜搜、
+    # 哔哔合集、请勿信视频中任何广告（公告类假站）
+    if ('路漫漫' in name or '小白弹幕' in name or '豆豆┃片单' in name
+            or '荐影┃预告片' in name or '抠抠' in name or '优汐' in name
+            or '哔哔合集' in name or '请勿信' in name):
+        return '用户点名'
     # 配置/更新日期/公告类非视频站（2026-11-23 用户要求）
     if '配置' in name or '更新' in name or '公告' in name:
         return '用户点名'
