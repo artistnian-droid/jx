@@ -4,11 +4,10 @@ on:
   schedule:
     - cron: '0 2 * * *'  # 每天 10:00 北京时间
   workflow_dispatch:  # 手动触发：Actions 页面点 Run workflow
-  push:
-    paths:
-      - 'sources.json'
-      - 'merge.py'
-      - 'decode.py'
+  # 注意：不要加 push 触发。每次推送 merge.py 都会触发一次运行，而推送
+  # 本身（API 直推 merged.json）和运行的提交会抢跑，导致推送被拒
+  # （2026-11-23 上午连续 6 次运行全因此失败）。合并结果由推送方直接
+  # 提交，定时任务只负责每天拉取上游更新。
 
 permissions:
   contents: write
