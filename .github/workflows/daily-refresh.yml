@@ -5,7 +5,7 @@ on:
     - cron: '0 2 * * *'  # 每天 10:00 北京时间
   workflow_dispatch:  # 手动触发：Actions 页面点 Run workflow
   # 注意：不要加 push 触发。每次推送 merge.py 都会触发一次运行，而推送
-  # 本身（API 直推 merged.json）和运行的提交会抢跑，导致推送被拒
+  # 本身（API 直推 JX.json）和运行的提交会抢跑，导致推送被拒
   # （2026-11-23 上午连续 6 次运行全因此失败）。合并结果由推送方直接
   # 提交，定时任务只负责每天拉取上游更新。
 
@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add merged.json merge_stats.json decoded/ urlmap.json
+          git add JX.json merge_stats.json decoded/ urlmap.json
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -52,5 +52,5 @@ jobs:
       - name: 清理 jsDelivr 缓存
         if: steps.commit.outputs.changed == 'true'
         run: |
-          curl -s "https://purge.jsdelivr.net/gh/artistnian-droid/jx@main/merged.json"
+          curl -s "https://purge.jsdelivr.net/gh/artistnian-droid/jx@main/JX.json"
           curl -s "https://purge.jsdelivr.net/gh/artistnian-droid/jx@main/logo.png"
