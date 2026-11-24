@@ -1,9 +1,9 @@
 {
   "stats": {
     "inputs": 10,
-    "sites_in": 645,
+    "sites_in": 651,
     "sites_out": 223,
-    "sites_deduped": 132,
+    "sites_deduped": 137,
     "dup_configs": 3,
     "api_resolved": 15,
     "jar_kept": 0,
@@ -13,9 +13,9 @@
     "per_source": {
       "aowu": {
         "label": "嗷呜",
-        "sites_in": 82,
+        "sites_in": 83,
         "sites_kept": 54,
-        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/4f052dfd-2873-4f1e-9c42-c3f444fc60"
+        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "aowu_mirror": {
         "label": "嗷呜（镜像）",
@@ -31,7 +31,7 @@
       },
       "moyu_y456y": {
         "label": "摸鱼（备用）",
-        "sites_in": 104,
+        "sites_in": 109,
         "sites_kept": 0,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
@@ -51,7 +51,7 @@
         "label": "饭太硬",
         "sites_in": 50,
         "sites_kept": 21,
-        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/b22fd2d677a89337d8733fc1d3f2a581.jp"
+        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       }
     },
     "dup_config_names": [
@@ -61,7 +61,7 @@
     ],
     "unique_configs": 7,
     "excluded": {
-      "用户点名": 105,
+      "用户点名": 106,
       "直播": 9,
       "体育": 24,
       "音乐": 23,
@@ -71,72 +71,62 @@
     },
     "headers": 4,
     "lives": 0,
-    "parses": 11,
+    "parses": 0,
     "rules": 17,
     "flags": 33,
-    "output_bytes": 121762,
-    "output_file": "/home/runner/work/jx/jx/merged.json"
+    "output_bytes": 118629,
+    "output_file": "/home/hatch/workspace/tvbox-aggregator/merged.json"
   },
   "fetch_report": {
-    "xiaosa_mirror": {
-      "label": "潇洒（镜像）",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "status": "HTTP 200, 29063 bytes / 解码 json/single",
-      "cached": false
-    },
-    "tianshen": {
-      "label": "天神",
-      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
-      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
-    "tianshen_proxy": {
-      "label": "天神（备用）",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
-      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
-    "fty2": {
-      "label": "饭太硬（备用）",
-      "url": "http://fty.888484.xyz/tv",
-      "status": "HTTP 200, 19119 bytes / 解码 image-tail-b64/single",
-      "cached": false
+    "aowu": {
+      "status": "缓存",
+      "label": "嗷呜",
+      "url": "http://www.2525666.xyz/tv"
     },
     "aowu_mirror": {
+      "status": "缓存",
       "label": "嗷呜（镜像）",
-      "url": "https://9763.kstore.vip/aowu.json",
-      "status": "HTTP 200, 15162 bytes / 解码 json/single",
-      "cached": false
-    },
-    "fty_cc": {
-      "label": "饭太硬",
-      "url": "http://www.饭太硬.cc/tv",
-      "status": "HTTP 200, 19119 bytes / 解码 image-tail-b64/single",
-      "cached": false
+      "url": "https://9763.kstore.vip/aowu.json"
     },
     "fty1": {
+      "status": "缓存",
       "label": "饭太硬",
-      "url": "http://www.饭太硬.net/tv",
-      "status": "HTTP 200, 19119 bytes / 解码 image-tail-b64/single",
-      "cached": false
+      "url": "http://www.饭太硬.net/tv"
+    },
+    "fty2": {
+      "status": "缓存",
+      "label": "饭太硬（备用）",
+      "url": "http://fty.888484.xyz/tv"
+    },
+    "fty_cc": {
+      "status": "缓存",
+      "label": "饭太硬",
+      "url": "http://www.饭太硬.cc/tv"
     },
     "moyu": {
+      "status": "缓存",
       "label": "摸鱼",
-      "url": "https://6800.kstore.vip/fish.json",
-      "status": "HTTP 200, 37089 bytes / 解码 json/single",
-      "cached": false
+      "url": "https://6800.kstore.vip/fish.json"
     },
     "moyu_y456y": {
+      "status": "缓存",
       "label": "摸鱼（备用）",
-      "url": "http://www.y456y.com",
-      "status": "HTTP 200, 34922 bytes / 解码 json/single",
-      "cached": false
+      "url": "http://www.y456y.com"
     },
-    "aowu": {
-      "label": "嗷呜",
-      "url": "http://www.2525666.xyz/tv",
-      "status": "HTTP 200, 21536 bytes / 解码 image-tail-b64/single",
-      "cached": false
+    "tianshen": {
+      "status": "缓存",
+      "label": "天神",
+      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
+    },
+    "tianshen_proxy": {
+      "status": "缓存",
+      "label": "天神（备用）",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
+    },
+    "xiaosa_mirror": {
+      "status": "缓存",
+      "label": "潇洒（镜像）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json"
     }
   }
 }
