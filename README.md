@@ -11,7 +11,7 @@
 在 OK影视（或 TVBox、影视仓）的配置地址里填这个链接：
 
 ```
-https://cdn.jsdelivr.net/gh/artistnian-droid/jx@main/merged.json
+https://cdn.jsdelivr.net/gh/artistnian-droid/jx@main/JX.json
 ```
 
 这个地址无缓存，永远是最新提交的版本。jsDelivr 的 CDN 缓存经常滞后好几分钟甚至更久，已弃用。
@@ -26,7 +26,7 @@ https://cdn.jsdelivr.net/gh/artistnian-droid/jx@main/merged.json
 
 ## 增删接口
 
-`sources.json` 里只有 11 条在用的线（5 条线 + 各自的备用源）。真正决定哪些接口进合并的是 `merge.py` 里的 `KEEP_CIDS` 白名单。想加新接口时，在 `sources.json` 里加一条，再把它的 cid 加进 `KEEP_CIDS`，然后手动推送一次 merged.json。
+`sources.json` 里只有 11 条在用的线（5 条线 + 各自的备用源）。真正决定哪些接口进合并的是 `merge.py` 里的 `KEEP_CIDS` 白名单。想加新接口时，在 `sources.json` 里加一条，再把它的 cid 加进 `KEEP_CIDS`，然后手动推送一次 JX.json。
 
 ## 文件说明
 
@@ -35,7 +35,7 @@ https://cdn.jsdelivr.net/gh/artistnian-droid/jx@main/merged.json
 - `sources.json`：在用的 11 条接口清单
 - `urlmap.json`：多仓订阅展开映射
 - `decoded/`：各接口解码后的缓存（拉取失败时用缓存顶替，保证不断供）
-- `merged.json`：合并后的最终配置（电视加载这个）
+- `JX.json`：合并后的最终配置（电视加载这个）
 - `merge_stats.json`：机器可读的合并统计
 - `REPORT.md`：接口逐个拉取结果报告
 
