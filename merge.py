@@ -17,7 +17,7 @@
     站点自有 jar 优先，否则用该接口的 spider；相对路径解析为绝对 URL
   - 相对路径的 api / jar / playUrl / ext（字符串或文件引用）按接口配置 URL 解析为绝对 URL
   - 凭证类 ext 值（cookie/token 等随机字符串会话凭证）清空；URL、文件引用、占位符保留
-  - lives / parses 按 URL 去重；rules 按 name 去重；flags / ads / hosts / proxy 去重；
+  - lives / parses 不合并（DROP_LIVES / DROP_PARSES）；rules 按 name 去重；flags / ads / hosts / proxy 去重；
     ijk 按 group 去重；doh 按 url 去重；headers 按 host 去重
   - 顶层 spider 固定为嗷呜新版 loader
   - 输出 4 空格缩进、每字段一行的 JSON
@@ -65,6 +65,8 @@ EXCLUDE_NAME = {
 
 # 直播频道（2026-11-23 用户要求）：全部去掉，不合并任何 lives。
 DROP_LIVES = True
+# 解析接口（2026-11-24 用户：没用）：全部去掉，不合并任何 parses。
+DROP_PARSES = True
 # 音乐留 3 个；其余同类站点全部去掉。key 为合并后的完整 key（接口前缀_原 key）。
 SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
 MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy'}
@@ -557,7 +559,7 @@ def merge_configs(configs):
                                     'sites_kept': n_out,
                                     'spider': spider_url[:80]}
 
-        # lives / parses 按 url 去重（DROP_LIVES 时不收集 lives）
+        # lives / parses 按 url 去重（DROP_LIVES / DROP_PARSES 时不收集）
         for live in [] if DROP_LIVES else (obj.get('lives') or []):
             if isinstance(live, dict):
                 u = str(live.get('url', ''))
@@ -567,7 +569,7 @@ def merge_configs(configs):
                     if is_relative_ref(u):
                         nl['url'] = resolve_url(base, u)
                     lives.append(nl)
-        for ps in obj.get('parses') or []:
+        for ps in [] if DROP_PARSES else (obj.get('parses') or []):
             if isinstance(ps, dict):
                 # 已移除接口的品牌解析一律不要（防其他接口也挂着同名解析）
                 if any(b in str(ps.get('name', '')) for b in REMOVED_BRANDS):
