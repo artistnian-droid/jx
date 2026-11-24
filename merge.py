@@ -2,7 +2,7 @@
 """TVBox 多接口聚合配置生成器。
 
 把 sources.json 里的 10 个 TVBox 影视接口（嗷呜、摸鱼、潇洒、天神、饭太硬
-5 条线 + 各自的备用源）合并成一个 merged.json，供 OK影视加载。
+5 条线 + 各自的备用源）合并成一个 JX.json，供 OK影视加载。
 靠冗余取胜：个别接口挂了，其他接口的站还能用。
 
 用法：
@@ -41,7 +41,7 @@ RAW_DIR = os.path.join(WORKDIR, 'raw')
 DEC_DIR = os.path.join(WORKDIR, 'decoded')
 SOURCES_JSON = os.path.join(WORKDIR, 'sources.json')
 URLMAP_JSON = os.path.join(WORKDIR, 'urlmap.json')
-OUT_JSON = os.path.join(WORKDIR, 'merged.json')
+OUT_JSON = os.path.join(WORKDIR, 'JX.json')
 STATS_JSON = os.path.join(WORKDIR, 'merge_stats.json')
 
 # 顶层 spider：嗷呜新版 loader（2026-11-19 发布，md5 e76d6f01…）
