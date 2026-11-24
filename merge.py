@@ -617,8 +617,10 @@ def merge_configs(configs):
                 if hh and hh not in seen_header:
                     seen_header.add(hh)
                     headers.append(h)
-        # 单值顶层字段：取第一个非空的（priority 顺序即 aowu 优先）
-        for k in ('wallpaper', 'logo', 'danmaku', 'warningText', 'notice'):
+        # 单值顶层字段：取第一个非空的（priority 顺序即 aowu 优先）。
+        # danmaku 不收集（2026-11-24 用户不看弹幕；嗷呜的弹幕地址指向
+        # 本地 2525 端口，电视上没有这个服务，播放时会报"服务异常"）。
+        for k in ('wallpaper', 'logo', 'warningText', 'notice'):
             if k not in top_single and obj.get(k):
                 top_single[k] = obj[k]
 
@@ -664,8 +666,6 @@ def merge_configs(configs):
 
     merged = {'spider': AOWU_SPIDER}
     merged['logo'] = JX_LOGO  # 固定使用用户指定的 JX 图标
-    if top_single.get('danmaku'):
-        merged['danmaku'] = top_single['danmaku']
     if top_single.get('wallpaper'):
         merged['wallpaper'] = top_single['wallpaper']
     merged['sites'] = merged_sites
