@@ -25,7 +25,7 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "⚙️┃资源┃中心",
+            "name": "📂️┃资源┃中心",
             "key": "aowu_MyAll",
             "type": 3,
             "api": "csp_MyAllAmns",
@@ -1431,7 +1431,7 @@
             "name": "本地 • 视频",
             "type": 3,
             "api": "csp_LocalFile",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_云播",
@@ -1441,7 +1441,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_未来",
@@ -1451,7 +1451,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_快映fox",
@@ -1462,7 +1462,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/json/ky4kbgq7b273.json",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_一起影视",
@@ -1472,7 +1472,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_咕噜",
@@ -1482,7 +1482,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_布布",
@@ -1500,7 +1500,7 @@
                 "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
                 "sign": "ddtvf65f3a83d6d9ad6f"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_马猴影视",
@@ -1517,7 +1517,7 @@
                 "sk": "SK-woniu-thanks",
                 "ver": "1"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_韩圈",
@@ -1527,7 +1527,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_师兄",
@@ -1547,7 +1547,7 @@
                 "user_agent": "Dart/3.11 (dart:io)",
                 "private_key": "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAO9omsi+ys7fmBH3w1d0DfvRAQlj0wLB1BI3Xsb9WSiu4lEc1Me+XubnzTxaQPCBbnuZURerRrO981n9GhsQkDcWmtW+X1mpCllOWt8bbnWwKPsHqemRFxncDWE/d0nA9yrZn6nLVy/J7DJ3cVJlIs9bNLArqEiR8KVrAf1PNSLXAgMBAAECgYBGPn3z2q8s5cP7uaOSHFYiBZ/1PlniXDa6JY7ked9YJX/35qqz9LJps6evRpf5OTDOiRyXAkUbZedqBu5K9KArSGVyxp/Vym4b0siEVeM8qq9Gbf74lHPH+L+X/NmXemydwZHR1lU9PiLJVMsh8o6aAazkB8ijZcsNMyYZUSH36QJBAPvHq511Uz45lx5BtVSZClcUnqPRFSmNnRdjATikDzFTObemnGJU3eL/7VIPWtjEj9LvGP/WyX6gyo1zKc8BRtUCQQDza9oFnSmMHPkvrll/zMxcy3FeOTW0hctBhdIMbBmjJJyhlfTmBOvxwm8I91F05ydkSZ1yLuLhAjLxbjqs2fD7AkB/KOHQvW+UTqu22ULGfiCNyFkyrSc9/EqphBQa0ijmJX1R9nCm7Ou/eLgYKK8eKW/l/WGn3IeZT4XdGJu185QdAkBthqmivQRktuSoP5qlllCdsCxiaPtxLoI2CTBpxnoCngab7g0zMiO3s/Sh5CYSo69lwHnHVrFe7M5fM2nTPHzhAkEAiJETUvYFwCVKNGTYMzUg7v3QblqYXB+IhzcU37sHZOn6a46V5eJDadavIvuEmoxJHWTybi+1ZkN7LeUUg4ylCw=="
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_剧圈99",
@@ -1562,7 +1562,7 @@
                 "buildNumber": "2002",
                 "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_半日99",
@@ -1577,7 +1577,7 @@
                 "buildNumber": "2001",
                 "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_天堂",
@@ -1598,7 +1598,7 @@
                 "version": "3.0.0.7",
                 "decrypt": "0"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_橘汁",
@@ -1619,7 +1619,7 @@
                 "version": "3.0.7.0",
                 "decrypt": "1"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_华谊",
@@ -1640,7 +1640,7 @@
                 "version": "6.0.0.1",
                 "decrypt": "0"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_苹果",
@@ -1661,7 +1661,7 @@
                 "version": "1.0.0.3",
                 "decrypt": "0"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_蓝鹰",
@@ -1677,7 +1677,7 @@
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_蓝鸟",
@@ -1693,7 +1693,7 @@
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_王子",
@@ -1707,7 +1707,7 @@
                 "dataKey": "5a9w6x58dsq6z3a6",
                 "dataIv": "5a9w6x58dsq6z3a6"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_茉莉Get",
@@ -1721,7 +1721,7 @@
                 "dataKey": "88689667dce61725",
                 "dataIv": "88689667dce61725"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_哔哩合集",
@@ -1740,7 +1740,7 @@
                 "n": "哔哩合集",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_哔哩视频",
@@ -1758,14 +1758,14 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_三六零",
             "name": "三六零 • 视频",
             "type": 3,
             "api": "csp_SP360",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_红果短剧",
@@ -1786,35 +1786,35 @@
                 "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
             },
             "genre": "shortdrama",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_看剧",
             "name": "看剧 • 影视",
             "type": 3,
             "api": "csp_KanJuAI",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_懂片",
             "name": "懂片 • 影视",
             "type": 3,
             "api": "csp_DongPian",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_星辰影视",
             "name": "星辰 • 影视",
             "type": 3,
             "api": "csp_XingChen",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_瓜子影视",
             "name": "瓜子 • 影视",
             "type": 3,
             "api": "csp_Gz360",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_厂长影视",
@@ -1825,7 +1825,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.4kcz.com",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_金牌影视",
@@ -1833,7 +1833,7 @@
             "type": 3,
             "api": "csp_Jpys",
             "ext": "https://www.sunnafh.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_爱看机器人",
@@ -1843,7 +1843,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_1905",
@@ -1853,7 +1853,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_番社动漫",
@@ -1881,49 +1881,49 @@
             "style": {
                 "type": "list"
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_赏月动漫",
             "name": "赏月 • 动漫",
             "type": 3,
             "api": "csp_AnimeTsukimi",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_稀饭动漫",
             "name": "稀饭 • 动漫",
             "type": 3,
             "api": "csp_AnimeXifan",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_巴士动漫",
             "name": "巴士 • 动漫",
             "type": 3,
             "api": "csp_AnimeBashi",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_吉里动漫",
             "name": "吉里 • 动漫",
             "type": 3,
             "api": "csp_AnimeGiri",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_花子动漫",
             "name": "花子 • 动漫",
             "type": 3,
             "api": "csp_AnimeHuazi",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_漫国动漫",
             "name": "漫国 • 动漫",
             "type": 3,
             "api": "csp_AnimeGHG",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_荐片",
@@ -1936,7 +1936,7 @@
                     "https://www.zxfmj.com"
                 ]
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_New6v",
@@ -1947,7 +1947,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.xb6v.com",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_美剧迷",
@@ -1957,7 +1957,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_迅雷吧",
@@ -1968,7 +1968,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://xunlei8.me",
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_电影港",
@@ -1978,7 +1978,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_酷乐",
@@ -1989,7 +1989,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_百酷",
@@ -2000,7 +2000,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "timeout": 60,
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_童趣",
@@ -2014,7 +2014,7 @@
                 "type": "rect",
                 "ratio": 1.618
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_哔哩哔哩小品",
@@ -2032,7 +2032,7 @@
                 "type": "rect",
                 "ratio": 1.618
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "xiaosa_mirror_养生堂",
@@ -2046,7 +2046,7 @@
                 "type": "rect",
                 "ratio": 1.618
             },
-            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;3443259a2e4be3f96f73175cefb11090"
+            "jar": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar;md5;d58aeec66895c8abebe6a78ec6ee8c25"
         },
         {
             "key": "hdr_tianshen",
@@ -2287,6 +2287,17 @@
             "changeable": 0
         },
         {
+            "key": "fty1_点我切源",
+            "name": "片单┃ <修复AI剧>",
+            "type": 3,
+            "api": "csp_DouDouGuard",
+            "indexs": 1,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
+        },
+        {
             "key": "fty1_爱刷",
             "name": "♻️爱刷┃短视",
             "type": 3,
@@ -2299,7 +2310,7 @@
                 "ratio": 1.597
             },
             "ext": {},
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_粤迷",
@@ -2310,7 +2321,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_韩剧",
@@ -2321,7 +2332,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_光影",
@@ -2332,7 +2343,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_厂长",
@@ -2344,7 +2355,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_立播",
@@ -2359,7 +2370,7 @@
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "siteUrl": "https://www.libvio.pw/"
             },
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_瓜子",
@@ -2370,7 +2381,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_比特",
@@ -2381,7 +2392,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_花生",
@@ -2395,7 +2406,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_糯米",
@@ -2406,7 +2417,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_文采",
@@ -2418,7 +2429,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_奶酪",
@@ -2429,7 +2440,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4jq3i8iepe3AAlFJlcJ8nEyo7U0Zv5Ly99uvDeRbsAQwngm4DhwCew4GZ2NpO2FWja5GbiLw/2+VyOxmwVkfRMWv532AlCkEM0DUsYlqgFBirI7micJVqtVVd5RVO+OjoFt49RYjdpcwCGzZNf2zleAXOBerYWUBBYiHAcv4i9IkhbqtQRBgq93D8T/VUpyZg15mh4icjAzq6HJ3fKftkmNq95YguHZLzKbGEDahyxvIgNARifYJxRobH3iyvXchGcLgar0MU56i0oTeFRc6ThjWvJdYRkG14ULZ/+nBcQncXy23jGsvADOGlYoPtpPQAOccjnT9Q0UrQssrFfhyMAynhd5nlPX67OibRK1YBs1pV05B3ICXao4njVgOB+AbpZJjwAw7tkjLocnQhq0w5RxREH/1j8YpssxtJO1ADlPtR7A3GILhxMcEc1KgJy+LBzmZL7G+vYG3T++qkSKO6V2QFdgRLTCpSHJ",
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_剧迷",
@@ -2440,7 +2451,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_热播",
@@ -2452,7 +2463,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_风云",
@@ -2466,7 +2477,7 @@
             "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_荐片",
@@ -2477,7 +2488,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_奥特",
@@ -2488,7 +2499,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_新6V",
@@ -2500,7 +2511,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "https://www.xb6v.com/",
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_AiDj",
@@ -2516,7 +2527,7 @@
             "quickSearch": 1,
             "searchable": 1,
             "changeable": 0,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_Dm84",
@@ -2527,7 +2538,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         },
         {
             "key": "fty1_多多",
@@ -2540,7 +2551,7 @@
             "style": {
                 "type": "list"
             },
-            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49"
+            "jar": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067"
         }
     ],
     "rules": [

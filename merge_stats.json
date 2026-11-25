@@ -1,13 +1,13 @@
 {
   "stats": {
     "inputs": 10,
-    "sites_in": 649,
-    "sites_out": 225,
+    "sites_in": 648,
+    "sites_out": 226,
     "sites_deduped": 134,
     "dup_configs": 3,
     "api_resolved": 15,
     "jar_kept": 0,
-    "jar_added": 206,
+    "jar_added": 207,
     "ext_resolved": 7,
     "cred_stripped": 0,
     "per_source": {
@@ -37,7 +37,7 @@
       },
       "xiaosa_mirror": {
         "label": "潇洒（镜像）",
-        "sites_in": 116,
+        "sites_in": 115,
         "sites_kept": 50,
         "spider": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar"
       },
@@ -50,8 +50,8 @@
       "fty1": {
         "label": "饭太硬",
         "sites_in": 50,
-        "sites_kept": 21,
-        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jp"
+        "sites_kept": 22,
+        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jp"
       }
     },
     "dup_config_names": [
@@ -61,7 +61,7 @@
     ],
     "unique_configs": 7,
     "excluded": {
-      "用户点名": 105,
+      "用户点名": 103,
       "直播": 9,
       "体育": 24,
       "音乐": 23,
@@ -74,14 +74,14 @@
     "parses": 0,
     "rules": 9,
     "flags": 33,
-    "output_bytes": 117130,
+    "output_bytes": 117553,
     "output_file": "/home/runner/work/jx/jx/JX.json"
   },
   "fetch_report": {
     "xiaosa_mirror": {
       "label": "潇洒（镜像）",
       "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "status": "HTTP 200, 29084 bytes / 解码 json/single",
+      "status": "HTTP 200, 28824 bytes / 解码 json/single",
       "cached": false
     },
     "tianshen": {
@@ -96,34 +96,34 @@
       "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
       "cached": false
     },
-    "aowu_mirror": {
-      "label": "嗷呜（镜像）",
-      "url": "https://9763.kstore.vip/aowu.json",
-      "status": "HTTP 200, 14579 bytes / 解码 json/single",
-      "cached": false
-    },
-    "fty_cc": {
-      "label": "饭太硬",
-      "url": "http://www.饭太硬.cc/tv",
-      "status": "HTTP 200, 18339 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
     "moyu": {
       "label": "摸鱼",
       "url": "https://6800.kstore.vip/fish.json",
       "status": "HTTP 200, 37089 bytes / 解码 json/single",
       "cached": false
     },
-    "fty2": {
-      "label": "饭太硬（备用）",
-      "url": "http://fty.888484.xyz/tv",
-      "status": "HTTP 200, 18339 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
     "fty1": {
       "label": "饭太硬",
       "url": "http://www.饭太硬.net/tv",
-      "status": "HTTP 200, 18339 bytes / 解码 image-tail-b64/single",
+      "status": "HTTP 200, 18323 bytes / 解码 image-tail-b64/single",
+      "cached": false
+    },
+    "fty2": {
+      "label": "饭太硬（备用）",
+      "url": "http://fty.888484.xyz/tv",
+      "status": "HTTP 200, 18323 bytes / 解码 image-tail-b64/single",
+      "cached": false
+    },
+    "fty_cc": {
+      "label": "饭太硬",
+      "url": "http://www.饭太硬.cc/tv",
+      "status": "HTTP 200, 18323 bytes / 解码 image-tail-b64/single",
+      "cached": false
+    },
+    "aowu_mirror": {
+      "label": "嗷呜（镜像）",
+      "url": "https://9763.kstore.vip/aowu.json",
+      "status": "HTTP 200, 23128 bytes / 解码 json/single",
       "cached": false
     },
     "moyu_y456y": {
@@ -135,7 +135,7 @@
     "aowu": {
       "label": "嗷呜",
       "url": "http://www.2525666.xyz/tv",
-      "status": "HTTP 200, 20760 bytes / 解码 image-tail-b64/single",
+      "status": "HTTP 200, 20764 bytes / 解码 image-tail-b64/single",
       "cached": false
     }
   }
