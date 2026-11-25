@@ -1,27 +1,27 @@
 {
   "stats": {
     "inputs": 10,
-    "sites_in": 645,
-    "sites_out": 223,
-    "sites_deduped": 132,
+    "sites_in": 649,
+    "sites_out": 225,
+    "sites_deduped": 134,
     "dup_configs": 3,
     "api_resolved": 15,
     "jar_kept": 0,
-    "jar_added": 204,
+    "jar_added": 206,
     "ext_resolved": 7,
     "cred_stripped": 0,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
-        "sites_in": 82,
-        "sites_kept": 54,
-        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/4f052dfd-2873-4f1e-9c42-c3f444fc60"
+        "sites_in": 84,
+        "sites_kept": 56,
+        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020"
       },
       "aowu_mirror": {
         "label": "嗷呜（镜像）",
-        "sites_in": 82,
+        "sites_in": 84,
         "sites_kept": 0,
-        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/4f052dfd-2873-4f1e-9c42-c3f444fc60"
+        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020"
       },
       "moyu": {
         "label": "摸鱼",
@@ -51,7 +51,7 @@
         "label": "饭太硬",
         "sites_in": 50,
         "sites_kept": 21,
-        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/b22fd2d677a89337d8733fc1d3f2a581.jp"
+        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jp"
       }
     },
     "dup_config_names": [
@@ -72,9 +72,9 @@
     "headers": 4,
     "lives": 0,
     "parses": 0,
-    "rules": 17,
+    "rules": 9,
     "flags": 33,
-    "output_bytes": 118783,
+    "output_bytes": 117130,
     "output_file": "/home/runner/work/jx/jx/JX.json"
   },
   "fetch_report": {
@@ -84,34 +84,28 @@
       "status": "HTTP 200, 29084 bytes / 解码 json/single",
       "cached": false
     },
-    "tianshen_proxy": {
-      "label": "天神（备用）",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
-      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
     "tianshen": {
       "label": "天神",
       "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
       "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
       "cached": false
     },
-    "fty2": {
-      "label": "饭太硬（备用）",
-      "url": "http://fty.888484.xyz/tv",
-      "status": "HTTP 200, 19119 bytes / 解码 image-tail-b64/single",
+    "tianshen_proxy": {
+      "label": "天神（备用）",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
+      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
       "cached": false
     },
     "aowu_mirror": {
       "label": "嗷呜（镜像）",
       "url": "https://9763.kstore.vip/aowu.json",
-      "status": "HTTP 200, 15162 bytes / 解码 json/single",
+      "status": "HTTP 200, 14579 bytes / 解码 json/single",
       "cached": false
     },
-    "fty1": {
+    "fty_cc": {
       "label": "饭太硬",
-      "url": "http://www.饭太硬.net/tv",
-      "status": "HTTP 200, 19119 bytes / 解码 image-tail-b64/single",
+      "url": "http://www.饭太硬.cc/tv",
+      "status": "HTTP 200, 18339 bytes / 解码 image-tail-b64/single",
       "cached": false
     },
     "moyu": {
@@ -120,10 +114,16 @@
       "status": "HTTP 200, 37089 bytes / 解码 json/single",
       "cached": false
     },
-    "fty_cc": {
+    "fty2": {
+      "label": "饭太硬（备用）",
+      "url": "http://fty.888484.xyz/tv",
+      "status": "HTTP 200, 18339 bytes / 解码 image-tail-b64/single",
+      "cached": false
+    },
+    "fty1": {
       "label": "饭太硬",
-      "url": "http://www.饭太硬.cc/tv",
-      "status": "HTTP 200, 19119 bytes / 解码 image-tail-b64/single",
+      "url": "http://www.饭太硬.net/tv",
+      "status": "HTTP 200, 18339 bytes / 解码 image-tail-b64/single",
       "cached": false
     },
     "moyu_y456y": {
@@ -135,7 +135,7 @@
     "aowu": {
       "label": "嗷呜",
       "url": "http://www.2525666.xyz/tv",
-      "status": "HTTP 200, 21536 bytes / 解码 image-tail-b64/single",
+      "status": "HTTP 200, 20760 bytes / 解码 image-tail-b64/single",
       "cached": false
     }
   }
