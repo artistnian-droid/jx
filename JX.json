@@ -318,18 +318,6 @@
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
-            "name": "📽️嗷嗚┃短剧",
-            "key": "aowu_DjHggg",
-            "type": 3,
-            "api": "csp_HgggAmns",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "DjHggg",
-            "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
             "name": "📽️豪堪┃短剧",
             "key": "aowu_HHkk",
             "type": 3,
@@ -345,50 +333,6 @@
             "key": "aowu_Hema",
             "type": 3,
             "api": "csp_HemaAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "📽️拜拜┃短剧",
-            "key": "aowu_Bddj",
-            "type": 3,
-            "api": "csp_BddjAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "📽️围观┃短剧",
-            "key": "aowu_Wgdj",
-            "type": 3,
-            "api": "csp_WgdjAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "📽️喵喵┃短剧",
-            "key": "aowu_Qmdj",
-            "type": 3,
-            "api": "csp_QmdjAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "📽️星星┃短剧",
-            "key": "aowu_Xydj",
-            "type": 3,
-            "api": "csp_XydjAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -444,46 +388,6 @@
             "key": "aowu_AiBot",
             "type": 3,
             "api": "csp_AiBotAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "🌍爱瓜┃墙外",
-            "key": "aowu_AiGua",
-            "type": 3,
-            "api": "csp_AiGuaAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "🌍U视┃墙外",
-            "key": "aowu_Ysp",
-            "type": 3,
-            "api": "csp_YspAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "🌍欧乐┃墙外",
-            "key": "aowu_Olyy",
-            "type": 3,
-            "api": "csp_OlyyAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "🌍壹帆┃墙外",
-            "key": "aowu_Aiyf",
-            "type": 3,
-            "api": "csp_AiyfAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -569,26 +473,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "genre": "music",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "🔍飞鱼┃盘搜",
-            "key": "aowu_PSfish",
-            "type": 3,
-            "api": "csp_PSfishAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
-        },
-        {
-            "name": "🔍觅寻┃盘搜",
-            "key": "aowu_PSdju",
-            "type": 3,
-            "api": "csp_PSdjuAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
             "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
         },
         {
@@ -916,84 +800,6 @@
             "genre": "shortdrama"
         },
         {
-            "key": "tianshen_巴士动漫",
-            "name": "🌈巴士｜动漫",
-            "type": 3,
-            "api": "csp_AnimeBashi",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_去看吧",
-            "name": "🌈去看｜动漫",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/去看吧.png"
-        },
-        {
-            "key": "tianshen_kkk动漫",
-            "name": "🌈三看｜动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://cn.agekkkk.com/",
-                "线路标题": "动漫",
-                "跳转播放链接": "urlDecode(var player_*\"url\":\"&&\")",
-                "简介": "style=\"display: none;\">&&</span>",
-                "分类url": "https://cn.agekkkk.com/type/{cateId}-{catePg}.html",
-                "分类": "日韩漫$1#国产漫$2#动态漫$5#特摄片$4#欧美漫$3"
-            },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_荐片",
-            "name": "🧲荐片｜磁力",
-            "api": "csp_JianPian",
-            "type": 3,
-            "ext": {
-                "site": [
-                    "https://www.whhyn.com",
-                    "https://www.zxfmj.com"
-                ]
-            },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_New6v",
-            "name": "🧲New6V｜磁力",
-            "type": 3,
-            "api": "csp_New6v",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.xb6v.com",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_电影港",
-            "name": "🧲电影港｜磁力",
-            "type": 3,
-            "api": "csp_DianYingG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_哔哩直播",
-            "name": "📺哔哩｜点播",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩直播.py"
-        },
-        {
             "key": "tianshen_哔哩合集",
             "name": "🅱哔哩｜合集",
             "type": 3,
@@ -1028,27 +834,6 @@
                 "type": "rect",
                 "ratio": 1.618
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_养生堂",
-            "name": "📚养生｜知识",
-            "type": 3,
-            "api": "csp_YST",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.618
-            },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-        },
-        {
-            "key": "tianshen_本地",
-            "name": "📁本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile",
             "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
