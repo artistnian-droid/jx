@@ -507,7 +507,7 @@
             "key": "tianshen_bl",
             "name": "❤小哩｜4K测试",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.py"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.py"
         },
         {
             "key": "tianshen_半日99",
@@ -523,7 +523,7 @@
                 "buildNumber": "2001",
                 "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_蓝鹰",
@@ -539,7 +539,7 @@
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_蓝鸟",
@@ -555,7 +555,7 @@
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_橘汁",
@@ -576,13 +576,13 @@
                 "version": "3.0.7.0",
                 "decrypt": "1"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_剧下饭",
             "name": "♨️下饭｜4K线路",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/jxf.py"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/jxf.py"
         },
         {
             "key": "tianshen_咕噜",
@@ -592,20 +592,20 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_瓜子影视",
             "name": "🌀瓜子｜3K线路",
             "type": 3,
             "api": "csp_Gz360",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_妙看",
             "name": "🌀妙看｜1920",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/4kvms.py"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/4kvms.py"
         },
         {
             "key": "tianshen_布布",
@@ -623,26 +623,26 @@
                 "client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a",
                 "sign": "ddtvf65f3a83d6d9ad6f"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_多多",
             "name": "🌀多多｜1920",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/dd.py"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/dd.py"
         },
         {
             "key": "tianshen_高清点播",
             "name": "🌀高清｜1920",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/gq.js"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/gq.js"
         },
         {
             "key": "tianshen_星辰影视",
             "name": "🌀星辰｜1920",
             "type": 3,
             "api": "csp_XingChen",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_剧圈",
@@ -658,7 +658,7 @@
                 "buildNumber": "2002",
                 "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_天堂",
@@ -680,7 +680,7 @@
                 "version": "3.0.0.7",
                 "decrypt": "0"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_华谊",
@@ -701,7 +701,7 @@
                 "version": "6.0.0.1",
                 "decrypt": "0"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_苹果",
@@ -722,7 +722,7 @@
                 "version": "1.0.0.3",
                 "decrypt": "0"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_金牌影视",
@@ -730,69 +730,69 @@
             "type": 3,
             "api": "csp_Jpys",
             "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_韩圈",
             "name": "🌀韩圈｜1920",
             "type": 3,
             "api": "csp_Hxq",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_移动",
             "name": "🌀移动｜1920",
             "type": 3,
             "api": "csp_Yidong4K",
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_华数",
             "name": "🌀华数｜1920",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/华数.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/华数.py",
             "changeable": 1
         },
         {
             "key": "tianshen_藤藤",
             "name": "🌀藤藤｜1920",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"
         },
         {
             "key": "tianshen_茫茫",
             "name": "🌀茫茫｜1920",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
         },
         {
             "key": "tianshen_小优",
             "name": "🌀小优｜1280",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小优.png"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小优.png"
         },
         {
             "key": "tianshen_小爱",
             "name": "🌀小爱｜1280",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小爱.png"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小爱.png"
         },
         {
             "key": "tianshen_小哩",
             "name": "🌀小哩｜1280",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小哩.png"
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/小哩.png"
         },
         {
             "key": "tianshen_红果短剧",
             "name": "🎬红果｜短剧",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/hgdj.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/hgdj.py",
             "genre": "shortdrama"
         },
         {
@@ -809,10 +809,10 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩合集.png",
-                "cookie": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
+                "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩合集.png",
+                "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png"
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_哔哩小品",
@@ -823,14 +823,14 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png",
-                "json": "https://raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩小品.png"
+                "cookie": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/blc.png",
+                "json": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/哔哩小品.png"
             },
             "style": {
                 "type": "rect",
                 "ratio": 1.618
             },
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_百酷",
@@ -838,7 +838,7 @@
             "type": 3,
             "api": "csp_Baiku",
             "hide": 1,
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "tianshen_酷乐",
@@ -846,7 +846,7 @@
             "type": 3,
             "api": "csp_KuLe",
             "hide": 1,
-            "jar": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
         },
         {
             "key": "hdr_moyu",
