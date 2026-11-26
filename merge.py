@@ -70,17 +70,36 @@ DROP_PARSES = True
 # 音乐留 3 个；其余同类站点全部去掉。key 为合并后的完整 key（接口前缀_原 key）。
 SPORTS_KEEP = {'aowu_GuaziLive', 'aowu_FeiqLive', 'aowu_KafLive'}
 MUSIC_KEEP = {'aowu_KuGou', 'aowu_Kuwo', 'aowu_Czyy'}
-# 嗷呜网盘留 9 个（2026-11-23 用户要求加回，排除闪电）。10 条网盘线里
-# 闪电（sdWobg）不要；其余 9 个（玩偶/木偶/花卷/多多/虎斑/蜡笔/原盘/
-# 飞鱼盘搜/觅寻盘搜）绕过网盘和 💎4K 过滤。用户同时点名的 Sed/观影/
+# 嗷呜网盘留 7 个（2026-11-23 用户要求加回 9 个，排除闪电；2026-11-26 又去掉
+# 飞鱼盘搜/觅寻盘搜，见 REMOVE_KEYS）。其余 7 个（玩偶/木偶/花卷/多多/虎斑/
+# 蜡笔/原盘）绕过网盘和 💎4K 过滤。用户同时点名的 Sed/观影/
 # 七味/逸动/123/蜗牛不是网盘线，仍被 💎4K 规则过滤，不进白名单。
 NETDISK_KEEP = {'aowu_woWogg', 'aowu_moWobg', 'aowu_PanHj', 'aowu_ddWobg',
-                'aowu_hbWobg', 'aowu_lbWobg', 'aowu_Zhinan', 'aowu_PSfish',
-                'aowu_PSdju'}
+                'aowu_hbWobg', 'aowu_lbWobg', 'aowu_Zhinan'}
 # 嗷呜配置中心（2026-11-23 用户要求加回）：⚙️配置┃中心（MyConfig，
 # csp_AAConfigAmns），网盘 cookie 在这里设置。名字含“配置”会被 meta
 # 过滤去掉，所以进白名单绕过。
 CONFIG_KEEP = {'aowu_MyConfig'}
+# 用户点名删除的站（2026-11-26 截图）：短剧只留豪堪/盒马（其余 5 个删），
+# 盘搜（飞鱼/觅寻）、墙外（爱瓜/U视/欧乐/壹帆）全删，天神的养生/本地/
+# 巴士/去看/三看/荐片/New6V/电影港/哔哩点播全删。完整 key 匹配，在
+# exclude_reason 最前面判，优先于所有白名单。嗷呜线含主源+镜像两个版本，
+# 都要列（只删主源会让镜像版冒出来）。
+REMOVE_KEYS = {
+    # 短剧（留 HHkk/Hema）
+    'aowu_DjHggg', 'aowu_mirror_DjHggg', 'aowu_Bddj', 'aowu_mirror_Bddj',
+    'aowu_Wgdj', 'aowu_mirror_Wgdj', 'aowu_Qmdj', 'aowu_mirror_Qmdj',
+    'aowu_Xydj', 'aowu_mirror_Xydj',
+    # 盘搜
+    'aowu_PSfish', 'aowu_mirror_PSfish', 'aowu_PSdju', 'aowu_mirror_PSdju',
+    # 墙外
+    'aowu_AiGua', 'aowu_mirror_AiGua', 'aowu_Ysp', 'aowu_mirror_Ysp',
+    'aowu_Olyy', 'aowu_mirror_Olyy', 'aowu_Aiyf', 'aowu_mirror_Aiyf',
+    # 天神
+    'tianshen_养生堂', 'tianshen_本地', 'tianshen_巴士动漫', 'tianshen_去看吧',
+    'tianshen_kkk动漫', 'tianshen_荐片', 'tianshen_New6v', 'tianshen_电影港',
+    'tianshen_哔哩直播',
+}
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
 GAMBLE_START = re.compile(
@@ -111,8 +130,11 @@ REMOVED_BRANDS = ('酷喵', '聚玩', '老刘备')
 def exclude_reason(site, cid=''):
     """返回站点应被去掉的类别（课堂/听书/音乐/网盘/博彩/体育/直播），保留则返回 None。
     cid 为接口 id，用于白名单匹配（完整 key = 接口前缀_原 key）。"""
-    # 白名单站点不受任何分类过滤影响
     full_key = f"{cid}_{site.get('key', '')}" if cid else str(site.get('key', ''))
+    # 用户点名删除（优先于白名单）
+    if full_key in REMOVE_KEYS:
+        return '用户点名'
+    # 白名单站点不受任何分类过滤影响
     if full_key in SPORTS_KEEP or full_key in MUSIC_KEEP or full_key in NETDISK_KEEP or full_key in CONFIG_KEEP:
         return None
     name = str(site.get('name', ''))
