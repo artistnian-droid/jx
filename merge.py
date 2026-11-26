@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """TVBox 多接口聚合配置生成器。
 
-把 sources.json 里的 10 个 TVBox 影视接口（嗷呜、摸鱼、潇洒、天神、饭太硬
-5 条线 + 各自的备用源）合并成一个 JX.json，供 OK影视加载。
+把 sources.json 里的 9 个 TVBox 影视接口（嗷呜、摸鱼、天神、饭太硬
+4 条线 + 各自的备用源）合并成一个 JX.json，供 OK影视加载。
 靠冗余取胜：个别接口挂了，其他接口的站还能用。
 
 用法：
@@ -97,10 +97,13 @@ EXCLUDE_API_NETDISK = re.compile(
     r'myuc|myxunlei|myali|mytianyi|my123|myguangya|my115|my189|mypikpak', re.I)
 
 
-# 只聚合这 5 条线（2026-11-23 用户要求：嗷呜、摸鱼、潇洒、天神、饭太硬
+# 只聚合这 4 条线（2026-11-23 用户要求 5 条线，2026-11-26 去掉潇洒：嗷呜、摸鱼、天神、饭太硬
 # + 各自的备用源）。不在 KEEP_CIDS 里的接口整个不参与合并（站+顶层内容都不收）。
-KEEP_CIDS = {'aowu', 'aowu_mirror', 'moyu', 'moyu_y456y', 'xiaosa_mirror',
+KEEP_CIDS = {'aowu', 'aowu_mirror', 'moyu', 'moyu_y456y',
              'tianshen', 'tianshen_proxy', 'fty_cc', 'fty1', 'fty2'}
+# 去重绕过：这些 (cid, 原始key) 的站即使与更高优先级接口同 (type,api,ext) 也保留，
+# 用于把天神的粉猪/咸鱼/太奇（与嗷呜浮舟/星野/鸣泉同后端）按天神版本也加进来。
+DEDUP_BYPASS = {('tianshen', 'AppV7Fz'), ('tianshen', 'AppV7Xy'), ('tianshen', 'AppV7Mtq')}
 # 已移除接口的品牌名：其他接口挂着同名解析时一并跳过（防品牌残留）。
 REMOVED_BRANDS = ('酷喵', '聚玩', '老刘备')
 
@@ -151,11 +154,9 @@ def exclude_reason(site, cid=''):
     if ('嗷嗚┃动漫' in name or '新帆┃动漫' in name or '贝斯┃动漫' in name
             or '冬瓜┃动漫' in name or '魔都┃动漫' in name or '哔嘀┃蓝光' in name):
         return '用户点名'
-    # 短剧只留指定的几个（2026-11-23 用户要求）：潇洒留红果/果果，天神留红果。
-    # 嗷呜和摸鱼的短剧不动。cid 同时覆盖主源和备用源（xiaosa/tianshen_proxy）。
+    # 短剧只留指定的几个（2026-11-23 用户要求）：天神留红果。
+    # 嗷呜和摸鱼的短剧不动。cid 同时覆盖主源和备用源（tianshen_proxy）。
     if '短剧' in name:
-        if cid in ('xiaosa', 'xiaosa_mirror') and '红果' not in name and '果果' not in name:
-            return '用户点名'
         if cid in ('tianshen', 'tianshen_proxy') and '红果' not in name:
             return '用户点名'
     # 豆瓣站全部去掉（2026-11-23 用户要求）：先去豆瓣┃推荐（嗷呜）+ 豆瓣┃主线
@@ -454,8 +455,6 @@ def front_rank(site):
         return 0
     if key.startswith('moyu_'):
         return 1
-    if key.startswith('xiaosa_'):
-        return 2
     if '天神' in name or key.startswith('tianshen_'):
         return 3
     if key.startswith('fty'):
@@ -506,7 +505,7 @@ def merge_configs(configs):
     top_single = {}  # 只取一个的顶层字段：wallpaper/logo/danmaku/warningText/notice
 
     for cid, label, prio, base, obj in unique:
-        # 只聚合 KEEP_CIDS 里的 5 条线：不在里面的接口整个不参与合并
+        # 只聚合 KEEP_CIDS 里的 4 条线：不在里面的接口整个不参与合并
         # （站+顶层内容都不收）。
         if cid not in KEEP_CIDS:
             continue
@@ -531,7 +530,7 @@ def merge_configs(configs):
             dk = (site.get('type'),
                   str(site.get('api', '')),
                   ext_dedup_key(site.get('ext')))
-            if dk in seen_site:
+            if dk in seen_site and (cid, site.get('key')) not in DEDUP_BYPASS:
                 stats['sites_deduped'] += 1
                 continue
             new_site = sanitize_site(site, cid, base, spider_url, stats)
