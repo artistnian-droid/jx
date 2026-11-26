@@ -1,13 +1,13 @@
 {
   "stats": {
-    "inputs": 9,
-    "sites_in": 535,
-    "sites_out": 193,
+    "inputs": 6,
+    "sites_in": 485,
+    "sites_out": 171,
     "sites_deduped": 109,
-    "dup_configs": 3,
+    "dup_configs": 1,
     "api_resolved": 14,
     "jar_kept": 3,
-    "jar_added": 173,
+    "jar_added": 152,
     "ext_resolved": 6,
     "cred_stripped": 0,
     "per_source": {
@@ -40,35 +40,27 @@
         "sites_in": 100,
         "sites_kept": 43,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
-      },
-      "fty1": {
-        "label": "饭太硬",
-        "sites_in": 50,
-        "sites_kept": 21,
-        "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jp"
       }
     },
     "dup_config_names": [
-      "tianshen_proxy 与 tianshen 内容相同",
-      "fty2 与 fty1 内容相同",
-      "fty_cc 与 fty1 内容相同"
+      "tianshen_proxy 与 tianshen 内容相同"
     ],
-    "unique_configs": 6,
+    "unique_configs": 5,
     "excluded": {
-      "用户点名": 79,
-      "直播": 9,
-      "体育": 19,
-      "音乐": 21,
-      "听书": 23,
-      "课堂": 28,
-      "网盘": 57
+      "用户点名": 71,
+      "直播": 6,
+      "体育": 17,
+      "音乐": 18,
+      "听书": 22,
+      "课堂": 22,
+      "网盘": 51
     },
-    "headers": 3,
+    "headers": 2,
     "lives": 0,
     "parses": 0,
-    "rules": 17,
+    "rules": 16,
     "flags": 33,
-    "output_bytes": 100153,
+    "output_bytes": 88545,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/JX.json"
   },
   "fetch_report": {
@@ -81,21 +73,6 @@
       "status": "缓存",
       "label": "嗷呜（镜像）",
       "url": "https://9763.kstore.vip/aowu.json"
-    },
-    "fty1": {
-      "status": "缓存",
-      "label": "饭太硬",
-      "url": "http://www.饭太硬.net/tv"
-    },
-    "fty2": {
-      "status": "缓存",
-      "label": "饭太硬（备用）",
-      "url": "http://fty.888484.xyz/tv"
-    },
-    "fty_cc": {
-      "status": "缓存",
-      "label": "饭太硬",
-      "url": "http://www.饭太硬.cc/tv"
     },
     "moyu": {
       "status": "缓存",
