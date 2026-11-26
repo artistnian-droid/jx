@@ -2,12 +2,12 @@
   "stats": {
     "inputs": 6,
     "sites_in": 485,
-    "sites_out": 151,
-    "sites_deduped": 100,
+    "sites_out": 136,
+    "sites_deduped": 88,
     "dup_configs": 1,
     "api_resolved": 12,
-    "jar_kept": 3,
-    "jar_added": 134,
+    "jar_kept": 0,
+    "jar_added": 122,
     "ext_resolved": 5,
     "cred_stripped": 0,
     "per_source": {
@@ -26,7 +26,7 @@
       "moyu": {
         "label": "摸鱼",
         "sites_in": 111,
-        "sites_kept": 72,
+        "sites_kept": 60,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
       "moyu_y456y": {
@@ -38,7 +38,7 @@
       "tianshen": {
         "label": "天神",
         "sites_in": 100,
-        "sites_kept": 34,
+        "sites_kept": 31,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
       }
     },
@@ -47,7 +47,7 @@
     ],
     "unique_configs": 5,
     "excluded": {
-      "用户点名": 102,
+      "用户点名": 129,
       "直播": 6,
       "体育": 17,
       "音乐": 18,
@@ -60,7 +60,7 @@
     "parses": 0,
     "rules": 16,
     "flags": 33,
-    "output_bytes": 80525,
+    "output_bytes": 74004,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/JX.json"
   },
   "fetch_report": {
