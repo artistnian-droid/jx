@@ -1,5 +1,5 @@
 {
-  "note": "TVBox 聚合接口源清单。merge.py 按此清单拉取。priority 越小，去重时越优先保留（嗷呜优先）。9 个源：4 条线 + 各自的备用源。",
+  "note": "TVBox 聚合接口源清单。merge.py 按此清单拉取。priority 越小，去重时越优先保留（嗷呜优先）。6 个源：3 条线 + 各自的备用源。",
   "sources": [
     {
       "id": "aowu",
@@ -32,28 +32,10 @@
       "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
     },
     {
-      "id": "fty1",
-      "label": "饭太硬",
-      "priority": 8,
-      "url": "http://www.饭太硬.net/tv"
-    },
-    {
       "id": "tianshen_proxy",
       "label": "天神（备用）",
       "priority": 8,
       "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
-    },
-    {
-      "id": "fty2",
-      "label": "饭太硬（备用）",
-      "priority": 9,
-      "url": "http://fty.888484.xyz/tv"
-    },
-    {
-      "id": "fty_cc",
-      "label": "饭太硬",
-      "priority": 9,
-      "url": "http://www.饭太硬.cc/tv"
     }
   ],
   "version": 1
