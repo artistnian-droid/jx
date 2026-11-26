@@ -1,5 +1,5 @@
 {
-  "note": "TVBox 聚合接口源清单。merge.py 按此清单拉取。priority 越小，去重时越优先保留（嗷呜优先）。10 个源：5 条线 + 各自的备用源。",
+  "note": "TVBox 聚合接口源清单。merge.py 按此清单拉取。priority 越小，去重时越优先保留（嗷呜优先）。9 个源：4 条线 + 各自的备用源。",
   "sources": [
     {
       "id": "aowu",
@@ -24,12 +24,6 @@
       "label": "摸鱼（备用）",
       "priority": 5,
       "url": "http://www.y456y.com"
-    },
-    {
-      "id": "xiaosa_mirror",
-      "label": "潇洒（镜像）",
-      "priority": 5,
-      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json"
     },
     {
       "id": "tianshen",
