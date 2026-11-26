@@ -4,7 +4,7 @@
     "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
     "sites": [
         {
-            "name": "🚀瓜子┃秒播",
+            "name": "🚀┃瓜子┃秒播",
             "key": "aowu_Guazi",
             "type": 3,
             "api": "csp_GuaziAmns",
@@ -12,30 +12,30 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Guazi",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "⚙️配置┃中心",
+            "name": "⚙️┃配置┃中心",
             "key": "aowu_MyConfig",
             "type": 3,
             "api": "csp_AAConfigAmns",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📁资源┃中心",
+            "name": "📂️┃资源┃中心",
             "key": "aowu_MyAll",
             "type": 3,
             "api": "csp_MyAllAmns",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔥短剧┃推荐",
+            "name": "🔥┃短剧┃推荐",
             "key": "aowu_Hgdh",
             "type": 3,
             "api": "csp_HgdhAmns",
@@ -44,10 +44,10 @@
             "changeable": 0,
             "genre": "shortdrama",
             "ext": "Hgdh",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔥经典┃推荐",
+            "name": "🔥┃经典┃推荐",
             "key": "aowu_Xxxg",
             "type": 3,
             "api": "csp_XxxgAmns",
@@ -55,20 +55,20 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": "Xxxg",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔥下饭┃推荐",
+            "name": "🔥┃下饭┃推荐",
             "key": "aowu_Xfdh",
             "type": 3,
             "api": "csp_XfdhAmns",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🌟玩偶┃4 K",
+            "name": "🌟┃玩偶┃4 K",
             "key": "aowu_woWogg",
             "type": 3,
             "api": "csp_WoggAmns",
@@ -76,10 +76,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "woWogg",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🌟木偶┃4 K",
+            "name": "🌟┃木偶┃4 K",
             "key": "aowu_moWobg",
             "type": 3,
             "api": "csp_WobgAmns",
@@ -87,30 +87,30 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "moWobg",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🚀韩剧┃秒播",
+            "name": "🚀┃韩剧┃秒播",
             "key": "aowu_Hxq",
             "type": 3,
             "api": "csp_HxqAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🚀金牌┃秒播",
+            "name": "🚀┃金牌┃秒播",
             "key": "aowu_JinPai",
             "type": 3,
             "api": "csp_JinPaiAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🚀秋天┃秒播",
+            "name": "🚀┃秋天┃秒播",
             "key": "aowu_NewGrV2",
             "type": 3,
             "api": "csp_NewGrV2Amns",
@@ -118,10 +118,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "NewGrV2",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦师兄┃APP",
+            "name": "📦┃师兄┃APP",
             "key": "aowu_AppV7Dsx",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -129,10 +129,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Dsx",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦浮舟┃APP",
+            "name": "📦┃浮舟┃APP",
             "key": "aowu_AppV7Fz",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -140,10 +140,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Fz",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦星野┃APP",
+            "name": "📦┃星野┃APP",
             "key": "aowu_AppV7Xy",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -151,10 +151,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Xy",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦织锦┃APP",
+            "name": "📦┃织锦┃APP",
             "key": "aowu_AppV7Zjdr",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -162,10 +162,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Zjdr",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦玄珠┃APP",
+            "name": "📦┃玄珠┃APP",
             "key": "aowu_AppV7Xyz",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -173,10 +173,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Xyz",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦衔梦┃APP",
+            "name": "📦┃衔梦┃APP",
             "key": "aowu_AppV7Xnm",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -184,10 +184,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Xnm",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦鸣泉┃APP",
+            "name": "📦┃鸣泉┃APP",
             "key": "aowu_AppV7Mtq",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -195,10 +195,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Mtq",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦琳琅┃APP",
+            "name": "📦┃琳琅┃APP",
             "key": "aowu_AppV7Llq",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -206,10 +206,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Llq",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦衔石┃APP",
+            "name": "📦┃衔石┃APP",
             "key": "aowu_AppV7Xsz",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -217,10 +217,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Xsz",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📦星海┃APP",
+            "name": "📦┃星海┃APP",
             "key": "aowu_AppV7Xhr",
             "type": 3,
             "api": "csp_AppV7Amns",
@@ -228,10 +228,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AppV7Xhr",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "💎花卷┃4 K",
+            "name": "💎┃花卷┃4 K",
             "key": "aowu_PanHj",
             "type": 3,
             "api": "csp_PanHjAmns",
@@ -239,10 +239,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "PanHj",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "💎多多┃4 K",
+            "name": "💎┃多多┃4 K",
             "key": "aowu_ddWobg",
             "type": 3,
             "api": "csp_WobgAmns",
@@ -250,10 +250,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "ddWobg",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "💎虎斑┃4 K",
+            "name": "💎┃虎斑┃4 K",
             "key": "aowu_hbWobg",
             "type": 3,
             "api": "csp_WobgAmns",
@@ -261,10 +261,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "hbWobg",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "💎蜡笔┃4 K",
+            "name": "💎┃蜡笔┃4 K",
             "key": "aowu_lbWobg",
             "type": 3,
             "api": "csp_WobgAmns",
@@ -272,10 +272,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "lbWobg",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "💎原盘┃4 K",
+            "name": "💎┃原盘┃4 K",
             "key": "aowu_Zhinan",
             "type": 3,
             "api": "csp_ZhinanAmns",
@@ -283,20 +283,20 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Zhinan",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🐱牛来┃动漫",
+            "name": "🐱┃牛来┃动漫",
             "key": "aowu_DMox",
             "type": 3,
             "api": "csp_DMoxAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🛸厂长┃蓝光",
+            "name": "🛸┃厂长┃蓝光",
             "key": "aowu_Czzy",
             "type": 3,
             "api": "csp_CzzyAmns",
@@ -304,10 +304,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Czzy",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🛸LBV┃蓝光",
+            "name": "🛸┃LBV┃蓝光",
             "key": "aowu_Libvio",
             "type": 3,
             "api": "csp_LibvioAmns",
@@ -315,10 +315,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Libvio",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📽️豪堪┃短剧",
+            "name": "📽️┃豪堪┃短剧",
             "key": "aowu_HHkk",
             "type": 3,
             "api": "csp_HHkkAmns",
@@ -326,10 +326,10 @@
             "quickSearch": 0,
             "changeable": 1,
             "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "📽️盒马┃短剧",
+            "name": "📽️┃盒马┃短剧",
             "key": "aowu_Hema",
             "type": 3,
             "api": "csp_HemaAmns",
@@ -337,10 +337,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "genre": "shortdrama",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔆橘汁┃快速",
+            "name": "🔆┃橘汁┃快速",
             "key": "aowu_Juzhi",
             "type": 3,
             "api": "csp_JuzhiAmns",
@@ -348,10 +348,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Juzhi",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔆热播┃快速",
+            "name": "🔆┃热播┃快速",
             "key": "aowu_Rbys",
             "type": 3,
             "api": "csp_RbysAmns",
@@ -359,10 +359,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Rbys",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔆杜北┃秒播",
+            "name": "🔆┃杜北┃快速",
             "key": "aowu_Dubk",
             "type": 3,
             "api": "csp_DubkAmns",
@@ -370,10 +370,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "Dubk",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔆荐片┃快速",
+            "name": "🔆┃荐片┃快速",
             "key": "aowu_JPian",
             "type": 3,
             "api": "csp_JPianAmns",
@@ -381,20 +381,20 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "JPian",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🔆爱看┃采集",
+            "name": "🔆┃爱看┃采集",
             "key": "aowu_AiBot",
             "type": 3,
             "api": "csp_AiBotAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🏆瓜子┃体育",
+            "name": "🏆┃瓜子┃体育",
             "key": "aowu_GuaziLive",
             "type": 3,
             "api": "csp_GuaziLiveAmns",
@@ -402,30 +402,30 @@
             "quickSearch": 0,
             "changeable": 1,
             "ext": "GuaziLive",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🏆飞球┃体育",
+            "name": "🏆┃飞球┃体育",
             "key": "aowu_FeiqLive",
             "type": 3,
             "api": "csp_FeiqLiveAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🏆咖啡┃体育",
+            "name": "🏆┃咖啡┃体育",
             "key": "aowu_KafLive",
             "type": 3,
             "api": "csp_KafLiveAmns",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 1,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🎉合集┃哔哩",
+            "name": "🎉┃合集┃哔哩",
             "key": "aowu_BiliHeji",
             "type": 3,
             "api": "csp_BiliAmns",
@@ -441,20 +441,20 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🎸橙子┃音乐",
+            "name": "🎸┃橙子┃音乐",
             "key": "aowu_Czyy",
             "type": 3,
             "api": "csp_CzyyAmns",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🎸酷狗┃音乐",
+            "name": "🎸┃酷狗┃音乐",
             "key": "aowu_KuGou",
             "type": 3,
             "api": "csp_KuGouAmns",
@@ -462,10 +462,10 @@
             "quickSearch": 1,
             "changeable": 1,
             "genre": "music",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
-            "name": "🎸酷听┃音乐",
+            "name": "🎸┃酷听┃音乐",
             "key": "aowu_Kuwo",
             "type": 3,
             "api": "csp_KuwoAmns",
@@ -473,7 +473,27 @@
             "quickSearch": 1,
             "changeable": 1,
             "genre": "music",
-            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7c2.png;md5;e76d6f0107817970b9f57d7d29129efe"
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
+        },
+        {
+            "name": "🏪┃应用┃商店",
+            "key": "aowu_Store",
+            "type": 3,
+            "api": "csp_StoreAmns",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
+        },
+        {
+            "name": "🏪┃壁纸┃商店",
+            "key": "aowu_WPbzm",
+            "type": 3,
+            "api": "csp_WPbzmAmns",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020f9.png;md5;f33fe0621341289e1491f2ae55b4423b"
         },
         {
             "key": "hdr_tianshen",
@@ -1532,78 +1552,6 @@
             ],
             "regex": [
                 "is_play_url="
-            ]
-        },
-        {
-            "name": "农民嗅探",
-            "hosts": [
-                "toutiaovod.com"
-            ],
-            "regex": [
-                "video/tos/cn"
-            ]
-        },
-        {
-            "name": "七新嗅探",
-            "hosts": [
-                "api.52wyb.com"
-            ],
-            "regex": [
-                "m3u8?pt=m3u8"
-            ]
-        },
-        {
-            "name": "夜市",
-            "hosts": [
-                "yeslivetv.com"
-            ],
-            "script": [
-                "document.getElementsByClassName('vjs-big-play-button')[0].click()"
-            ]
-        },
-        {
-            "name": "毛驴",
-            "hosts": [
-                "www.maolvys.com"
-            ],
-            "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-            ]
-        },
-        {
-            "name": "czzy",
-            "hosts": [
-                "10086.cn"
-            ],
-            "regex": [
-                "/storageWeb/servlet/downloadServlet"
-            ]
-        },
-        {
-            "name": "bdys",
-            "hosts": [
-                "bytetos.com",
-                "byteimg.com",
-                "bytednsdoc.com",
-                "pstatp.com"
-            ],
-            "regex": [
-                "/tos-cn"
-            ],
-            "exclude": [
-                ".m3u8"
-            ]
-        },
-        {
-            "name": "bdys10",
-            "hosts": [
-                "bdys10.com"
-            ],
-            "regex": [
-                "/obj/"
-            ],
-            "exclude": [
-                ".m3u8"
             ]
         },
         {

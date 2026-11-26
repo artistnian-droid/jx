@@ -1,27 +1,27 @@
 {
   "stats": {
     "inputs": 6,
-    "sites_in": 485,
-    "sites_out": 136,
-    "sites_deduped": 88,
+    "sites_in": 483,
+    "sites_out": 138,
+    "sites_deduped": 85,
     "dup_configs": 1,
     "api_resolved": 12,
     "jar_kept": 0,
-    "jar_added": 122,
+    "jar_added": 124,
     "ext_resolved": 5,
     "cred_stripped": 0,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
-        "sites_in": 83,
-        "sites_kept": 43,
-        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
+        "sites_in": 84,
+        "sites_kept": 45,
+        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020"
       },
       "aowu_mirror": {
         "label": "嗷呜（镜像）",
-        "sites_in": 82,
+        "sites_in": 84,
         "sites_kept": 0,
-        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/4f052dfd-2873-4f1e-9c42-c3f444fc60"
+        "spider": "https://nos.netease.com/vcloud-statistic/nrtc/8273a7a3-e148-4d4c-ac7a-e3dbd5f020"
       },
       "moyu": {
         "label": "摸鱼",
@@ -31,7 +31,7 @@
       },
       "moyu_y456y": {
         "label": "摸鱼（备用）",
-        "sites_in": 109,
+        "sites_in": 104,
         "sites_kept": 0,
         "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_179450"
       },
@@ -47,7 +47,7 @@
     ],
     "unique_configs": 5,
     "excluded": {
-      "用户点名": 129,
+      "用户点名": 128,
       "直播": 6,
       "体育": 17,
       "音乐": 18,
@@ -58,41 +58,47 @@
     "headers": 2,
     "lives": 0,
     "parses": 0,
-    "rules": 16,
+    "rules": 9,
     "flags": 33,
-    "output_bytes": 74004,
-    "output_file": "/home/hatch/workspace/tvbox-aggregator/JX.json"
+    "output_bytes": 73241,
+    "output_file": "/home/runner/work/jx/jx/JX.json"
   },
   "fetch_report": {
-    "aowu": {
-      "status": "缓存",
-      "label": "嗷呜",
-      "url": "http://www.2525666.xyz/tv"
-    },
-    "aowu_mirror": {
-      "status": "缓存",
-      "label": "嗷呜（镜像）",
-      "url": "https://9763.kstore.vip/aowu.json"
-    },
-    "moyu": {
-      "status": "缓存",
-      "label": "摸鱼",
-      "url": "https://6800.kstore.vip/fish.json"
-    },
-    "moyu_y456y": {
-      "status": "缓存",
-      "label": "摸鱼（备用）",
-      "url": "http://www.y456y.com"
-    },
     "tianshen": {
-      "status": "缓存",
       "label": "天神",
-      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
+      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
+      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
+      "cached": false
     },
     "tianshen_proxy": {
-      "status": "缓存",
       "label": "天神（备用）",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png"
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
+      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
+      "cached": false
+    },
+    "aowu_mirror": {
+      "label": "嗷呜（镜像）",
+      "url": "https://9763.kstore.vip/aowu.json",
+      "status": "HTTP 200, 23128 bytes / 解码 json/single",
+      "cached": false
+    },
+    "moyu": {
+      "label": "摸鱼",
+      "url": "https://6800.kstore.vip/fish.json",
+      "status": "HTTP 200, 37089 bytes / 解码 json/single",
+      "cached": false
+    },
+    "moyu_y456y": {
+      "label": "摸鱼（备用）",
+      "url": "http://www.y456y.com",
+      "status": "HTTP 200, 34922 bytes / 解码 json/single",
+      "cached": false
+    },
+    "aowu": {
+      "label": "嗷呜",
+      "url": "http://www.2525666.xyz/tv",
+      "status": "HTTP 200, 20764 bytes / 解码 image-tail-b64/single",
+      "cached": false
     }
   }
 }
