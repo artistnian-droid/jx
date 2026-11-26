@@ -99,6 +99,15 @@ REMOVE_KEYS = {
     'tianshen_养生堂', 'tianshen_本地', 'tianshen_巴士动漫', 'tianshen_去看吧',
     'tianshen_kkk动漫', 'tianshen_荐片', 'tianshen_New6v', 'tianshen_电影港',
     'tianshen_哔哩直播',
+    # 天神与嗷呜同后端的重复站（删天神版留嗷呜版）：粉猪/咸鱼/太奇 = 浮舟/星野/鸣泉
+    'tianshen_AppV7Fz', 'tianshen_AppV7Xy', 'tianshen_AppV7Mtq',
+    # 摸鱼截图站（动漫/磁力/搜索/少儿），主源+备用两个版本都列
+    'moyu_AppGhg_ghg', 'moyu_y456y_AppGhg_ghg', 'moyu_dadun', 'moyu_y456y_dadun',
+    'moyu_XingHui', 'moyu_y456y_XingHui', 'moyu_FanShu', 'moyu_y456y_FanShu',
+    'moyu_XgAnime', 'moyu_y456y_XgAnime', 'moyu_Manbo', 'moyu_y456y_Manbo',
+    'moyu_Gugu', 'moyu_y456y_Gugu', 'moyu_Jianpian', 'moyu_y456y_Jianpian',
+    'moyu_Xb6v', 'moyu_y456y_Xb6v', 'moyu_JSo', 'moyu_y456y_JSo',
+    'moyu_Tiu6', 'moyu_y456y_Tiu6', 'moyu_TuXiaoBei', 'moyu_y456y_TuXiaoBei',
 }
 # 只判开头（去掉 emoji/符号和“影视 | ”这类分类前缀后），避免误伤正文里
 # 提到这些词的站。体育直播站（瓜子体育/飞球体育等）不在此列，那是正经体育直播。
