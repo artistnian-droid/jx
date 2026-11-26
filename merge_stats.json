@@ -2,19 +2,19 @@
   "stats": {
     "inputs": 6,
     "sites_in": 485,
-    "sites_out": 171,
-    "sites_deduped": 109,
+    "sites_out": 151,
+    "sites_deduped": 100,
     "dup_configs": 1,
-    "api_resolved": 14,
+    "api_resolved": 12,
     "jar_kept": 3,
-    "jar_added": 152,
-    "ext_resolved": 6,
+    "jar_added": 134,
+    "ext_resolved": 5,
     "cred_stripped": 0,
     "per_source": {
       "aowu": {
         "label": "嗷呜",
         "sites_in": 83,
-        "sites_kept": 54,
+        "sites_kept": 43,
         "spider": "https://nos.netease.com/vcloud-statistic/nrtc/06f4e557-b688-4920-86c3-6f1475e9a7"
       },
       "aowu_mirror": {
@@ -38,7 +38,7 @@
       "tianshen": {
         "label": "天神",
         "sites_in": 100,
-        "sites_kept": 43,
+        "sites_kept": 34,
         "spider": "https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar"
       }
     },
@@ -47,20 +47,20 @@
     ],
     "unique_configs": 5,
     "excluded": {
-      "用户点名": 71,
+      "用户点名": 102,
       "直播": 6,
       "体育": 17,
       "音乐": 18,
       "听书": 22,
       "课堂": 22,
-      "网盘": 51
+      "网盘": 49
     },
     "headers": 2,
     "lives": 0,
     "parses": 0,
     "rules": 16,
     "flags": 33,
-    "output_bytes": 88545,
+    "output_bytes": 80525,
     "output_file": "/home/hatch/workspace/tvbox-aggregator/JX.json"
   },
   "fetch_report": {
