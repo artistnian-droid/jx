@@ -297,6 +297,17 @@ def resolve_url(base, ref):
     return urljoin(base, url) + md5
 
 
+def to_gh_proxy(url):
+    """把 raw.githubusercontent.com 直链改走 gh-proxy（电视无 VPN 拉不到 raw，
+    天神的 jar/py 都在 raw 上）。保留 ;md5; 后缀；非 raw 直链原样返回。"""
+    if not isinstance(url, str):
+        return url
+    u, md5 = split_md5(url)
+    if u.startswith('https://raw.githubusercontent.com/'):
+        return 'https://gh-proxy.com/' + u + md5
+    return url
+
+
 def is_relative_ref(s):
     return isinstance(s, str) and (s.startswith('./') or s.startswith('../')
                                    or (s.startswith('/') and not s.startswith('//')))
@@ -467,6 +478,17 @@ def sanitize_site(site, prefix, base_url, spider_url, stats):
             else:
                 new_ext[k] = v
         s['ext'] = new_ext
+
+    # raw 直链改走 gh-proxy（电视无 VPN 拉不到 raw.githubusercontent.com）
+    for fld in ('jar', 'api', 'playUrl'):
+        if isinstance(s.get(fld), str):
+            s[fld] = to_gh_proxy(s[fld])
+    ext = s.get('ext')
+    if isinstance(ext, str):
+        s['ext'] = to_gh_proxy(ext)
+    elif isinstance(ext, dict):
+        s['ext'] = {k: to_gh_proxy(v) if isinstance(v, str) else v
+                    for k, v in ext.items()}
     return s
 
 
