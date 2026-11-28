@@ -64,15 +64,15 @@
     "output_file": "/home/runner/work/jx/jx/JX.json"
   },
   "fetch_report": {
-    "tianshen": {
-      "label": "天神",
-      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
-      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
-      "cached": false
-    },
     "tianshen_proxy": {
       "label": "天神（备用）",
       "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
+      "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
+      "cached": false
+    },
+    "tianshen": {
+      "label": "天神",
+      "url": "https://raw.githubusercontent.com/IY-CPU/IY/main/%E5%A4%A9%E7%A5%9EIY.png",
       "status": "HTTP 200, 95636 bytes / 解码 image-tail-b64/single",
       "cached": false
     },
